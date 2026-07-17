@@ -1,0 +1,35 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
+@prefix core: <https://w3id.org/datin/core/> .
+@prefix emmo: <https://w3id.org/emmo#> .
+
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    obo:IAO_0000136 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    dcterms:created "2026-07-16T16:25:17.865+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T18:34:13.423+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    dcat:distribution datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_1;
+    prov:specializationOf datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_3.

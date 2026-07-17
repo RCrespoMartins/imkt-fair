@@ -1,0 +1,50 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
+@prefix core: <https://w3id.org/datin/core/> .
+@prefix emmo: <https://w3id.org/emmo#> .
+
+
+datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Ultrasonic Cleaning 2410-018 (Acetone)";
+    obo:BFO_0000062 datin_imkt_data:finishing_2410-018_2;
+    obo:BFO_0000063 datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_15;
+    obo:RO_0000057 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    obo:RO_0002233 datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_15;
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Ultrasonic Cleaning 2410-018 (Acetone)";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    prov:atLocation datin_imkt_data:8143001132;
+    prov:endedAtTime "2025-01-17T13:10:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-018_15;
+    prov:qualifiedUsage datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_1, datin_imkt_data:acetone_2, datin_imkt_data:disk_2410-018_8;
+    prov:startedAtTime "2025-01-17T13:00:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2, datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    prov:wasInfluencedBy datin_imkt_data:hardening_2, datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:finishing_2410-018_2;
+    pmd:characteristic datin_imkt_data:y70489xtl0kjfhe802xcbxz1, datin_imkt_data:uslij13w6trvhis19qdxg5it, datin_imkt_data:nw6ty7wzyr8a0nmc8c288ki8.

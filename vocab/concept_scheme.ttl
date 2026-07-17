@@ -1,0 +1,2724 @@
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix polymat: <https://w3id.org/polymat/> .
+@prefix emmo: <https://w3id.org/emmo#> .
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#> .
+@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#> .
+@prefix core: <https://spec.industrialontologies.org/ontology/core/Core/> .
+@prefix construct: <https://spec.industrialontologies.org/ontology/construct/> .
+@prefix calculation: <https://w3id.org/mdo/calculation/> .
+@prefix span: <http://www.ifomis.org/bfo/1.0/span#> .
+@prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix process: <http://purl.allotrope.org/ontologies/process#> .
+@prefix npo: <http://purl.bioontology.org/ontology/npo#> .
+@prefix opb: <http://bhi.washington.edu/OPB#> .
+@prefix core2: <https://w3id.org/mdo/core/> .
+@prefix result: <http://purl.allotrope.org/ontologies/result#> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+
+
+### CONCEPT SCHEME ###
+
+datin_imkt_vocab:concept_scheme a skos:ConceptScheme, schema:DefinedTermSet, dcat:Catalog, rdfs:Resource;
+    dcterms:title "Imkt Vocabulary";
+    dcterms:created "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    dcterms:publisher "datin".
+
+
+### EXTERNAL VOCABULARY REFERENCES ###
+
+nci:C172800 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+nci:C49989 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+nci:C50167 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:CHEBI_30191 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:CHMO_0001371 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:CHMO_0002181 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:ENVO_01003002 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C37927 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C41145 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C43178 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C43414 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C49872 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C64353 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+obo:NCIT_C96141 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID124202559 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID14769 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID14802 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID180 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID23925 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID23932 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID23968 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID3776 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID702 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID783 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID947 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+compound:CID962 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID472419705 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID481108860 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID481109052 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID481110091 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID481186721 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID483925182 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID496176908 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID505850219 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID505900854 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID516564112 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+substance:SID516575661 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q116487122 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q12201 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q1323314 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q172587 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q309383 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+entity:Q725447 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:blo_wit_com-b6792a27109a474abad8ee1d6dbfbf4b-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:fur_xxx_xxx-c04aefd269c64c6fa2773c318193f2d6-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:har_xxx_xxx-0d731be688c94776970d61aaf72b5c93-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:pub_dat_xxx-4b4869f4b077400188b8e1fe19e902a8-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:tri_exp_xxx-9b84c31083254e40a6eb78601271d381-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:tri_xxx_xxx-c98170df4aa14cd38e9ba0d1b94ebdf0-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+tribodatafairontologyowl:TactileSurfaceProfilometer skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+emmo:EMMO_92eaefcb_50be_4237_9ec0_4a019ce24921 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+nfdi4cat:voc4cat_0000147 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+nfdi4cat:voc4cat_0007231 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+pmd:PMD_0000667 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+pmd:PMD_0000876 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+pmd:PMD_0000888 skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+polymat:Microscope skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+### VOCABULARY CONCEPTS ###
+
+datin_imkt_vocab:sterile a skos:Concept, prov:Entity, dcat:Resource, schema:Boolean;
+    dcterms:alternative "Sterilized", "Microbe-Free", "Aseptic", "Pathogen-Free";
+    dcterms:created "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    dcterms:description "Devoid of living organisms.";
+    dcterms:modified "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    dcterms:title "Sterile";
+    schema:alternateName "Sterilized", "Microbe-Free", "Aseptic", "Pathogen-Free";
+    schema:dateCreated "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    schema:description "Devoid of living organisms.";
+    schema:name "Sterile";
+    skos:altLabel "Sterilized", "Microbe-Free", "Aseptic", "Pathogen-Free";
+    skos:changeNote "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    skos:definition "Devoid of living organisms.";
+    skos:prefLabel "Sterile";
+    prov:generatedAtTime "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    prov:value "Sterile";
+    datacite:date "2026-04-21T17:55:10.873+02:00"^^xsd:dateTime;
+    datacite:description "Devoid of living organisms.";
+    datacite:title "Sterile";
+    prov:wasDerivedFrom obo:NCIT_C63385;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:specimen_position a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:created "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    dcterms:description "Specimen Position";
+    dcterms:modified "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    dcterms:title "Specimen Position";
+    schema:dateCreated "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    schema:description "Specimen Position";
+    schema:name "Specimen Position";
+    skos:changeNote "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    skos:definition "Specimen Position";
+    skos:prefLabel "Specimen Position";
+    prov:generatedAtTime "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    prov:value "Specimen Position";
+    datacite:date "2026-07-16T16:13:29.985+02:00"^^xsd:dateTime;
+    datacite:description "Specimen Position";
+    datacite:title "Specimen Position";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:company_or_vendor_name a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:created "2026-02-24T14:20:22.896+01:00"^^xsd:dateTime;
+    dcterms:description "The official name of the institution where the object was manufactured";
+    dcterms:modified "2026-07-16T12:51:31.131+02:00"^^xsd:dateTime;
+    dcterms:title "Company or Vendor Name";
+    schema:dateCreated "2026-02-24T14:20:22.896+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T12:51:31.131+02:00"^^xsd:dateTime;
+    schema:description "The official name of the institution where the object was manufactured";
+    schema:name "Company or Vendor Name";
+    skos:changeNote "2026-07-16T12:51:31.131+02:00"^^xsd:dateTime;
+    skos:definition "The official name of the institution where the object was manufactured";
+    skos:prefLabel "Company or Vendor Name";
+    prov:generatedAtTime "2026-02-24T14:20:22.896+01:00"^^xsd:dateTime;
+    prov:value "Company or Vendor Name";
+    datacite:date "2026-02-24T14:20:22.896+01:00"^^xsd:dateTime;
+    datacite:description "The official name of the institution where the object was manufactured";
+    datacite:title "Company or Vendor Name";
+    prov:wasDerivedFrom kitmtxx41732562vp:com_orx_ven-d0357c2850b345cbb8e0185605de3faa-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:cleanliness a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:alternative "cleaned";
+    dcterms:created "2026-04-21T13:30:55.921+02:00"^^xsd:dateTime;
+    dcterms:description "Abstract state of being clean and free from dirt";
+    dcterms:modified "2026-04-21T13:31:51.863+02:00"^^xsd:dateTime;
+    dcterms:title "Cleanliness";
+    schema:alternateName "cleaned";
+    schema:dateCreated "2026-04-21T13:30:55.921+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T13:31:51.863+02:00"^^xsd:dateTime;
+    schema:description "Abstract state of being clean and free from dirt";
+    schema:name "Cleanliness";
+    skos:altLabel "cleaned";
+    skos:changeNote "2026-04-21T13:31:51.863+02:00"^^xsd:dateTime;
+    skos:definition "Abstract state of being clean and free from dirt";
+    skos:prefLabel "Cleanliness";
+    prov:generatedAtTime "2026-04-21T13:30:55.921+02:00"^^xsd:dateTime;
+    prov:value "Cleanliness";
+    datacite:date "2026-04-21T13:30:55.921+02:00"^^xsd:dateTime;
+    datacite:description "Abstract state of being clean and free from dirt";
+    datacite:title "Cleanliness";
+    prov:wasDerivedFrom entity:Q692096;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:syringe_fitting a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:alternative "Syringe Connector";
+    dcterms:created "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    dcterms:description "A connector or adapter that attaches to a syringe, enabling secure fluid transfer, injection, or sampling in medical or laboratory procedures.";
+    dcterms:modified "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    dcterms:title "Syringe Fitting";
+    schema:alternateName "Syringe Connector";
+    schema:dateCreated "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    schema:description "A connector or adapter that attaches to a syringe, enabling secure fluid transfer, injection, or sampling in medical or laboratory procedures.";
+    schema:name "Syringe Fitting";
+    skos:altLabel "Syringe Connector";
+    skos:changeNote "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    skos:definition "A connector or adapter that attaches to a syringe, enabling secure fluid transfer, injection, or sampling in medical or laboratory procedures.";
+    skos:prefLabel "Syringe Fitting";
+    prov:generatedAtTime "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    prov:value "Syringe Fitting";
+    datacite:date "2026-04-21T17:33:32.656+02:00"^^xsd:dateTime;
+    datacite:description "A connector or adapter that attaches to a syringe, enabling secure fluid transfer, injection, or sampling in medical or laboratory procedures.";
+    datacite:title "Syringe Fitting";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:standard_compliance a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:created "2026-04-17T15:20:33.638+02:00"^^xsd:dateTime;
+    dcterms:description "Adherence to established specifications, regulations, or guidelines, ensuring quality, safety, and interoperability in products or processes.";
+    dcterms:modified "2026-04-21T17:59:07.978+02:00"^^xsd:dateTime;
+    dcterms:title "Standard Compliance";
+    schema:dateCreated "2026-04-17T15:20:33.638+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T17:59:07.978+02:00"^^xsd:dateTime;
+    schema:description "Adherence to established specifications, regulations, or guidelines, ensuring quality, safety, and interoperability in products or processes.";
+    schema:name "Standard Compliance";
+    skos:changeNote "2026-04-21T17:59:07.978+02:00"^^xsd:dateTime;
+    skos:definition "Adherence to established specifications, regulations, or guidelines, ensuring quality, safety, and interoperability in products or processes.";
+    skos:prefLabel "Standard Compliance";
+    prov:generatedAtTime "2026-04-17T15:20:33.638+02:00"^^xsd:dateTime;
+    prov:value "Standard Compliance";
+    datacite:date "2026-04-17T15:20:33.638+02:00"^^xsd:dateTime;
+    datacite:description "Adherence to established specifications, regulations, or guidelines, ensuring quality, safety, and interoperability in products or processes.";
+    datacite:title "Standard Compliance";
+    prov:wasDerivedFrom kitmtxx41732562vp:iso_sta_xxx-e5bee8e3b30c4e65918c7843d67f524f-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:steel_ball_tolerance a skos:Concept, prov:Entity, dcat:Resource, schema:Text;
+    dcterms:created "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    dcterms:description "DIN5401 Tolerance Class";
+    dcterms:modified "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    dcterms:title "Steel Ball Tolerance";
+    schema:dateCreated "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    schema:description "DIN5401 Tolerance Class";
+    schema:name "Steel Ball Tolerance";
+    skos:changeNote "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    skos:definition "DIN5401 Tolerance Class";
+    skos:prefLabel "Steel Ball Tolerance";
+    prov:generatedAtTime "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    prov:value "Steel Ball Tolerance";
+    datacite:date "2026-03-31T14:20:49.692+02:00"^^xsd:dateTime;
+    datacite:description "DIN5401 Tolerance Class";
+    datacite:title "Steel Ball Tolerance";
+    skos:broader obo:NCIT_C43414;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:validity_date a skos:Concept, prov:Entity, dcat:Resource, schema:DateTime, time:Instant;
+    dcterms:alternative "Expiration Date", "Date of Expiry";
+    dcterms:created "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    dcterms:description "The date until which a resource, dataset, or record is considered valid, accurate, or applicable.";
+    dcterms:modified "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    dcterms:title "Validity Date";
+    schema:alternateName "Expiration Date", "Date of Expiry";
+    schema:dateCreated "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    schema:description "The date until which a resource, dataset, or record is considered valid, accurate, or applicable.";
+    schema:name "Validity Date";
+    skos:altLabel "Expiration Date", "Date of Expiry";
+    skos:changeNote "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    skos:definition "The date until which a resource, dataset, or record is considered valid, accurate, or applicable.";
+    skos:prefLabel "Validity Date";
+    prov:generatedAtTime "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    prov:value "Validity Date";
+    datacite:date "2026-04-21T12:00:46.634+02:00"^^xsd:dateTime;
+    datacite:description "The date until which a resource, dataset, or record is considered valid, accurate, or applicable.";
+    datacite:title "Validity Date";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:manufacturing_date a skos:Concept, prov:Entity, dcat:Resource, schema:DateTime, time:Instant;
+    dcterms:alternative "Production Date", "Date of Manufacture", "Date of Production";
+    dcterms:created "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    dcterms:description "The date when a product or component was produced, crucial for tracking shelf life, quality control, and compliance.";
+    dcterms:modified "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    dcterms:title "Manufacturing Date";
+    schema:alternateName "Production Date", "Date of Manufacture", "Date of Production";
+    schema:dateCreated "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    schema:description "The date when a product or component was produced, crucial for tracking shelf life, quality control, and compliance.";
+    schema:name "Manufacturing Date";
+    skos:altLabel "Production Date", "Date of Manufacture", "Date of Production";
+    skos:changeNote "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    skos:definition "The date when a product or component was produced, crucial for tracking shelf life, quality control, and compliance.";
+    skos:prefLabel "Manufacturing Date";
+    prov:generatedAtTime "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    prov:value "Manufacturing Date";
+    datacite:date "2026-04-21T12:02:44.502+02:00"^^xsd:dateTime;
+    datacite:description "The date when a product or component was produced, crucial for tracking shelf life, quality control, and compliance.";
+    datacite:title "Manufacturing Date";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:quantity_count a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:alternative "count", "number of things", "Amount", "positive integer as dimensionless quantity", "number of items", "natural number as dimensionless quantity";
+    dcterms:created "2026-04-21T10:47:36.683+02:00"^^xsd:dateTime;
+    dcterms:description "discrete quantity; number of entities of a given kind in a system";
+    dcterms:modified "2026-04-21T13:25:14.174+02:00"^^xsd:dateTime;
+    dcterms:title "Quantity (Count)";
+    schema:alternateName "count", "number of things", "Amount", "positive integer as dimensionless quantity", "number of items", "natural number as dimensionless quantity";
+    schema:dateCreated "2026-04-21T10:47:36.683+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T13:25:14.174+02:00"^^xsd:dateTime;
+    schema:description "discrete quantity; number of entities of a given kind in a system";
+    schema:name "Quantity (Count)";
+    skos:altLabel "natural number as dimensionless quantity", "number of items", "count", "number of things", "Amount", "positive integer as dimensionless quantity";
+    skos:changeNote "2026-04-21T13:25:14.174+02:00"^^xsd:dateTime;
+    skos:definition "discrete quantity; number of entities of a given kind in a system";
+    skos:prefLabel "Quantity (Count)";
+    prov:generatedAtTime "2026-04-21T10:47:36.683+02:00"^^xsd:dateTime;
+    prov:value "Quantity (Count)";
+    datacite:date "2026-04-21T10:47:36.683+02:00"^^xsd:dateTime;
+    datacite:description "discrete quantity; number of entities of a given kind in a system";
+    datacite:title "Quantity (Count)";
+    prov:wasDerivedFrom entity:Q614112;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:lateral_resolution_physical_length_display a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    dcterms:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    dcterms:modified "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    dcterms:title "Lateral Resolution (Physical Length, Display)";
+    schema:dateCreated "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    schema:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    schema:name "Lateral Resolution (Physical Length, Display)";
+    skos:changeNote "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    skos:definition "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    skos:prefLabel "Lateral Resolution (Physical Length, Display)";
+    prov:generatedAtTime "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    prov:value "Lateral Resolution (Physical Length, Display)";
+    datacite:date "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+    datacite:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    datacite:title "Lateral Resolution (Physical Length, Display)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:height_measurement_range a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    dcterms:description "Instances of this class represent the maximum range of values in z-direction (vertical) that the system can capture in one acquisition process/one measurement.";
+    dcterms:modified "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    dcterms:title "Height Measurement Range";
+    schema:dateCreated "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    schema:description "Instances of this class represent the maximum range of values in z-direction (vertical) that the system can capture in one acquisition process/one measurement.";
+    schema:name "Height Measurement Range";
+    skos:changeNote "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    skos:definition "Instances of this class represent the maximum range of values in z-direction (vertical) that the system can capture in one acquisition process/one measurement.";
+    skos:prefLabel "Height Measurement Range";
+    prov:generatedAtTime "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    prov:value "Height Measurement Range";
+    datacite:date "2026-07-14T11:33:54.179+02:00"^^xsd:dateTime;
+    datacite:description "Instances of this class represent the maximum range of values in z-direction (vertical) that the system can capture in one acquisition process/one measurement.";
+    datacite:title "Height Measurement Range";
+    skos:closeMatch kitmtxx41732562vp:zdi_mea_ran-dd14ec6cfd9d4f4d9af85a6af3257081-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:numerical_aperture a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:alternative "Optical Aperture Value";
+    dcterms:created "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    dcterms:description "Dimensionless number that characterizes the range of angles over which the system can accept or emit light";
+    dcterms:modified "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    dcterms:title "Numerical Aperture";
+    schema:alternateName "Optical Aperture Value";
+    schema:dateCreated "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    schema:description "Dimensionless number that characterizes the range of angles over which the system can accept or emit light";
+    schema:name "Numerical Aperture";
+    skos:altLabel "Optical Aperture Value";
+    skos:changeNote "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    skos:definition "Dimensionless number that characterizes the range of angles over which the system can accept or emit light";
+    skos:prefLabel "Numerical Aperture";
+    prov:generatedAtTime "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    prov:value "Numerical Aperture";
+    datacite:date "2026-07-01T19:10:11.973+02:00"^^xsd:dateTime;
+    datacite:description "Dimensionless number that characterizes the range of angles over which the system can accept or emit light";
+    datacite:title "Numerical Aperture";
+    skos:closeMatch wiki:Q898896;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:vertical_resolution_physical_height_display a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    dcterms:description "The minimum height that a sensor can resolve when taking a topography image, not in pixels but in real length dimension with the entire microscope assembly taken into account.";
+    dcterms:modified "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    dcterms:title "Vertical Resolution (Physical Height, Display)";
+    schema:dateCreated "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    schema:description "The minimum height that a sensor can resolve when taking a topography image, not in pixels but in real length dimension with the entire microscope assembly taken into account.";
+    schema:name "Vertical Resolution (Physical Height, Display)";
+    skos:changeNote "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    skos:definition "The minimum height that a sensor can resolve when taking a topography image, not in pixels but in real length dimension with the entire microscope assembly taken into account.";
+    skos:prefLabel "Vertical Resolution (Physical Height, Display)";
+    prov:generatedAtTime "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    prov:value "Vertical Resolution (Physical Height, Display)";
+    datacite:date "2026-07-14T11:39:38.402+02:00"^^xsd:dateTime;
+    datacite:description "The minimum height that a sensor can resolve when taking a topography image, not in pixels but in real length dimension with the entire microscope assembly taken into account.";
+    datacite:title "Vertical Resolution (Physical Height, Display)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:process_temperature a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    dcterms:description "Process Temperature";
+    dcterms:modified "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    dcterms:title "Process Temperature";
+    schema:dateCreated "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    schema:description "Process Temperature";
+    schema:name "Process Temperature";
+    skos:changeNote "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    skos:definition "Process Temperature";
+    skos:prefLabel "Process Temperature";
+    prov:generatedAtTime "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    prov:value "Process Temperature";
+    datacite:date "2026-07-16T12:34:10.951+02:00"^^xsd:dateTime;
+    datacite:description "Process Temperature";
+    datacite:title "Process Temperature";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:magnification_magnitude a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    dcterms:description "The physical quantity that characterizes the phenomenon called magnification.";
+    dcterms:modified "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    dcterms:title "Magnification Magnitude";
+    schema:dateCreated "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    schema:description "The physical quantity that characterizes the phenomenon called magnification.";
+    schema:name "Magnification Magnitude";
+    skos:changeNote "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    skos:definition "The physical quantity that characterizes the phenomenon called magnification.";
+    skos:prefLabel "Magnification Magnitude";
+    prov:generatedAtTime "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    prov:value "Magnification Magnitude";
+    datacite:date "2026-06-30T14:18:42.028+02:00"^^xsd:dateTime;
+    datacite:description "The physical quantity that characterizes the phenomenon called magnification.";
+    datacite:title "Magnification Magnitude";
+    skos:closeMatch tribodatafairontologyowl:MagnificationMagnitude;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:working_distance a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:alternative "WD";
+    dcterms:created "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    dcterms:description "Denotes the distance from the front of the lens to the focal plane.";
+    dcterms:modified "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    dcterms:title "Working Distance";
+    schema:alternateName "WD";
+    schema:dateCreated "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    schema:description "Denotes the distance from the front of the lens to the focal plane.";
+    schema:name "Working Distance";
+    skos:altLabel "WD";
+    skos:changeNote "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    skos:definition "Denotes the distance from the front of the lens to the focal plane.";
+    skos:prefLabel "Working Distance";
+    prov:generatedAtTime "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    prov:value "Working Distance";
+    datacite:date "2026-07-01T18:51:12.724+02:00"^^xsd:dateTime;
+    datacite:description "Denotes the distance from the front of the lens to the focal plane.";
+    datacite:title "Working Distance";
+    skos:closeMatch kitmtxx41732562vp:wor_dis_xxx-a4f624127a304e46bce69d6b214bb831-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:readability_of_weight_scale_d_mass a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-05-08T14:22:35.738+02:00"^^xsd:dateTime;
+    dcterms:description "The smallest measurement increment a scale can display, determining its precision and accuracy in weighing operations.";
+    dcterms:modified "2026-05-08T14:28:38.405+02:00"^^xsd:dateTime;
+    dcterms:title "Readability of Weight Scale [D] (Mass)";
+    schema:dateCreated "2026-05-08T14:22:35.738+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T14:28:38.405+02:00"^^xsd:dateTime;
+    schema:description "The smallest measurement increment a scale can display, determining its precision and accuracy in weighing operations.";
+    schema:name "Readability of Weight Scale [D] (Mass)";
+    skos:changeNote "2026-05-08T14:28:38.405+02:00"^^xsd:dateTime;
+    skos:definition "The smallest measurement increment a scale can display, determining its precision and accuracy in weighing operations.";
+    skos:prefLabel "Readability of Weight Scale [D] (Mass)";
+    prov:generatedAtTime "2026-05-08T14:22:35.738+02:00"^^xsd:dateTime;
+    prov:value "Readability of Weight Scale [D] (Mass)";
+    datacite:date "2026-05-08T14:22:35.738+02:00"^^xsd:dateTime;
+    datacite:description "The smallest measurement increment a scale can display, determining its precision and accuracy in weighing operations.";
+    datacite:title "Readability of Weight Scale [D] (Mass)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:time_at_high_temperature a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    dcterms:description "Time at high temperature";
+    dcterms:modified "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    dcterms:title "Time at High Temperature";
+    schema:dateCreated "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    schema:description "Time at high temperature";
+    schema:name "Time at High Temperature";
+    skos:changeNote "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    skos:definition "Time at high temperature";
+    skos:prefLabel "Time at High Temperature";
+    prov:generatedAtTime "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    prov:value "Time at High Temperature";
+    datacite:date "2026-07-16T12:35:12.085+02:00"^^xsd:dateTime;
+    datacite:description "Time at high temperature";
+    datacite:title "Time at High Temperature";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:scale_of_instrument_volume a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:alternative "Reading Markings", "scale of a display", "Graduated Scale", "Graduation";
+    dcterms:created "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    dcterms:description "Sequence of marks together with associated quantity values on a displaying measuring instrument";
+    dcterms:modified "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    dcterms:title "Scale of Instrument (Volume)";
+    schema:alternateName "Reading Markings", "scale of a display", "Graduated Scale", "Graduation";
+    schema:dateCreated "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    schema:description "Sequence of marks together with associated quantity values on a displaying measuring instrument";
+    schema:name "Scale of Instrument (Volume)";
+    skos:altLabel "Reading Markings", "scale of a display", "Graduated Scale", "Graduation";
+    skos:changeNote "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    skos:definition "Sequence of marks together with associated quantity values on a displaying measuring instrument";
+    skos:prefLabel "Scale of Instrument (Volume)";
+    prov:generatedAtTime "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    prov:value "Scale of Instrument (Volume)";
+    datacite:date "2026-04-21T17:53:11.212+02:00"^^xsd:dateTime;
+    datacite:description "Sequence of marks together with associated quantity values on a displaying measuring instrument";
+    datacite:title "Scale of Instrument (Volume)";
+    prov:wasDerivedFrom entity:Q108666284;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:verification_scale_division_e_mass a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
+    dcterms:created "2026-05-08T14:27:54.22+02:00"^^xsd:dateTime;
+    dcterms:description "The interval between scale markings, ensuring measurement accuracy and compliance with calibration standards.";
+    dcterms:modified "2026-05-08T14:28:24.157+02:00"^^xsd:dateTime;
+    dcterms:title "Verification Scale Division [E] (Mass)";
+    schema:dateCreated "2026-05-08T14:27:54.22+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T14:28:24.157+02:00"^^xsd:dateTime;
+    schema:description "The interval between scale markings, ensuring measurement accuracy and compliance with calibration standards.";
+    schema:name "Verification Scale Division [E] (Mass)";
+    skos:changeNote "2026-05-08T14:28:24.157+02:00"^^xsd:dateTime;
+    skos:definition "The interval between scale markings, ensuring measurement accuracy and compliance with calibration standards.";
+    skos:prefLabel "Verification Scale Division [E] (Mass)";
+    prov:generatedAtTime "2026-05-08T14:27:54.22+02:00"^^xsd:dateTime;
+    prov:value "Verification Scale Division [E] (Mass)";
+    datacite:date "2026-05-08T14:27:54.22+02:00"^^xsd:dateTime;
+    datacite:description "The interval between scale markings, ensuring measurement accuracy and compliance with calibration standards.";
+    datacite:title "Verification Scale Division [E] (Mass)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:sample_bag a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:alternative "Sampling Bag", "Zip-lock Bag", "Sterile Sampling Bag";
+    dcterms:created "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    dcterms:description "Sealed, often sterile pouch used to store, transport, or preserve samples (e.g., biological, environmental, or material specimens) while preventing contamination or degradation.";
+    dcterms:modified "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    dcterms:title "Sample Bag";
+    schema:alternateName "Sampling Bag", "Zip-lock Bag", "Sterile Sampling Bag";
+    schema:dateCreated "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    schema:description "Sealed, often sterile pouch used to store, transport, or preserve samples (e.g., biological, environmental, or material specimens) while preventing contamination or degradation.";
+    schema:name "Sample Bag";
+    skos:altLabel "Sampling Bag", "Zip-lock Bag", "Sterile Sampling Bag";
+    skos:changeNote "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    skos:definition "Sealed, often sterile pouch used to store, transport, or preserve samples (e.g., biological, environmental, or material specimens) while preventing contamination or degradation.";
+    skos:prefLabel "Sample Bag";
+    prov:generatedAtTime "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    prov:value "Sample Bag";
+    datacite:date "2026-04-13T10:15:12.744+02:00"^^xsd:dateTime;
+    datacite:description "Sealed, often sterile pouch used to store, transport, or preserve samples (e.g., biological, environmental, or material specimens) while preventing contamination or degradation.";
+    datacite:title "Sample Bag";
+    skos:broader entity:Q1323314;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:reagent_bottle a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:alternative "graduated bottle", "Laboratory glass bottle", "media bottle";
+    dcterms:created "2026-04-13T10:35:16.104+02:00"^^xsd:dateTime;
+    dcterms:description "Air-tight, typically glass or plastic container designed to store and dispense chemical reagents, protecting them from contamination, moisture, or light.";
+    dcterms:modified "2026-04-13T10:36:02.263+02:00"^^xsd:dateTime;
+    dcterms:title "Reagent Bottle";
+    schema:alternateName "graduated bottle", "Laboratory glass bottle", "media bottle";
+    schema:dateCreated "2026-04-13T10:35:16.104+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:36:02.263+02:00"^^xsd:dateTime;
+    schema:description "Air-tight, typically glass or plastic container designed to store and dispense chemical reagents, protecting them from contamination, moisture, or light.";
+    schema:name "Reagent Bottle";
+    skos:altLabel "graduated bottle", "Laboratory glass bottle", "media bottle";
+    skos:changeNote "2026-04-13T10:36:02.263+02:00"^^xsd:dateTime;
+    skos:definition "Air-tight, typically glass or plastic container designed to store and dispense chemical reagents, protecting them from contamination, moisture, or light.";
+    skos:prefLabel "Reagent Bottle";
+    prov:generatedAtTime "2026-04-13T10:35:16.104+02:00"^^xsd:dateTime;
+    prov:value "Reagent Bottle";
+    datacite:date "2026-04-13T10:35:16.104+02:00"^^xsd:dateTime;
+    datacite:description "Air-tight, typically glass or plastic container designed to store and dispense chemical reagents, protecting them from contamination, moisture, or light.";
+    datacite:title "Reagent Bottle";
+    prov:wasDerivedFrom entity:Q7300759;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:vacuum_sealed_plastic_container_closure a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:alternative "Vacuum Bag";
+    dcterms:created "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    dcterms:description "Plastic closures used on packages where the pressure inside the package is less than atmospheric.";
+    dcterms:modified "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    dcterms:title "Vacuum Sealed Plastic Container Closure";
+    schema:alternateName "Vacuum Bag";
+    schema:dateCreated "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    schema:description "Plastic closures used on packages where the pressure inside the package is less than atmospheric.";
+    schema:name "Vacuum Sealed Plastic Container Closure";
+    skos:altLabel "Vacuum Bag";
+    skos:changeNote "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    skos:definition "Plastic closures used on packages where the pressure inside the package is less than atmospheric.";
+    skos:prefLabel "Vacuum Sealed Plastic Container Closure";
+    prov:generatedAtTime "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    prov:value "Vacuum Sealed Plastic Container Closure";
+    datacite:date "2026-05-08T12:59:16.027+02:00"^^xsd:dateTime;
+    datacite:description "Plastic closures used on packages where the pressure inside the package is less than atmospheric.";
+    datacite:title "Vacuum Sealed Plastic Container Closure";
+    prov:wasDerivedFrom obo:NCIT_C96121;
+    skos:broader entity:Q1323314;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:centrifuge_tube a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:alternative "Eppendorf Tube", "Test Tube", "Microcentrifuge Tube";
+    dcterms:created "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    dcterms:description "Cylindrical, leak-proof containers designed to hold samples during high-speed centrifugation, enabling separation of components by density in labs and medical settings.";
+    dcterms:modified "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    dcterms:title "Centrifuge Tube";
+    schema:alternateName "Eppendorf Tube", "Test Tube", "Microcentrifuge Tube";
+    schema:dateCreated "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    schema:description "Cylindrical, leak-proof containers designed to hold samples during high-speed centrifugation, enabling separation of components by density in labs and medical settings.";
+    schema:name "Centrifuge Tube";
+    skos:altLabel "Eppendorf Tube", "Test Tube", "Microcentrifuge Tube";
+    skos:changeNote "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    skos:definition "Cylindrical, leak-proof containers designed to hold samples during high-speed centrifugation, enabling separation of components by density in labs and medical settings.";
+    skos:prefLabel "Centrifuge Tube";
+    prov:generatedAtTime "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    prov:value "Centrifuge Tube";
+    datacite:date "2026-04-13T10:20:59.282+02:00"^^xsd:dateTime;
+    datacite:description "Cylindrical, leak-proof containers designed to hold samples during high-speed centrifugation, enabling separation of components by density in labs and medical settings.";
+    datacite:title "Centrifuge Tube";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:canister a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:created "2026-04-13T10:30:46.35+02:00"^^xsd:dateTime;
+    dcterms:description "Air-tight, durable container used for secure storage, transport, or preservation of solids, liquids, or gases - common in labs, food, and hazardous material handling.";
+    dcterms:modified "2026-04-13T10:31:31.709+02:00"^^xsd:dateTime;
+    dcterms:title "Canister";
+    schema:dateCreated "2026-04-13T10:30:46.35+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:31:31.709+02:00"^^xsd:dateTime;
+    schema:description "Air-tight, durable container used for secure storage, transport, or preservation of solids, liquids, or gases - common in labs, food, and hazardous material handling.";
+    schema:name "Canister";
+    skos:changeNote "2026-04-13T10:31:31.709+02:00"^^xsd:dateTime;
+    skos:definition "Air-tight, durable container used for secure storage, transport, or preservation of solids, liquids, or gases - common in labs, food, and hazardous material handling.";
+    skos:prefLabel "Canister";
+    prov:generatedAtTime "2026-04-13T10:30:46.35+02:00"^^xsd:dateTime;
+    prov:value "Canister";
+    datacite:date "2026-04-13T10:30:46.35+02:00"^^xsd:dateTime;
+    datacite:description "Air-tight, durable container used for secure storage, transport, or preservation of solids, liquids, or gases - common in labs, food, and hazardous material handling.";
+    datacite:title "Canister";
+    prov:wasDerivedFrom obo:NCIT_C43181;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:desiccator_cabinet a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:created "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    dcterms:description "Plastic cabinet with controlled temperature and humidity.";
+    dcterms:modified "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    dcterms:title "Desiccator Cabinet";
+    schema:dateCreated "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    schema:description "Plastic cabinet with controlled temperature and humidity.";
+    schema:name "Desiccator Cabinet";
+    skos:changeNote "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    skos:definition "Plastic cabinet with controlled temperature and humidity.";
+    skos:prefLabel "Desiccator Cabinet";
+    prov:generatedAtTime "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    prov:value "Desiccator Cabinet";
+    datacite:date "2026-04-14T13:17:45.805+02:00"^^xsd:dateTime;
+    datacite:description "Plastic cabinet with controlled temperature and humidity.";
+    datacite:title "Desiccator Cabinet";
+    skos:broader entity:Q725447;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:sample_vial a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C96144, obo:OBI_0000967, equipment:AFE_0000407;
+    dcterms:alternative "Storage Vial", "Laboratory Vial";
+    dcterms:created "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    dcterms:description "Small, sealed container (glass/plastic) for storing, transporting, or analyzing liquid/gas samples in labs, often used with autosamplers or chromatography.";
+    dcterms:modified "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    dcterms:title "Sample vial";
+    schema:alternateName "Storage Vial", "Laboratory Vial";
+    schema:dateCreated "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    schema:description "Small, sealed container (glass/plastic) for storing, transporting, or analyzing liquid/gas samples in labs, often used with autosamplers or chromatography.";
+    schema:name "Sample vial";
+    skos:altLabel "Storage Vial", "Laboratory Vial";
+    skos:changeNote "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    skos:definition "Small, sealed container (glass/plastic) for storing, transporting, or analyzing liquid/gas samples in labs, often used with autosamplers or chromatography.";
+    skos:prefLabel "Sample vial";
+    prov:generatedAtTime "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    prov:value "Sample vial";
+    datacite:date "2026-04-13T10:42:41.372+02:00"^^xsd:dateTime;
+    datacite:description "Small, sealed container (glass/plastic) for storing, transporting, or analyzing liquid/gas samples in labs, often used with autosamplers or chromatography.";
+    datacite:title "Sample vial";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:accelerometer a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Vibration Sensor", "Acceleration Sensor";
+    dcterms:created "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    dcterms:description "A sensor measuring acceleration, vibration, or orientation of objects.";
+    dcterms:modified "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    dcterms:title "Accelerometer";
+    schema:alternateName "Vibration Sensor", "Acceleration Sensor";
+    schema:dateCreated "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    schema:description "A sensor measuring acceleration, vibration, or orientation of objects.";
+    schema:name "Accelerometer";
+    skos:altLabel "Vibration Sensor", "Acceleration Sensor";
+    skos:changeNote "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    skos:definition "A sensor measuring acceleration, vibration, or orientation of objects.";
+    skos:prefLabel "Accelerometer";
+    prov:generatedAtTime "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    prov:value "Accelerometer";
+    datacite:date "2026-05-11T09:42:22.013+02:00"^^xsd:dateTime;
+    datacite:description "A sensor measuring acceleration, vibration, or orientation of objects.";
+    datacite:title "Accelerometer";
+    skos:broader datin_imkt_vocab:sensor;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:induction_heating_device a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Electromagnetic Heater", "Induction Heating System", "Induction Heater";
+    dcterms:created "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    dcterms:description "Equipment generating heat in conductive materials via electromagnetic induction";
+    dcterms:modified "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    dcterms:title "Induction Heating Device";
+    schema:alternateName "Electromagnetic Heater", "Induction Heating System", "Induction Heater";
+    schema:dateCreated "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    schema:description "Equipment generating heat in conductive materials via electromagnetic induction";
+    schema:name "Induction Heating Device";
+    skos:altLabel "Electromagnetic Heater", "Induction Heating System", "Induction Heater";
+    skos:changeNote "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    skos:definition "Equipment generating heat in conductive materials via electromagnetic induction";
+    skos:prefLabel "Induction Heating Device";
+    prov:generatedAtTime "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    prov:value "Induction Heating Device";
+    datacite:date "2026-05-11T10:36:22.819+02:00"^^xsd:dateTime;
+    datacite:description "Equipment generating heat in conductive materials via electromagnetic induction";
+    datacite:title "Induction Heating Device";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:oven a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Drying Furnace", "Drying Oven", "Heating Chamber";
+    dcterms:created "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    dcterms:description "An enclosed structural device designed for heating an object.";
+    dcterms:modified "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    dcterms:title "Oven";
+    schema:alternateName "Drying Furnace", "Drying Oven", "Heating Chamber";
+    schema:dateCreated "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    schema:description "An enclosed structural device designed for heating an object.";
+    schema:name "Oven";
+    skos:altLabel "Drying Furnace", "Drying Oven", "Heating Chamber";
+    skos:changeNote "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    skos:definition "An enclosed structural device designed for heating an object.";
+    skos:prefLabel "Oven";
+    prov:generatedAtTime "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    prov:value "Oven";
+    datacite:date "2026-05-08T10:30:52.958+02:00"^^xsd:dateTime;
+    datacite:description "An enclosed structural device designed for heating an object.";
+    datacite:title "Oven";
+    prov:wasDerivedFrom obo:NCIT_C50092;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:weighing_scale a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Analytical Balance", "Balance", "Weighing Machine";
+    dcterms:created "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    dcterms:description "A balance is a weighing device intended predominantly for medium- to low-capacity weighings, with moderate to high resolution, and is mostly used indoors.";
+    dcterms:modified "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    dcterms:title "Weighing Scale";
+    schema:alternateName "Analytical Balance", "Balance", "Weighing Machine";
+    schema:dateCreated "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    schema:description "A balance is a weighing device intended predominantly for medium- to low-capacity weighings, with moderate to high resolution, and is mostly used indoors.";
+    schema:name "Weighing Scale";
+    skos:altLabel "Analytical Balance", "Balance", "Weighing Machine";
+    skos:changeNote "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    skos:definition "A balance is a weighing device intended predominantly for medium- to low-capacity weighings, with moderate to high resolution, and is mostly used indoors.";
+    skos:prefLabel "Weighing Scale";
+    prov:generatedAtTime "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    prov:value "Weighing Scale";
+    datacite:date "2026-04-21T18:58:49.263+02:00"^^xsd:dateTime;
+    datacite:description "A balance is a weighing device intended predominantly for medium- to low-capacity weighings, with moderate to high resolution, and is mostly used indoors.";
+    datacite:title "Weighing Scale";
+    prov:wasDerivedFrom equipment:AFE_0000693;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:electric_motor a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Rotary Actuator";
+    dcterms:created "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    dcterms:description "Device converting electrical energy into mechanical motion via electromagnetic fields, powering machinery, appliances, and industrial equipment.";
+    dcterms:modified "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    dcterms:title "Electric Motor";
+    schema:alternateName "Rotary Actuator";
+    schema:dateCreated "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    schema:description "Device converting electrical energy into mechanical motion via electromagnetic fields, powering machinery, appliances, and industrial equipment.";
+    schema:name "Electric Motor";
+    skos:altLabel "Rotary Actuator";
+    skos:changeNote "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    skos:definition "Device converting electrical energy into mechanical motion via electromagnetic fields, powering machinery, appliances, and industrial equipment.";
+    skos:prefLabel "Electric Motor";
+    prov:generatedAtTime "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    prov:value "Electric Motor";
+    datacite:date "2026-04-13T11:05:00.472+02:00"^^xsd:dateTime;
+    datacite:description "Device converting electrical energy into mechanical motion via electromagnetic fields, powering machinery, appliances, and industrial equipment.";
+    datacite:title "Electric Motor";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:lathe a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
+    dcterms:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    dcterms:modified "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
+    dcterms:title "Lathe";
+    schema:dateCreated "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
+    schema:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    schema:name "Lathe";
+    skos:changeNote "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
+    skos:definition "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    skos:prefLabel "Lathe";
+    prov:generatedAtTime "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
+    prov:value "Lathe";
+    datacite:date "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
+    datacite:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    datacite:title "Lathe";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:stepper_motor_device a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-04-13T11:02:47.461+02:00"^^xsd:dateTime;
+    dcterms:description "A motor designed to rotate in fixed increments.";
+    dcterms:modified "2026-04-13T11:05:37.267+02:00"^^xsd:dateTime;
+    dcterms:title "Stepper Motor Device";
+    schema:dateCreated "2026-04-13T11:02:47.461+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:05:37.267+02:00"^^xsd:dateTime;
+    schema:description "A motor designed to rotate in fixed increments.";
+    schema:name "Stepper Motor Device";
+    skos:changeNote "2026-04-13T11:05:37.267+02:00"^^xsd:dateTime;
+    skos:definition "A motor designed to rotate in fixed increments.";
+    skos:prefLabel "Stepper Motor Device";
+    prov:generatedAtTime "2026-04-13T11:02:47.461+02:00"^^xsd:dateTime;
+    prov:value "Stepper Motor Device";
+    datacite:date "2026-04-13T11:02:47.461+02:00"^^xsd:dateTime;
+    datacite:description "A motor designed to rotate in fixed increments.";
+    datacite:title "Stepper Motor Device";
+    skos:broader obo:NCIT_C50078, datin_imkt_vocab:electric_motor;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:abrasive_blasting_machine a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Shot Blasting Machine", "Sandblasting Machine";
+    dcterms:created "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    dcterms:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    dcterms:modified "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    dcterms:title "Abrasive Blasting Machine";
+    schema:alternateName "Shot Blasting Machine", "Sandblasting Machine";
+    schema:dateCreated "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    schema:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    schema:name "Abrasive Blasting Machine";
+    skos:altLabel "Shot Blasting Machine", "Sandblasting Machine";
+    skos:changeNote "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    skos:definition "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    skos:prefLabel "Abrasive Blasting Machine";
+    prov:generatedAtTime "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    prov:value "Abrasive Blasting Machine";
+    datacite:date "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    datacite:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    datacite:title "Abrasive Blasting Machine";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:optical_objective a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Objective Lens", "Lens Objective", "Microscope Objective";
+    dcterms:created "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    dcterms:description "A lens system used to focus light and form images in photography or microscopy, crucial for capturing high-quality visuals.";
+    dcterms:modified "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    dcterms:title "Optical Objective";
+    schema:alternateName "Objective Lens", "Lens Objective", "Microscope Objective";
+    schema:dateCreated "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    schema:description "A lens system used to focus light and form images in photography or microscopy, crucial for capturing high-quality visuals.";
+    schema:name "Optical Objective";
+    skos:altLabel "Objective Lens", "Lens Objective", "Microscope Objective";
+    skos:changeNote "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    skos:definition "A lens system used to focus light and form images in photography or microscopy, crucial for capturing high-quality visuals.";
+    skos:prefLabel "Optical Objective";
+    prov:generatedAtTime "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    prov:value "Optical Objective";
+    datacite:date "2026-07-01T18:09:37.058+02:00"^^xsd:dateTime;
+    datacite:description "A lens system used to focus light and form images in photography or microscopy, crucial for capturing high-quality visuals.";
+    datacite:title "Optical Objective";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:sensor a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    dcterms:description "A piece of apparatus that is used to measure a physical quantity.";
+    dcterms:modified "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    dcterms:title "Sensor";
+    schema:dateCreated "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    schema:description "A piece of apparatus that is used to measure a physical quantity.";
+    schema:name "Sensor";
+    skos:changeNote "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    skos:definition "A piece of apparatus that is used to measure a physical quantity.";
+    skos:prefLabel "Sensor";
+    prov:generatedAtTime "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    prov:value "Sensor";
+    datacite:date "2026-04-09T13:33:07.267+02:00"^^xsd:dateTime;
+    datacite:description "A piece of apparatus that is used to measure a physical quantity.";
+    datacite:title "Sensor";
+    skos:broader obo:CHMO_0002793;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:plasma_spray_gun a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-02-24T14:17:09.179+01:00"^^xsd:dateTime;
+    dcterms:description "Device that uses a high-temperature plasma jet to melt and propel powdered materials onto a substrate, creating coatings for corrosion resistance, thermal barriers, or surface enhancement.";
+    dcterms:modified "2026-03-10T11:22:54.115+01:00"^^xsd:dateTime;
+    dcterms:title "Plasma Spray Gun";
+    schema:dateCreated "2026-02-24T14:17:09.179+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:22:54.115+01:00"^^xsd:dateTime;
+    schema:description "Device that uses a high-temperature plasma jet to melt and propel powdered materials onto a substrate, creating coatings for corrosion resistance, thermal barriers, or surface enhancement.";
+    schema:name "Plasma Spray Gun";
+    skos:changeNote "2026-03-10T11:22:54.115+01:00"^^xsd:dateTime;
+    skos:definition "Device that uses a high-temperature plasma jet to melt and propel powdered materials onto a substrate, creating coatings for corrosion resistance, thermal barriers, or surface enhancement.";
+    skos:prefLabel "Plasma Spray Gun";
+    prov:generatedAtTime "2026-02-24T14:17:09.179+01:00"^^xsd:dateTime;
+    prov:value "Plasma Spray Gun";
+    datacite:date "2026-02-24T14:17:09.179+01:00"^^xsd:dateTime;
+    datacite:description "Device that uses a high-temperature plasma jet to melt and propel powdered materials onto a substrate, creating coatings for corrosion resistance, thermal barriers, or surface enhancement.";
+    datacite:title "Plasma Spray Gun";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:dead_weight a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Calibrated Weight", "Ballast";
+    dcterms:created "2026-04-09T13:36:06.298+02:00"^^xsd:dateTime;
+    dcterms:description "Precision-calibrated mass used as a reference for balancing, calibrating scales, or verifying measurements in labs, manufacturing, and metrology. ";
+    dcterms:modified "2026-04-14T13:21:11.324+02:00"^^xsd:dateTime;
+    dcterms:title "Dead Weight";
+    schema:alternateName "Calibrated Weight", "Ballast";
+    schema:dateCreated "2026-04-09T13:36:06.298+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-14T13:21:11.324+02:00"^^xsd:dateTime;
+    schema:description "Precision-calibrated mass used as a reference for balancing, calibrating scales, or verifying measurements in labs, manufacturing, and metrology. ";
+    schema:name "Dead Weight";
+    skos:altLabel "Calibrated Weight", "Ballast";
+    skos:changeNote "2026-04-14T13:21:11.324+02:00"^^xsd:dateTime;
+    skos:definition "Precision-calibrated mass used as a reference for balancing, calibrating scales, or verifying measurements in labs, manufacturing, and metrology. ";
+    skos:prefLabel "Dead Weight";
+    prov:generatedAtTime "2026-04-09T13:36:06.298+02:00"^^xsd:dateTime;
+    prov:value "Dead Weight";
+    datacite:date "2026-04-09T13:36:06.298+02:00"^^xsd:dateTime;
+    datacite:description "Precision-calibrated mass used as a reference for balancing, calibrating scales, or verifying measurements in labs, manufacturing, and metrology. ";
+    datacite:title "Dead Weight";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:humidity_sensor a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Relative Humidity Sensor", "Hygrometer", "Moisture Sensor";
+    dcterms:created "2026-04-09T13:33:59.57+02:00"^^xsd:dateTime;
+    dcterms:description "Device that detects and measures moisture levels in the air or other gases, providing data for environmental control, industrial processes, or research applications.";
+    dcterms:modified "2026-05-08T10:14:44.215+02:00"^^xsd:dateTime;
+    dcterms:title "Humidity Sensor";
+    schema:alternateName "Relative Humidity Sensor", "Hygrometer", "Moisture Sensor";
+    schema:dateCreated "2026-04-09T13:33:59.57+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T10:14:44.215+02:00"^^xsd:dateTime;
+    schema:description "Device that detects and measures moisture levels in the air or other gases, providing data for environmental control, industrial processes, or research applications.";
+    schema:name "Humidity Sensor";
+    skos:altLabel "Relative Humidity Sensor", "Hygrometer", "Moisture Sensor";
+    skos:changeNote "2026-05-08T10:14:44.215+02:00"^^xsd:dateTime;
+    skos:definition "Device that detects and measures moisture levels in the air or other gases, providing data for environmental control, industrial processes, or research applications.";
+    skos:prefLabel "Humidity Sensor";
+    prov:generatedAtTime "2026-04-09T13:33:59.57+02:00"^^xsd:dateTime;
+    prov:value "Humidity Sensor";
+    datacite:date "2026-04-09T13:33:59.57+02:00"^^xsd:dateTime;
+    datacite:description "Device that detects and measures moisture levels in the air or other gases, providing data for environmental control, industrial processes, or research applications.";
+    datacite:title "Humidity Sensor";
+    skos:broader datin_imkt_vocab:sensor;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:digital_microscope a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Digital Imaging Microscope";
+    dcterms:created "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    dcterms:description "Microscope that outputs an image to a monitor";
+    dcterms:modified "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    dcterms:title "Digital Microscope";
+    schema:alternateName "Digital Imaging Microscope";
+    schema:dateCreated "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    schema:description "Microscope that outputs an image to a monitor";
+    schema:name "Digital Microscope";
+    skos:altLabel "Digital Imaging Microscope";
+    skos:changeNote "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    skos:definition "Microscope that outputs an image to a monitor";
+    skos:prefLabel "Digital Microscope";
+    prov:generatedAtTime "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    prov:value "Digital Microscope";
+    datacite:date "2026-04-21T19:34:05.696+02:00"^^xsd:dateTime;
+    datacite:description "Microscope that outputs an image to a monitor";
+    datacite:title "Digital Microscope";
+    prov:wasDerivedFrom entity:Q5276114;
+    skos:broader polymat:Microscope;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:temperature_sensor a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Heat Sensor", "Thermocouple", "Thermal Probe", "Thermistor";
+    dcterms:created "2026-04-13T10:51:11.474+02:00"^^xsd:dateTime;
+    dcterms:description "A sensor designed to respond to the temperature of a space, surface, or environment.";
+    dcterms:modified "2026-04-13T10:53:35.39+02:00"^^xsd:dateTime;
+    dcterms:title "Temperature Sensor";
+    schema:alternateName "Heat Sensor", "Thermocouple", "Thermal Probe", "Thermistor";
+    schema:dateCreated "2026-04-13T10:51:11.474+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T10:53:35.39+02:00"^^xsd:dateTime;
+    schema:description "A sensor designed to respond to the temperature of a space, surface, or environment.";
+    schema:name "Temperature Sensor";
+    skos:altLabel "Heat Sensor", "Thermocouple", "Thermal Probe", "Thermistor";
+    skos:changeNote "2026-04-13T10:53:35.39+02:00"^^xsd:dateTime;
+    skos:definition "A sensor designed to respond to the temperature of a space, surface, or environment.";
+    skos:prefLabel "Temperature Sensor";
+    prov:generatedAtTime "2026-04-13T10:51:11.474+02:00"^^xsd:dateTime;
+    prov:value "Temperature Sensor";
+    datacite:date "2026-04-13T10:51:11.474+02:00"^^xsd:dateTime;
+    datacite:description "A sensor designed to respond to the temperature of a space, surface, or environment.";
+    datacite:title "Temperature Sensor";
+    skos:broader obo:NCIT_C50304, datin_imkt_vocab:sensor;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:perthometer a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Profilometer";
+    dcterms:created "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    dcterms:description "Precision instrument measuring surface roughness and texture via stylus or optical scanning, ensuring quality control in manufacturing and materials science.";
+    dcterms:modified "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    dcterms:title "Perthometer";
+    schema:alternateName "Profilometer";
+    schema:dateCreated "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    schema:description "Precision instrument measuring surface roughness and texture via stylus or optical scanning, ensuring quality control in manufacturing and materials science.";
+    schema:name "Perthometer";
+    skos:altLabel "Profilometer";
+    skos:changeNote "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    skos:definition "Precision instrument measuring surface roughness and texture via stylus or optical scanning, ensuring quality control in manufacturing and materials science.";
+    skos:prefLabel "Perthometer";
+    prov:generatedAtTime "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    prov:value "Perthometer";
+    datacite:date "2026-04-13T11:21:32.176+02:00"^^xsd:dateTime;
+    datacite:description "Precision instrument measuring surface roughness and texture via stylus or optical scanning, ensuring quality control in manufacturing and materials science.";
+    datacite:title "Perthometer";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:laser_scanning_microscope a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "confocal laser scanning microscopes", "CLSM";
+    dcterms:created "2026-02-24T14:30:10.777+01:00"^^xsd:dateTime;
+    dcterms:description "High-resolution imaging systems using focused laser beams to scan specimens, enabling 3D visualization, fluorescence detection, and non-invasive analysis.";
+    dcterms:modified "2026-04-13T11:19:43.043+02:00"^^xsd:dateTime;
+    dcterms:title "Laser Scanning Microscope";
+    schema:alternateName "confocal laser scanning microscopes", "CLSM";
+    schema:dateCreated "2026-02-24T14:30:10.777+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:19:43.043+02:00"^^xsd:dateTime;
+    schema:description "High-resolution imaging systems using focused laser beams to scan specimens, enabling 3D visualization, fluorescence detection, and non-invasive analysis.";
+    schema:name "Laser Scanning Microscope";
+    skos:altLabel "confocal laser scanning microscopes", "CLSM";
+    skos:changeNote "2026-04-13T11:19:43.043+02:00"^^xsd:dateTime;
+    skos:definition "High-resolution imaging systems using focused laser beams to scan specimens, enabling 3D visualization, fluorescence detection, and non-invasive analysis.";
+    skos:prefLabel "Laser Scanning Microscope";
+    prov:generatedAtTime "2026-02-24T14:30:10.777+01:00"^^xsd:dateTime;
+    prov:value "Laser Scanning Microscope";
+    datacite:date "2026-02-24T14:30:10.777+01:00"^^xsd:dateTime;
+    datacite:description "High-resolution imaging systems using focused laser beams to scan specimens, enabling 3D visualization, fluorescence detection, and non-invasive analysis.";
+    datacite:title "Laser Scanning Microscope";
+    skos:broader kitmtxx41732562vp:opt_sur_pro-9658f444fa7b4e6b8ebf0c678491e2c0-vp, polymat:Microscope;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:load_cell a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Strain Gauge Sensor", "Weight Transducer", "Force Sensor";
+    dcterms:created "2026-04-13T11:00:31.809+02:00"^^xsd:dateTime;
+    dcterms:description "A load cell converts a force such as tension, compression, pressure, or torque into an electrical signal that can be measured and standardized. It is a force transducer. As the force applied to the load cell increases, the electrical signal changes proportionally. The most common types of load cell are pneumatic, hydraulic, and strain gauges.";
+    dcterms:modified "2026-04-13T11:01:39.068+02:00"^^xsd:dateTime;
+    dcterms:title "Load Cell";
+    schema:alternateName "Strain Gauge Sensor", "Weight Transducer", "Force Sensor";
+    schema:dateCreated "2026-04-13T11:00:31.809+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:01:39.068+02:00"^^xsd:dateTime;
+    schema:description "A load cell converts a force such as tension, compression, pressure, or torque into an electrical signal that can be measured and standardized. It is a force transducer. As the force applied to the load cell increases, the electrical signal changes proportionally. The most common types of load cell are pneumatic, hydraulic, and strain gauges.";
+    schema:name "Load Cell";
+    skos:altLabel "Strain Gauge Sensor", "Weight Transducer", "Force Sensor";
+    skos:changeNote "2026-04-13T11:01:39.068+02:00"^^xsd:dateTime;
+    skos:definition "A load cell converts a force such as tension, compression, pressure, or torque into an electrical signal that can be measured and standardized. It is a force transducer. As the force applied to the load cell increases, the electrical signal changes proportionally. The most common types of load cell are pneumatic, hydraulic, and strain gauges.";
+    skos:prefLabel "Load Cell";
+    prov:generatedAtTime "2026-04-13T11:00:31.809+02:00"^^xsd:dateTime;
+    prov:value "Load Cell";
+    datacite:date "2026-04-13T11:00:31.809+02:00"^^xsd:dateTime;
+    datacite:description "A load cell converts a force such as tension, compression, pressure, or torque into an electrical signal that can be measured and standardized. It is a force transducer. As the force applied to the load cell increases, the electrical signal changes proportionally. The most common types of load cell are pneumatic, hydraulic, and strain gauges.";
+    datacite:title "Load Cell";
+    skos:broader pmd:PMD_0000820, datin_imkt_vocab:sensor;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:pneumatic_press a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    dcterms:description "A machine utilizing compressed air to apply force for shaping, assembling, or processing materials, offering precise and controlled operation.";
+    dcterms:modified "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    dcterms:title "Pneumatic Press";
+    schema:dateCreated "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    schema:description "A machine utilizing compressed air to apply force for shaping, assembling, or processing materials, offering precise and controlled operation.";
+    schema:name "Pneumatic Press";
+    skos:changeNote "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    skos:definition "A machine utilizing compressed air to apply force for shaping, assembling, or processing materials, offering precise and controlled operation.";
+    skos:prefLabel "Pneumatic Press";
+    prov:generatedAtTime "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    prov:value "Pneumatic Press";
+    datacite:date "2026-05-11T09:55:17.21+02:00"^^xsd:dateTime;
+    datacite:description "A machine utilizing compressed air to apply force for shaping, assembling, or processing materials, offering precise and controlled operation.";
+    datacite:title "Pneumatic Press";
+    skos:broader datin_imkt_vocab:press;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:mechanical_press a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    dcterms:description "A machine using mechanical force to shape, form, or assemble materials, often in manufacturing for tasks like stamping, forging, or bending.";
+    dcterms:modified "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    dcterms:title "Mechanical Press";
+    schema:dateCreated "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    schema:description "A machine using mechanical force to shape, form, or assemble materials, often in manufacturing for tasks like stamping, forging, or bending.";
+    schema:name "Mechanical Press";
+    skos:changeNote "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    skos:definition "A machine using mechanical force to shape, form, or assemble materials, often in manufacturing for tasks like stamping, forging, or bending.";
+    skos:prefLabel "Mechanical Press";
+    prov:generatedAtTime "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    prov:value "Mechanical Press";
+    datacite:date "2026-05-11T09:50:18.507+02:00"^^xsd:dateTime;
+    datacite:description "A machine using mechanical force to shape, form, or assemble materials, often in manufacturing for tasks like stamping, forging, or bending.";
+    datacite:title "Mechanical Press";
+    skos:broader datin_imkt_vocab:press;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:fume_hood a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-02-24T14:08:38.244+01:00"^^xsd:dateTime;
+    dcterms:description "Ventilated enclosure designed to safely contain and exhaust hazardous fumes, vapors, or dusts, protecting users and the environment during chemical or biological experiments.";
+    dcterms:modified "2026-03-10T11:23:50.911+01:00"^^xsd:dateTime;
+    dcterms:title "Fume Hood";
+    schema:dateCreated "2026-02-24T14:08:38.244+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:23:50.911+01:00"^^xsd:dateTime;
+    schema:description "Ventilated enclosure designed to safely contain and exhaust hazardous fumes, vapors, or dusts, protecting users and the environment during chemical or biological experiments.";
+    schema:name "Fume Hood";
+    skos:changeNote "2026-03-10T11:23:50.911+01:00"^^xsd:dateTime;
+    skos:definition "Ventilated enclosure designed to safely contain and exhaust hazardous fumes, vapors, or dusts, protecting users and the environment during chemical or biological experiments.";
+    skos:prefLabel "Fume Hood";
+    prov:generatedAtTime "2026-02-24T14:08:38.244+01:00"^^xsd:dateTime;
+    prov:value "Fume Hood";
+    datacite:date "2026-02-24T14:08:38.244+01:00"^^xsd:dateTime;
+    datacite:description "Ventilated enclosure designed to safely contain and exhaust hazardous fumes, vapors, or dusts, protecting users and the environment during chemical or biological experiments.";
+    datacite:title "Fume Hood";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:bearing_puller a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Bearing Remover", "Bearing Extractor", "Bearing Disassembly Tool";
+    dcterms:created "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    dcterms:description "A tool designed to safely and effectively remove bearings from shafts or housings, minimizing damage to components during disassembly.";
+    dcterms:modified "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    dcterms:title "Bearing Puller";
+    schema:alternateName "Bearing Remover", "Bearing Extractor", "Bearing Disassembly Tool";
+    schema:dateCreated "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    schema:description "A tool designed to safely and effectively remove bearings from shafts or housings, minimizing damage to components during disassembly.";
+    schema:name "Bearing Puller";
+    skos:altLabel "Bearing Remover", "Bearing Extractor", "Bearing Disassembly Tool";
+    skos:changeNote "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    skos:definition "A tool designed to safely and effectively remove bearings from shafts or housings, minimizing damage to components during disassembly.";
+    skos:prefLabel "Bearing Puller";
+    prov:generatedAtTime "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    prov:value "Bearing Puller";
+    datacite:date "2026-05-11T10:05:59.572+02:00"^^xsd:dateTime;
+    datacite:description "A tool designed to safely and effectively remove bearings from shafts or housings, minimizing damage to components during disassembly.";
+    datacite:title "Bearing Puller";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:plasma_coating_torch a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Thermal Spray Torch", "Coating Plasma Gun", "Plasma Spraying Torch";
+    dcterms:created "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    dcterms:description "Device using plasma to deposit thin, uniform material layers (e.g., ceramics, metals) onto surfaces for enhanced durability, corrosion resistance, or functionality.";
+    dcterms:modified "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    dcterms:title "Plasma Coating Torch";
+    schema:alternateName "Thermal Spray Torch", "Coating Plasma Gun", "Plasma Spraying Torch";
+    schema:dateCreated "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    schema:description "Device using plasma to deposit thin, uniform material layers (e.g., ceramics, metals) onto surfaces for enhanced durability, corrosion resistance, or functionality.";
+    schema:name "Plasma Coating Torch";
+    skos:altLabel "Thermal Spray Torch", "Coating Plasma Gun", "Plasma Spraying Torch";
+    skos:changeNote "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    skos:definition "Device using plasma to deposit thin, uniform material layers (e.g., ceramics, metals) onto surfaces for enhanced durability, corrosion resistance, or functionality.";
+    skos:prefLabel "Plasma Coating Torch";
+    prov:generatedAtTime "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    prov:value "Plasma Coating Torch";
+    datacite:date "2026-04-13T11:38:09.058+02:00"^^xsd:dateTime;
+    datacite:description "Device using plasma to deposit thin, uniform material layers (e.g., ceramics, metals) onto surfaces for enhanced durability, corrosion resistance, or functionality.";
+    datacite:title "Plasma Coating Torch";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:press a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Machine Press";
+    dcterms:created "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    dcterms:description "Machine tool that changes the shape of a work piece by the application of pressure.";
+    dcterms:modified "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    dcterms:title "Press";
+    schema:alternateName "Machine Press";
+    schema:dateCreated "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    schema:description "Machine tool that changes the shape of a work piece by the application of pressure.";
+    schema:name "Press";
+    skos:altLabel "Machine Press";
+    skos:changeNote "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    skos:definition "Machine tool that changes the shape of a work piece by the application of pressure.";
+    skos:prefLabel "Press";
+    prov:generatedAtTime "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    prov:value "Press";
+    datacite:date "2026-05-11T09:48:31.327+02:00"^^xsd:dateTime;
+    datacite:description "Machine tool that changes the shape of a work piece by the application of pressure.";
+    datacite:title "Press";
+    prov:wasDerivedFrom entity:Q674484;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:torque_sensor a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Torque Transducer", "Torque Measuring Device";
+    dcterms:created "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    dcterms:description "Dynamic/rotary torque sensor used to measure torque in moving mechanical systems";
+    dcterms:modified "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    dcterms:title "Torque Sensor";
+    schema:alternateName "Torque Transducer", "Torque Measuring Device";
+    schema:dateCreated "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    schema:description "Dynamic/rotary torque sensor used to measure torque in moving mechanical systems";
+    schema:name "Torque Sensor";
+    skos:altLabel "Torque Transducer", "Torque Measuring Device";
+    skos:changeNote "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    skos:definition "Dynamic/rotary torque sensor used to measure torque in moving mechanical systems";
+    skos:prefLabel "Torque Sensor";
+    prov:generatedAtTime "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    prov:value "Torque Sensor";
+    datacite:date "2026-05-11T09:35:52.516+02:00"^^xsd:dateTime;
+    datacite:description "Dynamic/rotary torque sensor used to measure torque in moving mechanical systems";
+    datacite:title "Torque Sensor";
+    prov:wasDerivedFrom entity:Q135271604;
+    skos:broader datin_imkt_vocab:load_cell;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:hydraulic_press a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Bramah Press";
+    dcterms:created "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    dcterms:description "Machine press using a hydraulic cylinder to generate a compressive force";
+    dcterms:modified "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    dcterms:title "Hydraulic Press";
+    schema:alternateName "Bramah Press";
+    schema:dateCreated "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    schema:description "Machine press using a hydraulic cylinder to generate a compressive force";
+    schema:name "Hydraulic Press";
+    skos:altLabel "Bramah Press";
+    skos:changeNote "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    skos:definition "Machine press using a hydraulic cylinder to generate a compressive force";
+    skos:prefLabel "Hydraulic Press";
+    prov:generatedAtTime "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    prov:value "Hydraulic Press";
+    datacite:date "2026-05-11T09:58:12.408+02:00"^^xsd:dateTime;
+    datacite:description "Machine press using a hydraulic cylinder to generate a compressive force";
+    datacite:title "Hydraulic Press";
+    prov:wasDerivedFrom entity:Q841217;
+    skos:broader datin_imkt_vocab:press;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:reciprocating_ball-on-plate_tribometer a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:created "2026-02-24T14:01:04.183+01:00"^^xsd:dateTime;
+    dcterms:description "Device that measures friction and wear by sliding a ball against a flat surface in a back-and-forth motion for material and lubricant testing.";
+    dcterms:modified "2026-03-10T11:26:00.736+01:00"^^xsd:dateTime;
+    dcterms:title "Reciprocating Ball-on-Plate Tribometer";
+    schema:dateCreated "2026-02-24T14:01:04.183+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:26:00.736+01:00"^^xsd:dateTime;
+    schema:description "Device that measures friction and wear by sliding a ball against a flat surface in a back-and-forth motion for material and lubricant testing.";
+    schema:name "Reciprocating Ball-on-Plate Tribometer";
+    skos:changeNote "2026-03-10T11:26:00.736+01:00"^^xsd:dateTime;
+    skos:definition "Device that measures friction and wear by sliding a ball against a flat surface in a back-and-forth motion for material and lubricant testing.";
+    skos:prefLabel "Reciprocating Ball-on-Plate Tribometer";
+    prov:generatedAtTime "2026-02-24T14:01:04.183+01:00"^^xsd:dateTime;
+    prov:value "Reciprocating Ball-on-Plate Tribometer";
+    datacite:date "2026-02-24T14:01:04.183+01:00"^^xsd:dateTime;
+    datacite:description "Device that measures friction and wear by sliding a ball against a flat surface in a back-and-forth motion for material and lubricant testing.";
+    datacite:title "Reciprocating Ball-on-Plate Tribometer";
+    skos:broader kitmtxx41732562vp:tri_xxx_xxx-c98170df4aa14cd38e9ba0d1b94ebdf0-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:scanning_electron_microscope a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "REM", "SEM";
+    dcterms:created "2026-03-10T11:26:55.962+01:00"^^xsd:dateTime;
+    dcterms:description "A piece of apparatus which is used to produce an enlarged image of a specimen by scanning a finely focused (<10 nm diameter) electron beam with an acceleration voltage of 50–150 kV across the specimen under vacuum and measuring the interaction of the electrons with the specimen.";
+    dcterms:modified "2026-04-13T11:17:21.484+02:00"^^xsd:dateTime;
+    dcterms:title "Scanning Electron Microscope";
+    schema:alternateName "REM", "SEM";
+    schema:dateCreated "2026-03-10T11:26:55.962+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:17:21.484+02:00"^^xsd:dateTime;
+    schema:description "A piece of apparatus which is used to produce an enlarged image of a specimen by scanning a finely focused (<10 nm diameter) electron beam with an acceleration voltage of 50–150 kV across the specimen under vacuum and measuring the interaction of the electrons with the specimen.";
+    schema:name "Scanning Electron Microscope";
+    skos:altLabel "REM", "SEM";
+    skos:changeNote "2026-04-13T11:17:21.484+02:00"^^xsd:dateTime;
+    skos:definition "A piece of apparatus which is used to produce an enlarged image of a specimen by scanning a finely focused (<10 nm diameter) electron beam with an acceleration voltage of 50–150 kV across the specimen under vacuum and measuring the interaction of the electrons with the specimen.";
+    skos:prefLabel "Scanning Electron Microscope";
+    prov:generatedAtTime "2026-03-10T11:26:55.962+01:00"^^xsd:dateTime;
+    prov:value "Scanning Electron Microscope";
+    datacite:date "2026-03-10T11:26:55.962+01:00"^^xsd:dateTime;
+    datacite:description "A piece of apparatus which is used to produce an enlarged image of a specimen by scanning a finely focused (<10 nm diameter) electron beam with an acceleration voltage of 50–150 kV across the specimen under vacuum and measuring the interaction of the electrons with the specimen.";
+    datacite:title "Scanning Electron Microscope";
+    prov:wasDerivedFrom kitmtxx41732562vp:sca_ele_mic-30855d0d4b6049a6a8fc94f07cdcc312-vp;
+    skos:broader polymat:Microscope;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:abrasive_blasting a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-03-10T09:56:03.131+01:00"^^xsd:dateTime;
+    dcterms:description "Process of forcibly propelling abrasive particles against a surface to clean, smooth, or prepare it for further treatment, often used in industrial and restoration contexts.";
+    dcterms:modified "2026-03-10T10:58:55.614+01:00"^^xsd:dateTime;
+    dcterms:title "Abrasive Blasting";
+    schema:dateCreated "2026-03-10T09:56:03.131+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T10:58:55.614+01:00"^^xsd:dateTime;
+    schema:description "Process of forcibly propelling abrasive particles against a surface to clean, smooth, or prepare it for further treatment, often used in industrial and restoration contexts.";
+    schema:name "Abrasive Blasting";
+    skos:changeNote "2026-03-10T10:58:55.614+01:00"^^xsd:dateTime;
+    skos:definition "Process of forcibly propelling abrasive particles against a surface to clean, smooth, or prepare it for further treatment, often used in industrial and restoration contexts.";
+    skos:prefLabel "Abrasive Blasting";
+    prov:generatedAtTime "2026-03-10T09:56:03.131+01:00"^^xsd:dateTime;
+    prov:value "Abrasive Blasting";
+    datacite:date "2026-03-10T09:56:03.131+01:00"^^xsd:dateTime;
+    datacite:description "Process of forcibly propelling abrasive particles against a surface to clean, smooth, or prepare it for further treatment, often used in industrial and restoration contexts.";
+    datacite:title "Abrasive Blasting";
+    skos:broader datin_imkt_vocab:abrasive_machining;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:polishing a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-03-10T11:13:57.418+01:00"^^xsd:dateTime;
+    dcterms:description "Class representing the physical process of polishing of a specimen with the aim of changing its surface characteristics.";
+    dcterms:modified "2026-03-10T11:14:28.638+01:00"^^xsd:dateTime;
+    dcterms:title "Polishing";
+    schema:dateCreated "2026-03-10T11:13:57.418+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:14:28.638+01:00"^^xsd:dateTime;
+    schema:description "Class representing the physical process of polishing of a specimen with the aim of changing its surface characteristics.";
+    schema:name "Polishing";
+    skos:changeNote "2026-03-10T11:14:28.638+01:00"^^xsd:dateTime;
+    skos:definition "Class representing the physical process of polishing of a specimen with the aim of changing its surface characteristics.";
+    skos:prefLabel "Polishing";
+    prov:generatedAtTime "2026-03-10T11:13:57.418+01:00"^^xsd:dateTime;
+    prov:value "Polishing";
+    datacite:date "2026-03-10T11:13:57.418+01:00"^^xsd:dateTime;
+    datacite:description "Class representing the physical process of polishing of a specimen with the aim of changing its surface characteristics.";
+    datacite:title "Polishing";
+    skos:broader kitmtxx41732562vp:pol_xxx_xxx-6750b81cc7c9430faa347b428e0356ab-vp, datin_imkt_vocab:abrasive_machining;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:coating_deposition a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-02-24T14:24:30.834+01:00"^^xsd:dateTime;
+    dcterms:description "Action to apply a covering to the surface of an object (usually referred to as the substrate)";
+    dcterms:modified "2026-02-24T14:25:56.653+01:00"^^xsd:dateTime;
+    dcterms:title "Coating Deposition";
+    schema:dateCreated "2026-02-24T14:24:30.834+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-02-24T14:25:56.653+01:00"^^xsd:dateTime;
+    schema:description "Action to apply a covering to the surface of an object (usually referred to as the substrate)";
+    schema:name "Coating Deposition";
+    skos:changeNote "2026-02-24T14:25:56.653+01:00"^^xsd:dateTime;
+    skos:definition "Action to apply a covering to the surface of an object (usually referred to as the substrate)";
+    skos:prefLabel "Coating Deposition";
+    prov:generatedAtTime "2026-02-24T14:24:30.834+01:00"^^xsd:dateTime;
+    prov:value "Coating Deposition";
+    datacite:date "2026-02-24T14:24:30.834+01:00"^^xsd:dateTime;
+    datacite:description "Action to apply a covering to the surface of an object (usually referred to as the substrate)";
+    datacite:title "Coating Deposition";
+    prov:wasDerivedFrom polymat:Coating;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:grinding a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-02-24T14:26:32.887+01:00"^^xsd:dateTime;
+    dcterms:description "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece.  There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines.";
+    dcterms:modified "2026-05-08T17:32:27.107+02:00"^^xsd:dateTime;
+    dcterms:title "Grinding";
+    schema:dateCreated "2026-02-24T14:26:32.887+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T17:32:27.107+02:00"^^xsd:dateTime;
+    schema:description "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece.  There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines.";
+    schema:name "Grinding";
+    skos:changeNote "2026-05-08T17:32:27.107+02:00"^^xsd:dateTime;
+    skos:definition "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece.  There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines.";
+    skos:prefLabel "Grinding";
+    prov:generatedAtTime "2026-02-24T14:26:32.887+01:00"^^xsd:dateTime;
+    prov:value "Grinding";
+    datacite:date "2026-02-24T14:26:32.887+01:00"^^xsd:dateTime;
+    datacite:description "Grinding is a machining process that involves the use of a disc-shaped grinding wheel to remove material from a workpiece.  There are several types of grinding wheels, some of which include grindstones, angle grinders, die grinders and specialized grinding machines.";
+    datacite:title "Grinding";
+    skos:broader chameo:Grinding, datin_imkt_vocab:abrasive_machining;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:sample_cutting a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-02-24T14:05:47.63+01:00"^^xsd:dateTime;
+    dcterms:description "Precision division of a sample into smaller, representative sections for analysis, testing, or examination—applied in labs, geology, metallurgy, and quality control.";
+    dcterms:modified "2026-03-10T11:19:32.158+01:00"^^xsd:dateTime;
+    dcterms:title "Sample Cutting";
+    schema:dateCreated "2026-02-24T14:05:47.63+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:19:32.158+01:00"^^xsd:dateTime;
+    schema:description "Precision division of a sample into smaller, representative sections for analysis, testing, or examination—applied in labs, geology, metallurgy, and quality control.";
+    schema:name "Sample Cutting";
+    skos:changeNote "2026-03-10T11:19:32.158+01:00"^^xsd:dateTime;
+    skos:definition "Precision division of a sample into smaller, representative sections for analysis, testing, or examination—applied in labs, geology, metallurgy, and quality control.";
+    skos:prefLabel "Sample Cutting";
+    prov:generatedAtTime "2026-02-24T14:05:47.63+01:00"^^xsd:dateTime;
+    prov:value "Sample Cutting";
+    datacite:date "2026-02-24T14:05:47.63+01:00"^^xsd:dateTime;
+    datacite:description "Precision division of a sample into smaller, representative sections for analysis, testing, or examination—applied in labs, geology, metallurgy, and quality control.";
+    datacite:title "Sample Cutting";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:abrasive_machining a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    dcterms:description "Material removal process using abrasive grains (e.g., grinding wheels, belts) to achieve precise dimensions, smooth finishes, or tight tolerances in metals, ceramics, or composites.";
+    dcterms:modified "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    dcterms:title "Abrasive Machining";
+    schema:dateCreated "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    schema:description "Material removal process using abrasive grains (e.g., grinding wheels, belts) to achieve precise dimensions, smooth finishes, or tight tolerances in metals, ceramics, or composites.";
+    schema:name "Abrasive Machining";
+    skos:changeNote "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    skos:definition "Material removal process using abrasive grains (e.g., grinding wheels, belts) to achieve precise dimensions, smooth finishes, or tight tolerances in metals, ceramics, or composites.";
+    skos:prefLabel "Abrasive Machining";
+    prov:generatedAtTime "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    prov:value "Abrasive Machining";
+    datacite:date "2026-03-10T10:58:34.057+01:00"^^xsd:dateTime;
+    datacite:description "Material removal process using abrasive grains (e.g., grinding wheels, belts) to achieve precise dimensions, smooth finishes, or tight tolerances in metals, ceramics, or composites.";
+    datacite:title "Abrasive Machining";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:micro-tribology_experiment a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    dcterms:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
+    dcterms:modified "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    dcterms:title "Micro-tribology Experiment";
+    schema:dateCreated "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    schema:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
+    schema:name "Micro-tribology Experiment";
+    skos:changeNote "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    skos:definition "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
+    skos:prefLabel "Micro-tribology Experiment";
+    prov:generatedAtTime "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    prov:value "Micro-tribology Experiment";
+    datacite:date "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    datacite:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
+    datacite:title "Micro-tribology Experiment";
+    skos:broader kitmtxx41732562vp:tri_exp_xxx-9b84c31083254e40a6eb78601271d381-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:optical_surface_profilometry a skos:Concept, dcat:Resource, prov:Entity, obo:OBI_0000011, obo:BFO_0000040, obo:GO_0008150, obo:ENVO_02500000, obo:FBbi_root_00000000, construct:PlannedProcess, calculation:ComputationalMethod, obo:MOP_0000543, obo:BFO_0000015, span:Process, nci:C17828, schema1:PreparationMethod, tribodatafairontologyowl:SawingBlade, nfdi4cat:voc4cat_0000185, schema:Action, prov:Activity;
+    dcterms:created "2026-02-24T14:28:46.083+01:00"^^xsd:dateTime;
+    dcterms:description "Class representing the monitored processes that produce a (set of) file(s) whose contents could be used for visualization.";
+    dcterms:modified "2026-03-12T13:17:49.836+01:00"^^xsd:dateTime;
+    dcterms:title "Optical Surface Profilometry";
+    schema:dateCreated "2026-02-24T14:28:46.083+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-12T13:17:49.836+01:00"^^xsd:dateTime;
+    schema:description "Class representing the monitored processes that produce a (set of) file(s) whose contents could be used for visualization.";
+    schema:name "Optical Surface Profilometry";
+    skos:changeNote "2026-03-12T13:17:49.836+01:00"^^xsd:dateTime;
+    skos:definition "Class representing the monitored processes that produce a (set of) file(s) whose contents could be used for visualization.";
+    skos:prefLabel "Optical Surface Profilometry";
+    prov:generatedAtTime "2026-02-24T14:28:46.083+01:00"^^xsd:dateTime;
+    prov:value "Optical Surface Profilometry";
+    datacite:date "2026-02-24T14:28:46.083+01:00"^^xsd:dateTime;
+    datacite:description "Class representing the monitored processes that produce a (set of) file(s) whose contents could be used for visualization.";
+    datacite:title "Optical Surface Profilometry";
+    prov:wasDerivedFrom kitmtxx41732562vp:opt_sur_pro-f096c110525747cab4fe81f4a23b20f8-vp;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:tweezers a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Surgical tweezers", "Forceps", "Tongs", "Thumb Forceps";
+    dcterms:created "2026-04-21T19:16:09.993+02:00"^^xsd:dateTime;
+    dcterms:description "Tools used for grasping objects too small to be easily handled with the human hands.";
+    dcterms:modified "2026-05-08T10:44:08.018+02:00"^^xsd:dateTime;
+    dcterms:title "Tweezers";
+    schema:alternateName "Surgical tweezers", "Forceps", "Tongs", "Thumb Forceps";
+    schema:dateCreated "2026-04-21T19:16:09.993+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T10:44:08.018+02:00"^^xsd:dateTime;
+    schema:description "Tools used for grasping objects too small to be easily handled with the human hands.";
+    schema:name "Tweezers";
+    skos:altLabel "Surgical tweezers", "Forceps", "Tongs", "Thumb Forceps";
+    skos:changeNote "2026-05-08T10:44:08.018+02:00"^^xsd:dateTime;
+    skos:definition "Tools used for grasping objects too small to be easily handled with the human hands.";
+    skos:prefLabel "Tweezers";
+    prov:generatedAtTime "2026-04-21T19:16:09.993+02:00"^^xsd:dateTime;
+    prov:value "Tweezers";
+    datacite:date "2026-04-21T19:16:09.993+02:00"^^xsd:dateTime;
+    datacite:description "Tools used for grasping objects too small to be easily handled with the human hands.";
+    datacite:title "Tweezers";
+    prov:wasDerivedFrom entity:Q192504;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:scalpel a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Surgical Knife", "Surgical Lance", "X-Acto Knife", "Lancet", "Bistoury", "Hobby Knife", "Lance";
+    dcterms:created "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    dcterms:description "Sharp-bladed instrument used for precision cutting.";
+    dcterms:modified "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    dcterms:title "Scalpel";
+    schema:alternateName "Surgical Knife", "Surgical Lance", "X-Acto Knife", "Lancet", "Bistoury", "Hobby Knife", "Lance";
+    schema:dateCreated "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    schema:description "Sharp-bladed instrument used for precision cutting.";
+    schema:name "Scalpel";
+    skos:altLabel "Lance", "Hobby Knife", "Bistoury", "Lancet", "X-Acto Knife", "Surgical Knife", "Surgical Lance";
+    skos:changeNote "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    skos:definition "Sharp-bladed instrument used for precision cutting.";
+    skos:prefLabel "Scalpel";
+    prov:generatedAtTime "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    prov:value "Scalpel";
+    datacite:date "2026-05-08T09:44:53.277+02:00"^^xsd:dateTime;
+    datacite:description "Sharp-bladed instrument used for precision cutting.";
+    datacite:title "Scalpel";
+    prov:wasDerivedFrom entity:Q207172;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:syringe a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Injection Device", "syringes";
+    dcterms:created "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    dcterms:description "A pump consisting of a plunger that fits tightly in a tube is an instrument used for injecting or withdrawing fluids.";
+    dcterms:modified "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    dcterms:title "Syringe";
+    schema:alternateName "Injection Device", "syringes";
+    schema:dateCreated "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    schema:description "A pump consisting of a plunger that fits tightly in a tube is an instrument used for injecting or withdrawing fluids.";
+    schema:name "Syringe";
+    skos:altLabel "Injection Device", "syringes";
+    skos:changeNote "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    skos:definition "A pump consisting of a plunger that fits tightly in a tube is an instrument used for injecting or withdrawing fluids.";
+    skos:prefLabel "Syringe";
+    prov:generatedAtTime "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    prov:value "Syringe";
+    datacite:date "2026-04-21T14:20:11.015+02:00"^^xsd:dateTime;
+    datacite:description "A pump consisting of a plunger that fits tightly in a tube is an instrument used for injecting or withdrawing fluids.";
+    datacite:title "Syringe";
+    prov:wasDerivedFrom entity:Q273318;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:paper_towel a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Kitchen Towel", "Paper Napkin";
+    dcterms:created "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    dcterms:description "Absorbent, disposable sheet used for cleaning, drying, and wiping surfaces in laboratories, industrial, or household settings.";
+    dcterms:modified "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    dcterms:title "Paper Towel";
+    schema:alternateName "Kitchen Towel", "Paper Napkin";
+    schema:dateCreated "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    schema:description "Absorbent, disposable sheet used for cleaning, drying, and wiping surfaces in laboratories, industrial, or household settings.";
+    schema:name "Paper Towel";
+    skos:altLabel "Kitchen Towel", "Paper Napkin";
+    skos:changeNote "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    skos:definition "Absorbent, disposable sheet used for cleaning, drying, and wiping surfaces in laboratories, industrial, or household settings.";
+    skos:prefLabel "Paper Towel";
+    prov:generatedAtTime "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    prov:value "Paper Towel";
+    datacite:date "2026-04-13T11:55:36.14+02:00"^^xsd:dateTime;
+    datacite:description "Absorbent, disposable sheet used for cleaning, drying, and wiping surfaces in laboratories, industrial, or household settings.";
+    datacite:title "Paper Towel";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:lint_free_paper_towel a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:created "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    dcterms:description "Absorbent, non-shedding paper product used for cleaning and drying surfaces, reducing contamination in laboratory, medical, or industrial settings.";
+    dcterms:modified "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    dcterms:title "Lint Free Paper Towel";
+    schema:dateCreated "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    schema:description "Absorbent, non-shedding paper product used for cleaning and drying surfaces, reducing contamination in laboratory, medical, or industrial settings.";
+    schema:name "Lint Free Paper Towel";
+    skos:changeNote "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    skos:definition "Absorbent, non-shedding paper product used for cleaning and drying surfaces, reducing contamination in laboratory, medical, or industrial settings.";
+    skos:prefLabel "Lint Free Paper Towel";
+    prov:generatedAtTime "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    prov:value "Lint Free Paper Towel";
+    datacite:date "2026-04-13T11:56:48.398+02:00"^^xsd:dateTime;
+    datacite:description "Absorbent, non-shedding paper product used for cleaning and drying surfaces, reducing contamination in laboratory, medical, or industrial settings.";
+    datacite:title "Lint Free Paper Towel";
+    skos:broader datin_imkt_vocab:paper_towel;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:pen a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Marker", "Pens", "Writing Instrument";
+    dcterms:created "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    dcterms:description "Writing and drawing implement using liquid or paste ink.";
+    dcterms:modified "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    dcterms:title "Pen";
+    schema:alternateName "Marker", "Pens", "Writing Instrument";
+    schema:dateCreated "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    schema:description "Writing and drawing implement using liquid or paste ink.";
+    schema:name "Pen";
+    skos:altLabel "Marker", "Pens", "Writing Instrument";
+    skos:changeNote "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    skos:definition "Writing and drawing implement using liquid or paste ink.";
+    skos:prefLabel "Pen";
+    prov:generatedAtTime "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    prov:value "Pen";
+    datacite:date "2026-05-08T10:32:31.978+02:00"^^xsd:dateTime;
+    datacite:description "Writing and drawing implement using liquid or paste ink.";
+    datacite:title "Pen";
+    prov:wasDerivedFrom entity:Q165447;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:low-lint_laboratory_wipe a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Lint-Free Laboratory Wipes", "Low-Lint Delicate Task Wipe", "Kimwipes", "Kimtech";
+    dcterms:created "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    dcterms:description "Soft, absorbent cloth designed to minimize fiber shedding, ideal for cleaning delicate surfaces, equipment, and sensitive areas without contamination.";
+    dcterms:modified "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    dcterms:title "Low-Lint Laboratory Wipe";
+    schema:alternateName "Lint-Free Laboratory Wipes", "Low-Lint Delicate Task Wipe", "Kimwipes", "Kimtech";
+    schema:dateCreated "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    schema:description "Soft, absorbent cloth designed to minimize fiber shedding, ideal for cleaning delicate surfaces, equipment, and sensitive areas without contamination.";
+    schema:name "Low-Lint Laboratory Wipe";
+    skos:altLabel "Lint-Free Laboratory Wipes", "Low-Lint Delicate Task Wipe", "Kimwipes", "Kimtech";
+    skos:changeNote "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    skos:definition "Soft, absorbent cloth designed to minimize fiber shedding, ideal for cleaning delicate surfaces, equipment, and sensitive areas without contamination.";
+    skos:prefLabel "Low-Lint Laboratory Wipe";
+    prov:generatedAtTime "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    prov:value "Low-Lint Laboratory Wipe";
+    datacite:date "2026-04-13T11:53:24.113+02:00"^^xsd:dateTime;
+    datacite:description "Soft, absorbent cloth designed to minimize fiber shedding, ideal for cleaning delicate surfaces, equipment, and sensitive areas without contamination.";
+    datacite:title "Low-Lint Laboratory Wipe";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:glove a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Hand Protection", "Handwear";
+    dcterms:created "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    dcterms:description "Protective hand coverings worn to prevent contamination, exposure to hazardous substances, or direct contact with materials in laboratory or medical settings.";
+    dcterms:modified "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    dcterms:title "Glove";
+    schema:alternateName "Hand Protection", "Handwear";
+    schema:dateCreated "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    schema:description "Protective hand coverings worn to prevent contamination, exposure to hazardous substances, or direct contact with materials in laboratory or medical settings.";
+    schema:name "Glove";
+    skos:altLabel "Hand Protection", "Handwear";
+    skos:changeNote "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    skos:definition "Protective hand coverings worn to prevent contamination, exposure to hazardous substances, or direct contact with materials in laboratory or medical settings.";
+    skos:prefLabel "Glove";
+    prov:generatedAtTime "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    prov:value "Glove";
+    datacite:date "2026-04-21T19:08:36.949+02:00"^^xsd:dateTime;
+    datacite:description "Protective hand coverings worn to prevent contamination, exposure to hazardous substances, or direct contact with materials in laboratory or medical settings.";
+    datacite:title "Glove";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:compressed_air_duster a skos:Concept, prov:Entity, dcat:Resource, tribodatafairontologyowl:SawingBlade, obo:PROCO_0000194, pmd:PMD_0000602, equipment:AFE_0000354;
+    dcterms:alternative "Pressurized Air Can", "Dust Blower";
+    dcterms:created "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    dcterms:description "A tool using pressurized air to clean dust, debris, or moisture from surfaces, commonly used in electronics, machinery, and sensitive equipment.";
+    dcterms:modified "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    dcterms:title "Compressed Air Duster";
+    schema:alternateName "Pressurized Air Can", "Dust Blower";
+    schema:dateCreated "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    schema:description "A tool using pressurized air to clean dust, debris, or moisture from surfaces, commonly used in electronics, machinery, and sensitive equipment.";
+    schema:name "Compressed Air Duster";
+    skos:altLabel "Pressurized Air Can", "Dust Blower";
+    skos:changeNote "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    skos:definition "A tool using pressurized air to clean dust, debris, or moisture from surfaces, commonly used in electronics, machinery, and sensitive equipment.";
+    skos:prefLabel "Compressed Air Duster";
+    prov:generatedAtTime "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    prov:value "Compressed Air Duster";
+    datacite:date "2026-05-08T12:06:15.917+02:00"^^xsd:dateTime;
+    datacite:description "A tool using pressurized air to clean dust, debris, or moisture from surfaces, commonly used in electronics, machinery, and sensitive equipment.";
+    datacite:title "Compressed Air Duster";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:coating_function a skos:Concept, prov:Entity, dcat:Resource, obo:BFO_0000023, obo:GO_0003674, obo:CHEBI_50906, process:AFP_0003374;
+    dcterms:created "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    dcterms:description "A role of a sample that could be borne when the sample is used to cover the outside area of another sample.";
+    dcterms:modified "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    dcterms:title "Coating Function";
+    schema:dateCreated "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    schema:description "A role of a sample that could be borne when the sample is used to cover the outside area of another sample.";
+    schema:name "Coating Function";
+    skos:changeNote "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    skos:definition "A role of a sample that could be borne when the sample is used to cover the outside area of another sample.";
+    skos:prefLabel "Coating Function";
+    prov:generatedAtTime "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    prov:value "Coating Function";
+    datacite:date "2026-02-24T13:45:52.405+01:00"^^xsd:dateTime;
+    datacite:description "A role of a sample that could be borne when the sample is used to cover the outside area of another sample.";
+    datacite:title "Coating Function";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:wear_track a skos:Concept, prov:Entity, dcat:Resource, schema:Product, schema1:sample, obo:BFO_0000030, npo:NPO_1487, obo:ENVO_00003074, obo:CHMO_0002746, obo:CHEBI_23367;
+    dcterms:created "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    dcterms:description "Wear Track";
+    dcterms:modified "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    dcterms:title "Wear Track";
+    schema:dateCreated "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    schema:description "Wear Track";
+    schema:name "Wear Track";
+    skos:changeNote "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    skos:definition "Wear Track";
+    skos:prefLabel "Wear Track";
+    prov:generatedAtTime "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    prov:value "Wear Track";
+    datacite:date "2026-07-16T11:45:03.619+02:00"^^xsd:dateTime;
+    datacite:description "Wear Track";
+    datacite:title "Wear Track";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:archived_specific_lithium_grease_edit a skos:Concept, prov:Entity, dcat:Resource, schema:Product, schema1:sample, obo:BFO_0000030, npo:NPO_1487, obo:ENVO_00003074, obo:CHMO_0002746, obo:CHEBI_23367;
+    dcterms:created "2026-03-24T13:32:55.65+01:00"^^xsd:dateTime;
+    dcterms:description "test edita";
+    dcterms:modified "2026-03-31T13:53:09.72+02:00"^^xsd:dateTime;
+    dcterms:title "ARCHIVED Specific Lithium Grease Edit";
+    schema:dateCreated "2026-03-24T13:32:55.65+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-31T13:53:09.72+02:00"^^xsd:dateTime;
+    schema:description "test edita";
+    schema:name "ARCHIVED Specific Lithium Grease Edit";
+    skos:changeNote "2026-03-31T13:53:09.72+02:00"^^xsd:dateTime;
+    skos:definition "test edita";
+    skos:prefLabel "ARCHIVED Specific Lithium Grease Edit";
+    prov:generatedAtTime "2026-03-24T13:32:55.65+01:00"^^xsd:dateTime;
+    prov:value "ARCHIVED Specific Lithium Grease Edit";
+    datacite:date "2026-03-24T13:32:55.65+01:00"^^xsd:dateTime;
+    datacite:description "test edita";
+    datacite:title "ARCHIVED Specific Lithium Grease Edit";
+    skos:broader datin_imkt_vocab:lithium_grease;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:raw_billetstock a skos:Concept, prov:Entity, dcat:Resource, schema:Product, schema1:sample, obo:BFO_0000030, npo:NPO_1487, obo:ENVO_00003074, obo:CHMO_0002746, obo:CHEBI_23367;
+    dcterms:created "2026-03-31T13:56:49.897+02:00"^^xsd:dateTime;
+    dcterms:description "A billet is a relatively compact object that may bear a semi finished product role.  ";
+    dcterms:modified "2026-04-09T11:30:01.567+02:00"^^xsd:dateTime;
+    dcterms:title "Raw Billet/Stock";
+    schema:dateCreated "2026-03-31T13:56:49.897+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-09T11:30:01.567+02:00"^^xsd:dateTime;
+    schema:description "A billet is a relatively compact object that may bear a semi finished product role.  ";
+    schema:name "Raw Billet/Stock";
+    skos:changeNote "2026-04-09T11:30:01.567+02:00"^^xsd:dateTime;
+    skos:definition "A billet is a relatively compact object that may bear a semi finished product role.  ";
+    skos:prefLabel "Raw Billet/Stock";
+    prov:generatedAtTime "2026-03-31T13:56:49.897+02:00"^^xsd:dateTime;
+    prov:value "Raw Billet/Stock";
+    datacite:date "2026-03-31T13:56:49.897+02:00"^^xsd:dateTime;
+    datacite:description "A billet is a relatively compact object that may bear a semi finished product role.  ";
+    datacite:title "Raw Billet/Stock";
+    skos:broader pmd:PMD_0020173;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:alumina_ball a skos:Concept, prov:Entity, dcat:Resource, schema:Product, schema1:sample, obo:BFO_0000030, npo:NPO_1487, obo:ENVO_00003074, obo:CHMO_0002746, obo:CHEBI_23367;
+    dcterms:created "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    dcterms:description "Ball";
+    dcterms:modified "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball";
+    schema:dateCreated "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    schema:description "Ball";
+    schema:name "Alumina Ball";
+    skos:changeNote "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    skos:definition "Ball";
+    skos:prefLabel "Alumina Ball";
+    prov:generatedAtTime "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    prov:value "Alumina Ball";
+    datacite:date "2026-07-16T11:47:19.969+02:00"^^xsd:dateTime;
+    datacite:description "Ball";
+    datacite:title "Alumina Ball";
+    skos:broader obo:NCIT_C64353;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:lithium_grease a skos:Concept, prov:Entity, dcat:Resource, schema:Product, schema1:sample, obo:BFO_0000030, npo:NPO_1487, obo:ENVO_00003074, obo:CHMO_0002746, obo:CHEBI_23367;
+    dcterms:alternative "lubricating grease", "grease lubricant";
+    dcterms:created "2026-03-24T13:28:55.382+01:00"^^xsd:dateTime;
+    dcterms:description "A lubricant thickened with lithium soap, offering high-temperature stability, water resistance, and durability for industrial and automotive applications.";
+    dcterms:modified "2026-04-23T14:23:54.63+02:00"^^xsd:dateTime;
+    dcterms:title "Lithium Grease";
+    schema:alternateName "lubricating grease", "grease lubricant";
+    schema:dateCreated "2026-03-24T13:28:55.382+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-23T14:23:54.63+02:00"^^xsd:dateTime;
+    schema:description "A lubricant thickened with lithium soap, offering high-temperature stability, water resistance, and durability for industrial and automotive applications.";
+    schema:name "Lithium Grease";
+    skos:altLabel "lubricating grease", "grease lubricant";
+    skos:changeNote "2026-04-23T14:23:54.63+02:00"^^xsd:dateTime;
+    skos:definition "A lubricant thickened with lithium soap, offering high-temperature stability, water resistance, and durability for industrial and automotive applications.";
+    skos:prefLabel "Lithium Grease";
+    prov:generatedAtTime "2026-03-24T13:28:55.382+01:00"^^xsd:dateTime;
+    prov:value "Lithium Grease";
+    datacite:date "2026-03-24T13:28:55.382+01:00"^^xsd:dateTime;
+    datacite:description "A lubricant thickened with lithium soap, offering high-temperature stability, water resistance, and durability for industrial and automotive applications.";
+    datacite:title "Lithium Grease";
+    skos:broader entity:Q629823;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:rolling_element_bearing_mounting a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000524, nci:C202342, construct:Assembly, process:AFP_0001640;
+    dcterms:alternative "Rolling Element Bearing Assembly";
+    dcterms:created "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    dcterms:description "The process or hardware used to securely install and align rolling element bearings in machinery or equipment.";
+    dcterms:modified "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    dcterms:title "Rolling Element Bearing Mounting";
+    schema:alternateName "Rolling Element Bearing Assembly";
+    schema:dateCreated "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    schema:description "The process or hardware used to securely install and align rolling element bearings in machinery or equipment.";
+    schema:name "Rolling Element Bearing Mounting";
+    skos:altLabel "Rolling Element Bearing Assembly";
+    skos:changeNote "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    skos:definition "The process or hardware used to securely install and align rolling element bearings in machinery or equipment.";
+    skos:prefLabel "Rolling Element Bearing Mounting";
+    prov:generatedAtTime "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    prov:value "Rolling Element Bearing Mounting";
+    datacite:date "2026-04-23T14:02:44.689+02:00"^^xsd:dateTime;
+    datacite:description "The process or hardware used to securely install and align rolling element bearings in machinery or equipment.";
+    datacite:title "Rolling Element Bearing Mounting";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:securing_using_adhesive_tape a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000524, nci:C202342, construct:Assembly, process:AFP_0001640;
+    dcterms:alternative "Adhesive Fixation", "Tape Attachment", "Tape-Based Fastening";
+    dcterms:created "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    dcterms:description "A method of holding samples in place using tape with adhesive properties, ensuring temporary or permanent fixation.";
+    dcterms:modified "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    dcterms:title "Securing Using Adhesive Tape";
+    schema:alternateName "Adhesive Fixation", "Tape Attachment", "Tape-Based Fastening";
+    schema:dateCreated "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    schema:description "A method of holding samples in place using tape with adhesive properties, ensuring temporary or permanent fixation.";
+    schema:name "Securing Using Adhesive Tape";
+    skos:altLabel "Adhesive Fixation", "Tape Attachment", "Tape-Based Fastening";
+    skos:changeNote "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    skos:definition "A method of holding samples in place using tape with adhesive properties, ensuring temporary or permanent fixation.";
+    skos:prefLabel "Securing Using Adhesive Tape";
+    prov:generatedAtTime "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    prov:value "Securing Using Adhesive Tape";
+    datacite:date "2026-05-08T09:41:11.186+02:00"^^xsd:dateTime;
+    datacite:description "A method of holding samples in place using tape with adhesive properties, ensuring temporary or permanent fixation.";
+    datacite:title "Securing Using Adhesive Tape";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:laboratory_bowl a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:alternative "Laboratory Vessel", "Lab Bowl";
+    dcterms:created "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    dcterms:description "Circular, open-top container.";
+    dcterms:modified "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    dcterms:title "Laboratory Bowl";
+    schema:alternateName "Laboratory Vessel", "Lab Bowl";
+    schema:dateCreated "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    schema:description "Circular, open-top container.";
+    schema:name "Laboratory Bowl";
+    skos:altLabel "Laboratory Vessel", "Lab Bowl";
+    skos:changeNote "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    skos:definition "Circular, open-top container.";
+    skos:prefLabel "Laboratory Bowl";
+    prov:generatedAtTime "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    prov:value "Laboratory Bowl";
+    datacite:date "2026-05-08T13:51:45.317+02:00"^^xsd:dateTime;
+    datacite:description "Circular, open-top container.";
+    datacite:title "Laboratory Bowl";
+    prov:wasDerivedFrom entity:Q153988;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:housing a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:created "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    dcterms:description "An enclosing case or structure that contains and protects internal mechanisms, components, or systems in machinery or equipment.";
+    dcterms:modified "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    dcterms:title "Housing";
+    schema:dateCreated "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    schema:description "An enclosing case or structure that contains and protects internal mechanisms, components, or systems in machinery or equipment.";
+    schema:name "Housing";
+    skos:changeNote "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    skos:definition "An enclosing case or structure that contains and protects internal mechanisms, components, or systems in machinery or equipment.";
+    skos:prefLabel "Housing";
+    prov:generatedAtTime "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    prov:value "Housing";
+    datacite:date "2026-05-11T09:44:37.631+02:00"^^xsd:dateTime;
+    datacite:description "An enclosing case or structure that contains and protects internal mechanisms, components, or systems in machinery or equipment.";
+    datacite:title "Housing";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:tilting_table a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:created "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    dcterms:description "Adjustable platform that angles samples for precise orientation in imaging, analysis, or processing, enhancing accessibility and experimental flexibility.";
+    dcterms:modified "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    dcterms:title "Tilting Table";
+    schema:dateCreated "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    schema:description "Adjustable platform that angles samples for precise orientation in imaging, analysis, or processing, enhancing accessibility and experimental flexibility.";
+    schema:name "Tilting Table";
+    skos:changeNote "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    skos:definition "Adjustable platform that angles samples for precise orientation in imaging, analysis, or processing, enhancing accessibility and experimental flexibility.";
+    skos:prefLabel "Tilting Table";
+    prov:generatedAtTime "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    prov:value "Tilting Table";
+    datacite:date "2026-04-13T11:13:07.905+02:00"^^xsd:dateTime;
+    datacite:description "Adjustable platform that angles samples for precise orientation in imaging, analysis, or processing, enhancing accessibility and experimental flexibility.";
+    datacite:title "Tilting Table";
+    skos:broader nci:C49989;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:sample_disc_holder_ a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:alternative "Sample Disk Holder";
+    dcterms:created "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    dcterms:description "test";
+    dcterms:modified "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    dcterms:title "Sample Disc Holder ";
+    schema:alternateName "Sample Disk Holder";
+    schema:dateCreated "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    schema:description "test";
+    schema:name "Sample Disc Holder ";
+    skos:altLabel "Sample Disk Holder";
+    skos:changeNote "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    skos:definition "test";
+    skos:prefLabel "Sample Disc Holder ";
+    prov:generatedAtTime "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    prov:value "Sample Disc Holder ";
+    datacite:date "2026-04-09T13:30:28.346+02:00"^^xsd:dateTime;
+    datacite:description "test";
+    datacite:title "Sample Disc Holder ";
+    skos:broader nci:C49989;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:foil a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:alternative "Film", "Sheet";
+    dcterms:created "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    dcterms:description "A thin, flexible sheet of material.";
+    dcterms:modified "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    dcterms:title "Foil";
+    schema:alternateName "Film", "Sheet";
+    schema:dateCreated "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    schema:description "A thin, flexible sheet of material.";
+    schema:name "Foil";
+    skos:altLabel "Film", "Sheet";
+    skos:changeNote "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    skos:definition "A thin, flexible sheet of material.";
+    skos:prefLabel "Foil";
+    prov:generatedAtTime "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    prov:value "Foil";
+    datacite:date "2026-05-08T11:12:09.232+02:00"^^xsd:dateTime;
+    datacite:description "A thin, flexible sheet of material.";
+    datacite:title "Foil";
+    prov:wasDerivedFrom obo:NCIT_C49961;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:desiccant a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:alternative "Desiccating Agent", "Moisture Absorber", "Drying Agent";
+    dcterms:created "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    dcterms:description "Hygroscopic substance that induces or sustains a state of dryness (desiccation) in its vicinity";
+    dcterms:modified "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    dcterms:title "Desiccant";
+    schema:alternateName "Desiccating Agent", "Moisture Absorber", "Drying Agent";
+    schema:dateCreated "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    schema:description "Hygroscopic substance that induces or sustains a state of dryness (desiccation) in its vicinity";
+    schema:name "Desiccant";
+    skos:altLabel "Desiccating Agent", "Moisture Absorber", "Drying Agent";
+    skos:changeNote "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    skos:definition "Hygroscopic substance that induces or sustains a state of dryness (desiccation) in its vicinity";
+    skos:prefLabel "Desiccant";
+    prov:generatedAtTime "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    prov:value "Desiccant";
+    datacite:date "2026-05-08T10:23:41.527+02:00"^^xsd:dateTime;
+    datacite:description "Hygroscopic substance that induces or sustains a state of dryness (desiccation) in its vicinity";
+    datacite:title "Desiccant";
+    prov:wasDerivedFrom entity:Q13221746;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:ball_holder a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000602, nci:C49989, equipment:AFE_0002271;
+    dcterms:alternative "Ball Clamp", "Ball Mount", "Ball Fixture";
+    dcterms:created "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    dcterms:description "A mechanical or structural component designed to securely position and retain spherical objects (e.g., bearings, joints) for stability, alignment, or controlled motion in assemblies.";
+    dcterms:modified "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    dcterms:title "Ball Holder";
+    schema:alternateName "Ball Clamp", "Ball Mount", "Ball Fixture";
+    schema:dateCreated "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    schema:description "A mechanical or structural component designed to securely position and retain spherical objects (e.g., bearings, joints) for stability, alignment, or controlled motion in assemblies.";
+    schema:name "Ball Holder";
+    skos:altLabel "Ball Clamp", "Ball Mount", "Ball Fixture";
+    skos:changeNote "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    skos:definition "A mechanical or structural component designed to securely position and retain spherical objects (e.g., bearings, joints) for stability, alignment, or controlled motion in assemblies.";
+    skos:prefLabel "Ball Holder";
+    prov:generatedAtTime "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    prov:value "Ball Holder";
+    datacite:date "2026-04-13T11:09:52.229+02:00"^^xsd:dateTime;
+    datacite:description "A mechanical or structural component designed to securely position and retain spherical objects (e.g., bearings, joints) for stability, alignment, or controlled motion in assemblies.";
+    datacite:title "Ball Holder";
+    skos:broader nci:C49989;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:transport a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000603;
+    dcterms:alternative "Transporting";
+    dcterms:created "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    dcterms:description "Transporting is a  process in which one object physically moves another object from one location to another.";
+    dcterms:modified "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    dcterms:title "Transport";
+    schema:alternateName "Transporting";
+    schema:dateCreated "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    schema:description "Transporting is a  process in which one object physically moves another object from one location to another.";
+    schema:name "Transport";
+    skos:altLabel "Transporting";
+    skos:changeNote "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    skos:definition "Transporting is a  process in which one object physically moves another object from one location to another.";
+    skos:prefLabel "Transport";
+    prov:generatedAtTime "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    prov:value "Transport";
+    datacite:date "2026-05-08T11:29:23.711+02:00"^^xsd:dateTime;
+    datacite:description "Transporting is a  process in which one object physically moves another object from one location to another.";
+    datacite:title "Transport";
+    prov:wasDerivedFrom sio:SIO_000575;
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:detaching_from_tape a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000612, nci:C52475, process:AFP_0003808;
+    dcterms:alternative "Detachment From Adhesive Tape", "Tape Separation", "Unsticking From Tape", "Tape Removal";
+    dcterms:created "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    dcterms:description "The process of removing a sample from adhesive tape without causing damage, often requiring careful techniques or tools.";
+    dcterms:modified "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    dcterms:title "Detaching From Tape";
+    schema:alternateName "Detachment From Adhesive Tape", "Tape Separation", "Unsticking From Tape", "Tape Removal";
+    schema:dateCreated "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    schema:description "The process of removing a sample from adhesive tape without causing damage, often requiring careful techniques or tools.";
+    schema:name "Detaching From Tape";
+    skos:altLabel "Detachment From Adhesive Tape", "Tape Separation", "Unsticking From Tape", "Tape Removal";
+    skos:changeNote "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    skos:definition "The process of removing a sample from adhesive tape without causing damage, often requiring careful techniques or tools.";
+    skos:prefLabel "Detaching From Tape";
+    prov:generatedAtTime "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    prov:value "Detaching From Tape";
+    datacite:date "2026-05-08T09:43:12.903+02:00"^^xsd:dateTime;
+    datacite:description "The process of removing a sample from adhesive tape without causing damage, often requiring careful techniques or tools.";
+    datacite:title "Detaching From Tape";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:rolling_element_bearing_dismounting a skos:Concept, prov:Entity, dcat:Resource, pmd:PMD_0000612, nci:C52475, process:AFP_0003808;
+    dcterms:alternative "Rolling Element Bearing Disassembly";
+    dcterms:created "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    dcterms:description "The process or tools used to safely and effectively remove rolling element bearings from machinery or equipment.";
+    dcterms:modified "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    dcterms:title "Rolling Element Bearing Dismounting";
+    schema:alternateName "Rolling Element Bearing Disassembly";
+    schema:dateCreated "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    schema:description "The process or tools used to safely and effectively remove rolling element bearings from machinery or equipment.";
+    schema:name "Rolling Element Bearing Dismounting";
+    skos:altLabel "Rolling Element Bearing Disassembly";
+    skos:changeNote "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    skos:definition "The process or tools used to safely and effectively remove rolling element bearings from machinery or equipment.";
+    skos:prefLabel "Rolling Element Bearing Dismounting";
+    prov:generatedAtTime "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    prov:value "Rolling Element Bearing Dismounting";
+    datacite:date "2026-04-23T14:22:50.439+02:00"^^xsd:dateTime;
+    datacite:description "The process or tools used to safely and effectively remove rolling element bearings from machinery or equipment.";
+    datacite:title "Rolling Element Bearing Dismounting";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:hydrogen_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    dcterms:title "Hydrogen (Concept)";
+    schema:dateCreated "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Hydrogen (Concept)";
+    skos:changeNote "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Hydrogen (Concept)";
+    prov:generatedAtTime "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    prov:value "Hydrogen (Concept)";
+    datacite:date "2026-03-10T10:12:16.612+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Hydrogen (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:water_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    dcterms:title "Water (Concept)";
+    schema:dateCreated "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Water (Concept)";
+    skos:changeNote "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Water (Concept)";
+    prov:generatedAtTime "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    prov:value "Water (Concept)";
+    datacite:date "2026-03-09T16:19:40.23+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Water (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:isopropanol_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    dcterms:title "Isopropanol (Concept)";
+    schema:dateCreated "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Isopropanol (Concept)";
+    skos:changeNote "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Isopropanol (Concept)";
+    prov:generatedAtTime "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    prov:value "Isopropanol (Concept)";
+    datacite:date "2026-02-24T13:46:52.052+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Isopropanol (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:acetone_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    dcterms:title "Acetone (Concept)";
+    schema:dateCreated "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Acetone (Concept)";
+    skos:changeNote "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Acetone (Concept)";
+    prov:generatedAtTime "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    prov:value "Acetone (Concept)";
+    datacite:date "2026-03-09T16:15:17.359+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Acetone (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:nitrogen_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    dcterms:title "Nitrogen (Concept)";
+    schema:dateCreated "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Nitrogen (Concept)";
+    skos:changeNote "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Nitrogen (Concept)";
+    prov:generatedAtTime "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    prov:value "Nitrogen (Concept)";
+    datacite:date "2026-03-10T10:15:32.078+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Nitrogen (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:argon_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    dcterms:title "Argon (Concept)";
+    schema:dateCreated "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Argon (Concept)";
+    skos:changeNote "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Argon (Concept)";
+    prov:generatedAtTime "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    prov:value "Argon (Concept)";
+    datacite:date "2026-03-10T10:11:04.939+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Argon (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:ethanol_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    dcterms:title "Ethanol (Concept)";
+    schema:dateCreated "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Ethanol (Concept)";
+    skos:changeNote "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Ethanol (Concept)";
+    prov:generatedAtTime "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    prov:value "Ethanol (Concept)";
+    datacite:date "2026-03-09T15:54:18.132+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Ethanol (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:recycled_isopropanol a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    dcterms:description "Custom-produced mix of isopropanol and ethanol, and others.";
+    dcterms:modified "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    dcterms:title "Recycled Isopropanol";
+    schema:dateCreated "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    schema:description "Custom-produced mix of isopropanol and ethanol, and others.";
+    schema:name "Recycled Isopropanol";
+    skos:changeNote "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    skos:definition "Custom-produced mix of isopropanol and ethanol, and others.";
+    skos:prefLabel "Recycled Isopropanol";
+    prov:generatedAtTime "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    prov:value "Recycled Isopropanol";
+    datacite:date "2026-03-24T13:49:50.938+01:00"^^xsd:dateTime;
+    datacite:description "Custom-produced mix of isopropanol and ethanol, and others.";
+    datacite:title "Recycled Isopropanol";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:coating_powder a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    dcterms:description "Physical powder used to coat another material using several coating technologies.";
+    dcterms:modified "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    dcterms:title "Coating Powder";
+    schema:dateCreated "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    schema:description "Physical powder used to coat another material using several coating technologies.";
+    schema:name "Coating Powder";
+    skos:changeNote "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    skos:definition "Physical powder used to coat another material using several coating technologies.";
+    skos:prefLabel "Coating Powder";
+    prov:generatedAtTime "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    prov:value "Coating Powder";
+    datacite:date "2026-02-24T13:36:34.423+01:00"^^xsd:dateTime;
+    datacite:description "Physical powder used to coat another material using several coating technologies.";
+    datacite:title "Coating Powder";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:naphtha_petroleum_hydrotreated_light_concept a skos:Concept, prov:Entity, dcat:Resource, opb:OPB_01241, npo:NPO_1972, construct:Consumable, obo:CHEBI_59999, obo:BFO_0000040, obo:CHMO_0000993;
+    dcterms:created "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    dcterms:description "- Description Not Provided. Automatic Mirror -";
+    dcterms:modified "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    dcterms:title "Naphtha (petroleum), hydrotreated light (Concept)";
+    schema:dateCreated "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    schema:description "- Description Not Provided. Automatic Mirror -";
+    schema:name "Naphtha (petroleum), hydrotreated light (Concept)";
+    skos:changeNote "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    skos:definition "- Description Not Provided. Automatic Mirror -";
+    skos:prefLabel "Naphtha (petroleum), hydrotreated light (Concept)";
+    prov:generatedAtTime "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    prov:value "Naphtha (petroleum), hydrotreated light (Concept)";
+    datacite:date "2026-03-09T16:17:19.24+01:00"^^xsd:dateTime;
+    datacite:description "- Description Not Provided. Automatic Mirror -";
+    datacite:title "Naphtha (petroleum), hydrotreated light (Concept)";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:friction_coefficient_evaluation a skos:Concept, prov:Role, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000186, obo:BFO_0000016, opb:OPB_00147, obo:BFO_0000023, core2:Property, result:AFR_0000951;
+    dcterms:alternative "Friction Testing", "Friction Analysis", "Coefficient of Friction Measurement";
+    dcterms:created "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    dcterms:description "The measurement and analysis of the frictional force between surfaces, crucial for material selection, lubrication, and design optimization.";
+    dcterms:modified "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    dcterms:title "Friction Coefficient Evaluation";
+    schema:alternateName "Friction Testing", "Friction Analysis", "Coefficient of Friction Measurement";
+    schema:dateCreated "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    schema:description "The measurement and analysis of the frictional force between surfaces, crucial for material selection, lubrication, and design optimization.";
+    schema:name "Friction Coefficient Evaluation";
+    skos:altLabel "Friction Testing", "Friction Analysis", "Coefficient of Friction Measurement";
+    skos:changeNote "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    skos:definition "The measurement and analysis of the frictional force between surfaces, crucial for material selection, lubrication, and design optimization.";
+    skos:prefLabel "Friction Coefficient Evaluation";
+    prov:generatedAtTime "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    prov:value "Friction Coefficient Evaluation";
+    datacite:date "2026-05-08T11:27:42.381+02:00"^^xsd:dateTime;
+    datacite:description "The measurement and analysis of the frictional force between surfaces, crucial for material selection, lubrication, and design optimization.";
+    datacite:title "Friction Coefficient Evaluation";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.
+
+
+datin_imkt_vocab:coating_behavior_investigation a skos:Concept, prov:Role, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000186, obo:BFO_0000016, opb:OPB_00147, obo:BFO_0000023, core2:Property, result:AFR_0000951;
+    dcterms:created "2026-02-10T14:00:59.422+01:00"^^xsd:dateTime;
+    dcterms:description "Stress the coating surface in order to understand its behavior.";
+    dcterms:modified "2026-03-12T13:14:39.104+01:00"^^xsd:dateTime;
+    dcterms:title "Coating Behavior Investigation";
+    schema:dateCreated "2026-02-10T14:00:59.422+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-12T13:14:39.104+01:00"^^xsd:dateTime;
+    schema:description "Stress the coating surface in order to understand its behavior.";
+    schema:name "Coating Behavior Investigation";
+    skos:changeNote "2026-03-12T13:14:39.104+01:00"^^xsd:dateTime;
+    skos:definition "Stress the coating surface in order to understand its behavior.";
+    skos:prefLabel "Coating Behavior Investigation";
+    prov:generatedAtTime "2026-02-10T14:00:59.422+01:00"^^xsd:dateTime;
+    prov:value "Coating Behavior Investigation";
+    datacite:date "2026-02-10T14:00:59.422+01:00"^^xsd:dateTime;
+    datacite:description "Stress the coating surface in order to understand its behavior.";
+    datacite:title "Coating Behavior Investigation";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.

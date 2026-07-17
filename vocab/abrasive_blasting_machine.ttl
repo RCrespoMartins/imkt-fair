@@ -1,0 +1,62 @@
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix schema: <https://schema.org/>.
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+@prefix prov: <http://www.w3.org/ns/prov#>.
+@prefix datacite: <http://datacite.org/schema/kernel-4/>.
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>.
+@prefix entity: <http://www.wikidata.org/entity/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
+@prefix polymat: <https://w3id.org/polymat/>.
+@prefix emmo: <https://w3id.org/emmo#>.
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/>.
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
+@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
+@prefix core: <https://spec.industrialontologies.org/ontology/core/Core/>.
+@prefix construct: <https://spec.industrialontologies.org/ontology/construct/>.
+@prefix calculation: <https://w3id.org/mdo/calculation/>.
+@prefix span: <http://www.ifomis.org/bfo/1.0/span#>.
+@prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#>.
+@prefix process: <http://purl.allotrope.org/ontologies/process#>.
+@prefix npo: <http://purl.bioontology.org/ontology/npo#>.
+@prefix opb: <http://bhi.washington.edu/OPB#>.
+@prefix core2: <https://w3id.org/mdo/core/>.
+@prefix result: <http://purl.allotrope.org/ontologies/result#>.
+@prefix sio: <http://semanticscience.org/resource/>.
+@prefix wiki: <https://www.wikidata.org/wiki/>.
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#>.
+
+datin_imkt_vocab:abrasive_blasting_machine a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
+    dcterms:alternative "Shot Blasting Machine", "Sandblasting Machine";
+    dcterms:created "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    dcterms:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    dcterms:modified "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    dcterms:title "Abrasive Blasting Machine";
+    schema:alternateName "Shot Blasting Machine", "Sandblasting Machine";
+    schema:dateCreated "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    schema:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    schema:name "Abrasive Blasting Machine";
+    skos:altLabel "Shot Blasting Machine", "Sandblasting Machine";
+    skos:changeNote "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    skos:definition "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    skos:prefLabel "Abrasive Blasting Machine";
+    prov:generatedAtTime "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    prov:value "Abrasive Blasting Machine";
+    datacite:date "2026-04-13T11:47:44.464+02:00"^^xsd:dateTime;
+    datacite:description "Equipment propelling abrasive media (e.g., sand, grit) at high velocity to clean, etch, or prepare surfaces for coating or inspection.";
+    datacite:title "Abrasive Blasting Machine";
+    skos:inScheme datin_imkt_vocab:concept_scheme;
+    schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
+    dcterms:isPartOf datin_imkt_vocab:concept_scheme.

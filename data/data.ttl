@@ -1,0 +1,3549 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
+@prefix core: <https://w3id.org/datin/core/> .
+@prefix emmo: <https://w3id.org/emmo#> .
+
+
+### WORKFLOWS ###
+
+datin_imkt_data:tribological_experiment_2410-018_l1_1 a prov:Activity, obo:COB_0000035, pmd:PMD_0020143, obo:OBI_0000070;
+    rdfs:label "Tribological Experiment 2410-018 L1";
+    obo:BFO_0000117 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    obo:OBI_0000417 core:PerformanceTestingPurpose;
+    dcterms:created "2026-07-16T16:17:50.073+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
+    dcterms:title "Tribological Experiment 2410-018 L1";
+    dcterms:type core:PerformanceTestingPurpose;
+    prov:wasInfluencedBy datin_imkt_data:hardening_1, datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_1, datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_1, datin_imkt_data:sample_cutting_1, datin_imkt_data:finishing_2410-018_1, datin_imkt_data:cleaning_2410-018_l1_1;
+    prov:wasInformedBy datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_1, datin_imkt_data:cleaning_2410-018_l1_1.
+
+datin_imkt_data:tribological_experiment_2410-018_l1_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Tribological Experiment 2410-018 L1";
+    obo:BFO_0000062 datin_imkt_data:cleaning_2410-018_l1_2, datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    obo:BFO_0000066 datin_imkt_data:8143001136;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
+    obo:OBI_0000299 datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
+    obo:RO_0000057 datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:rubber_anti-slip_sheet_1, datin_imkt_data:milli_tribotester_premium_1;
+    obo:RO_0002233 datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
+    obo:RO_0002234 datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
+    dcterms:created "2026-07-16T16:17:50.072+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
+    dcterms:title "Tribological Experiment 2410-018 L1";
+    dcterms:type kitmtxx41732562vp:tri_exp_xxx-9b84c31083254e40a6eb78601271d381-vp;
+    prov:atLocation datin_imkt_data:8143001136;
+    prov:endedAtTime "2025-01-20T09:55:42+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
+    prov:qualifiedUsage datin_imkt_data:6_mm_ball_holder_2, datin_imkt_data:rubber_anti-slip_sheet_2, datin_imkt_data:milli_tribotester_premium_2, datin_imkt_data:disk_2410-018_10, datin_imkt_data:alumina_ball_2410-018_l1_7;
+    prov:startedAtTime "2025-01-20T09:45:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:rubber_anti-slip_sheet_1, datin_imkt_data:milli_tribotester_premium_1, datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
+    prov:wasInfluencedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2, datin_imkt_data:hardening_2, datin_imkt_data:finishing_2410-018_2, datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:cleaning_2410-018_l1_2, datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    pmd:PMD_0000004 datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_2, datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_2;
+    pmd:characteristic datin_imkt_data:qv5bcnm0qflu4258yj1oajam, datin_imkt_data:ovsq41de8x0ykvhiaxtt04ef, datin_imkt_data:jyw3eq5aobvk4vvd01rll7ct, datin_imkt_data:zjifwwox77f2bjvjus2j9pbk.
+
+datin_imkt_data:dfg_mo_spraying a prov:Entity, foaf:Project;
+    rdfs:label "DFG Mo Spraying";
+    dcterms:created "2026-02-10T13:15:23.646+01:00"^^xsd:dateTime;
+    dcterms:description "Plasma spraying of Molybdenum coatings on bearings.";
+    dcterms:modified "2026-02-17T15:03:59.132+01:00"^^xsd:dateTime;
+    dcterms:title "DFG Mo Spraying".
+
+datin_imkt_data:cleaning_2410-018_l1_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Cleaning 2410-018 L1";
+    obo:BFO_0000063 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:alumina_ball_2410-018_l1_4, datin_imkt_data:isopropanol_2;
+    obo:OBI_0000299 datin_imkt_data:alumina_ball_2410-018_l1_6;
+    obo:RO_0000057 datin_imkt_data:beaker_1;
+    obo:RO_0002233 datin_imkt_data:alumina_ball_2410-018_l1_4, datin_imkt_data:isopropanol_2;
+    obo:RO_0002234 datin_imkt_data:alumina_ball_2410-018_l1_6;
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Cleaning 2410-018 L1";
+    dcterms:type emmo:EMMO_92eaefcb_50be_4237_9ec0_4a019ce24921;
+    prov:atLocation datin_imkt_data:8143001132;
+    prov:endedAtTime "2025-01-20T09:31:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:alumina_ball_2410-018_l1_6;
+    prov:qualifiedUsage datin_imkt_data:beaker_2, datin_imkt_data:alumina_ball_2410-018_l1_5, datin_imkt_data:isopropanol_1;
+    prov:startedAtTime "2025-01-20T09:30:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:beaker_1, datin_imkt_data:alumina_ball_2410-018_l1_4, datin_imkt_data:isopropanol_2;
+    pmd:characteristic datin_imkt_data:dudvohcv2htxxxa47r96kp9x, datin_imkt_data:j3la9rfl34d8wgtwddda6mus, datin_imkt_data:xouw06cgh1lvk3zmq8klvijy.
+
+datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Ultrasonic Cleaning 2410-018 (Isopropanol)";
+    obo:BFO_0000062 datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    obo:BFO_0000063 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:isopropanol_2, datin_imkt_data:disk_2410-018_15;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_9;
+    obo:RO_0000057 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    obo:RO_0002233 datin_imkt_data:isopropanol_2, datin_imkt_data:disk_2410-018_15;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_9;
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Ultrasonic Cleaning 2410-018 (Isopropanol)";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    prov:atLocation datin_imkt_data:8143001132;
+    prov:endedAtTime "2025-01-20T09:25:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-018_9;
+    prov:qualifiedUsage datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3, datin_imkt_data:isopropanol_3, datin_imkt_data:disk_2410-018_16;
+    prov:startedAtTime "2025-01-20T09:15:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2, datin_imkt_data:isopropanol_2, datin_imkt_data:disk_2410-018_15;
+    prov:wasInfluencedBy datin_imkt_data:hardening_2, datin_imkt_data:finishing_2410-018_2, datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    pmd:characteristic datin_imkt_data:klbib0h4repbecn2gkqmwmz5, datin_imkt_data:purnlrcw8dsdtf3cmcn4pd4w, datin_imkt_data:ey4ed7f4tsbvold2as2xr5oe.
+
+datin_imkt_data:8143001136 a obo:BFO_0000029, prov:Location;
+    rdfs:label "8143.001.136", "Mikrotribologielabor";
+    dcterms:created "2026-02-16T17:50:36.47+01:00"^^xsd:dateTime;
+    dcterms:identifier "8143.001.136";
+    dcterms:modified "2026-05-11T10:24:33.946+02:00"^^xsd:dateTime;
+    dcterms:title "8143.001.136".
+
+datin_imkt_data:disk_2410-018_9 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-018_6;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-018_15;
+    prov:wasGeneratedBy datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    pmd:characteristic datin_imkt_data:wa1fasdwt3wjnksj5l7fpg6b, datin_imkt_data:bt48t2jze5zoqr9fwrgu441c, datin_imkt_data:dgsqbivintdqdnihmi9wa0im, datin_imkt_data:q9smh4lwwlrwqs38mc6x5s5t.
+
+datin_imkt_data:alumina_ball_2410-018_l1_6 a prov:Entity, obo:BFO_0000040, obo:NCIT_C64353;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353, core:SphereModel;
+    prov:qualifiedGeneration datin_imkt_data:alumina_ball_2410-018_l1_1;
+    prov:wasDerivedFrom datin_imkt_data:alumina_ball_2410-018_l1_4;
+    prov:wasGeneratedBy datin_imkt_data:cleaning_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:fig4bbuli506pd53ng1gkb7i, datin_imkt_data:b789ik5g5trek352okvdzu1g, datin_imkt_data:i34ha6vt21vfc4shdsp4haeq, datin_imkt_data:fui5yem9aag5hr6aez4h7nrx, datin_imkt_data:nnv2t3g64bbj970brbjb5kbp, datin_imkt_data:zg8mcr25ni6o843rkzag7sz0.
+
+datin_imkt_data:wear_track_l1 a obo:BFO_0000040, prov:Entity;
+    rdfs:label "Wear Track L1";
+    dcterms:created "2026-07-16T16:28:58.381+02:00"^^xsd:dateTime;
+    dcterms:identifier "owl-922237";
+    dcterms:modified "2026-07-16T16:28:58.381+02:00"^^xsd:dateTime;
+    dcterms:title "Wear Track L1";
+    dcterms:type datin_imkt_vocab:wear_track;
+    prov:qualifiedGeneration datin_imkt_data:wear_track;
+    prov:wasGeneratedBy datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    schema:position 0;
+    pmd:characteristic datin_imkt_data:vyl1p4k35zdxjbm4zxghjraj, datin_imkt_data:htpaghjafdxpgsqqpw1nhm3r.
+
+datin_imkt_data:disk_2410-018_3 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T16:28:58.381+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T18:34:13.426+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-018_2;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-018_9;
+    prov:wasGeneratedBy datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:zimxtyu94jyidio44hofp11l, datin_imkt_data:mxkd689mmwpphayhbyl56lqv, datin_imkt_data:viwswm8nkdhn6ngx72l2bpkh, datin_imkt_data:hm6prav71vpbybh66nv348xa.
+
+datin_imkt_data:alumina_ball_2410-018_l1_3 a prov:Entity, obo:BFO_0000040, obo:NCIT_C64353;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:17:50.071+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T18:34:13.425+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353, core:SphereModel;
+    prov:qualifiedGeneration datin_imkt_data:alumina_ball_2410-018_l1_2;
+    prov:wasDerivedFrom datin_imkt_data:alumina_ball_2410-018_l1_6;
+    prov:wasGeneratedBy datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:icz54y8xmpjpzoxwn6qiyjih, datin_imkt_data:ewuh7yuupw6iri5uj37rt0qw, datin_imkt_data:pv8i6isgiby67rbfaii5zhqu, datin_imkt_data:eixcljnjdpencvcc9evoo7xs, datin_imkt_data:q028irowupe5zaovpkw1zcmi, datin_imkt_data:pydg278ktglk934xyetpbdeo.
+
+datin_imkt_data:6_mm_ball_holder_1 a pmd:PMD_0000602, prov:Entity;
+    rdfs:label "6 mm Ball Holder";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:created "2026-06-30T14:01:20.042+02:00"^^xsd:dateTime;
+    dcterms:identifier "orca-785637";
+    dcterms:modified "2026-06-30T14:01:20.042+02:00"^^xsd:dateTime;
+    dcterms:title "6 mm Ball Holder";
+    dcterms:type datin_imkt_vocab:ball_holder;
+    prov:atLocation datin_imkt_data:8143001136;
+    pmd:characteristic datin_imkt_data:cz2ps69k6wh4sx7vvyj1j101.
+
+datin_imkt_data:rubber_anti-slip_sheet_1 a pmd:PMD_0000602, prov:Entity;
+    rdfs:label "Rubber Anti-slip Sheet";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:created "2026-06-30T14:02:59.18+02:00"^^xsd:dateTime;
+    dcterms:description "<p>Possibly this one:</p><p>https://www.neolab.de/en/antirutschmatten-neolab-rutschfeste-folie-rot-40-x-200-cm-1-mm-dick-1-1959</p>";
+    dcterms:identifier "centipede-870157";
+    dcterms:modified "2026-06-30T14:02:59.18+02:00"^^xsd:dateTime;
+    dcterms:title "Rubber Anti-slip Sheet";
+    dcterms:type datin_imkt_vocab:foil;
+    prov:atLocation datin_imkt_data:8143001136;
+    pmd:PMD_0000004 datin_imkt_data:pasted-imagepng_2;
+    pmd:characteristic datin_imkt_data:sd17axpo0t5x3m6m5lnw5hmy, datin_imkt_data:kraeeieekr8aa49100vyrmet, datin_imkt_data:suvrc08wckz0ffuglv8k64ox.
+
+datin_imkt_data:milli_tribotester_premium_1 a prov:Entity, pmd:PMD_0000602;
+    rdfs:label "MILLI TRIBOtester PREMIUM";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:created "2026-06-30T13:56:10.676+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:rubber_anti-slip_sheet_1, datin_imkt_data:1_n_dead_weight, datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:2_n_dead_weight;
+    dcterms:identifier "minnow-794481";
+    dcterms:modified "2026-06-30T13:56:10.676+02:00"^^xsd:dateTime;
+    dcterms:title "MILLI TRIBOtester PREMIUM";
+    dcterms:type datin_imkt_vocab:reciprocating_ball-on-plate_tribometer;
+    prov:atLocation datin_imkt_data:8143001136;
+    pmd:PMD_0000004 datin_imkt_data:brochure_milli_tribotester-gbpdf_2;
+    pmd:characteristic datin_imkt_data:pyv14mzk3k98cvpolfn438w6, datin_imkt_data:dynefld0odwve4q0afnkrznv, datin_imkt_data:w4tjhy4jxljr8q2e2rehk6q6, datin_imkt_data:do01yv8vp21q12bf98apb6fp, datin_imkt_data:o7luv0gyxv74ltfenf0clbis.
+
+datin_imkt_data:6_mm_ball_holder_2 a prov:Usage;
+    rdfs:label "6 mm Ball Holder";
+    dcterms:created "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
+    dcterms:identifier "orca-785637";
+    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
+    dcterms:title "6 mm Ball Holder";
+    dcterms:type datin_imkt_vocab:ball_holder;
+    prov:entity datin_imkt_data:6_mm_ball_holder_1;
+    schema:position 5;
+    pmd:characteristic datin_imkt_data:n2t7tp65u0cud3m9ua5m7qe7.
+
+datin_imkt_data:rubber_anti-slip_sheet_2 a prov:Usage;
+    rdfs:label "Rubber Anti-slip Sheet";
+    dcterms:created "2026-07-16T18:34:13.426+02:00"^^xsd:dateTime;
+    dcterms:description "<p>Possibly this one:</p><p>https://www.neolab.de/en/antirutschmatten-neolab-rutschfeste-folie-rot-40-x-200-cm-1-mm-dick-1-1959</p>";
+    dcterms:identifier "centipede-870157";
+    dcterms:modified "2026-07-16T18:34:13.426+02:00"^^xsd:dateTime;
+    dcterms:title "Rubber Anti-slip Sheet";
+    dcterms:type datin_imkt_vocab:foil;
+    prov:entity datin_imkt_data:rubber_anti-slip_sheet_1;
+    schema:position 5;
+    pmd:characteristic datin_imkt_data:o6gl7agg7dd9bh0kmv2a1tm5, datin_imkt_data:td8ot7lvwpblthq5uiluj09u, datin_imkt_data:n6c4itj26baemx0jp5y7o677.
+
+datin_imkt_data:milli_tribotester_premium_2 a prov:Usage;
+    rdfs:label "MILLI TRIBOtester PREMIUM";
+    dcterms:conformsTo datin_imkt_data:xltthvlrna88bw53o3pf9svr;
+    dcterms:created "2026-07-16T16:17:50.072+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:6_mm_ball_holder_2, datin_imkt_data:rubber_anti-slip_sheet_2;
+    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
+    dcterms:title "MILLI TRIBOtester PREMIUM";
+    prov:atLocation datin_imkt_data:8143001136;
+    prov:entity datin_imkt_data:milli_tribotester_premium_1;
+    pmd:characteristic datin_imkt_data:n3ndessnhg6fpdk8nlkuj5pq, datin_imkt_data:to9dl80670skmd05y9vjbath, datin_imkt_data:jc48xrkova0qzeqbd50txsid, datin_imkt_data:g5ys2pgy8ug2t2peogmje018, datin_imkt_data:igisima51ak2gqrijvxwzpfe.
+
+datin_imkt_data:disk_2410-018_10 a prov:Usage;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T16:17:50.069+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T18:34:13.424+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-018_9;
+    pmd:characteristic datin_imkt_data:ll2c2sbb1yepoxyb7np7x2jl, datin_imkt_data:d8nb3gjenvjr92pivwz0mixk, datin_imkt_data:gld5v8bzutwn5u4wocv3n6wb, datin_imkt_data:f4c0xvmvqvo4kaox8ai56gaj.
+
+datin_imkt_data:alumina_ball_2410-018_l1_7 a prov:Usage;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:17:50.07+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T18:34:13.425+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353;
+    prov:entity datin_imkt_data:alumina_ball_2410-018_l1_6;
+    pmd:characteristic datin_imkt_data:d1l3nsv4ob346k8fl006qfn0, datin_imkt_data:qlexsgir7t3hnhfhj6i3t0pr, datin_imkt_data:khgbxyavkp9bgtgoe3fl9s2q, datin_imkt_data:l98wcw12nlgb04rncswld299, datin_imkt_data:me2j7drlikq0lqcmmcere2xy, datin_imkt_data:m1zyelg9lujagjkaw932vycx.
+
+datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Ultrasonic Cleaning 2410-018 (Acetone)";
+    obo:BFO_0000062 datin_imkt_data:finishing_2410-018_2;
+    obo:BFO_0000063 datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_15;
+    obo:RO_0000057 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    obo:RO_0002233 datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_15;
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Ultrasonic Cleaning 2410-018 (Acetone)";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    prov:atLocation datin_imkt_data:8143001132;
+    prov:endedAtTime "2025-01-17T13:10:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-018_15;
+    prov:qualifiedUsage datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_1, datin_imkt_data:acetone_2, datin_imkt_data:disk_2410-018_8;
+    prov:startedAtTime "2025-01-17T13:00:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2, datin_imkt_data:acetone_1, datin_imkt_data:disk_2410-018_7;
+    prov:wasInfluencedBy datin_imkt_data:hardening_2, datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:finishing_2410-018_2;
+    pmd:characteristic datin_imkt_data:y70489xtl0kjfhe802xcbxz1, datin_imkt_data:uslij13w6trvhis19qdxg5it, datin_imkt_data:nw6ty7wzyr8a0nmc8c288ki8.
+
+datin_imkt_data:hardening_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Hardening";
+    obo:BFO_0000062 datin_imkt_data:sample_cutting_2;
+    obo:BFO_0000063 datin_imkt_data:finishing_2410-019_2, datin_imkt_data:finishing_2410-018_2, datin_imkt_data:finishing_2410-06_p0304_2;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-018_11, datin_imkt_data:disk_2410-06_p0304_4;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-019_6, datin_imkt_data:disk_2410-018_13, datin_imkt_data:disk_2410-06_p0304_6;
+    obo:RO_0000057 datin_imkt_data:furnace_1;
+    obo:RO_0002233 datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-018_11, datin_imkt_data:disk_2410-06_p0304_4;
+    obo:RO_0002234 datin_imkt_data:disk_2410-019_6, datin_imkt_data:disk_2410-018_13, datin_imkt_data:disk_2410-06_p0304_6;
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Hardening";
+    dcterms:type kitmtxx41732562vp:har_xxx_xxx-0d731be688c94776970d61aaf72b5c93-vp;
+    prov:endedAtTime "2025-01-17T11:35:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-019_6, datin_imkt_data:disk_2410-018_13, datin_imkt_data:disk_2410-06_p0304_6;
+    prov:qualifiedUsage datin_imkt_data:furnace_2, datin_imkt_data:disk_2410-06_p0304_5, datin_imkt_data:disk_2410-019_5, datin_imkt_data:disk_2410-018_12;
+    prov:startedAtTime "2025-01-17T11:20:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:furnace_1, datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-018_11, datin_imkt_data:disk_2410-06_p0304_4;
+    prov:wasInformedBy datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:hhs8aty5fmtio92j2jz4rlhh, datin_imkt_data:sd62fbhlzwk6je8zwpaat0j6.
+
+datin_imkt_data:finishing_2410-018_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Finishing 2410-018";
+    obo:BFO_0000062 datin_imkt_data:hardening_2;
+    obo:BFO_0000063 datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-018_13;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_7;
+    obo:RO_0000057 datin_imkt_data:surface_grinding_machine_3;
+    obo:RO_0002233 datin_imkt_data:disk_2410-018_13;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_7;
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-018";
+    dcterms:type datin_imkt_vocab:grinding;
+    prov:endedAtTime "2025-01-17T11:50:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-018_7;
+    prov:qualifiedUsage datin_imkt_data:disk_2410-018_14, datin_imkt_data:surface_grinding_machine_4;
+    prov:startedAtTime "2025-01-17T11:40:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:disk_2410-018_13, datin_imkt_data:surface_grinding_machine_3;
+    prov:wasInfluencedBy datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:e2woda00vsu91lkmxjt1kb3w, datin_imkt_data:js0fn9acxcmxqtpt2w1l7p48.
+
+datin_imkt_data:sample_cutting_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Sample Cutting";
+    obo:BFO_0000063 datin_imkt_data:hardening_2;
+    obo:BFO_0000066 datin_imkt_data:8143000a003;
+    obo:OBI_0000293 datin_imkt_data:raw_billet_500x40_mm_1;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-06_p0304_4, datin_imkt_data:disk_2410-018_11;
+    obo:RO_0000057 datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_1;
+    obo:RO_0002233 datin_imkt_data:raw_billet_500x40_mm_1;
+    obo:RO_0002234 datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-018_11, datin_imkt_data:disk_2410-06_p0304_4;
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Sample Cutting";
+    dcterms:type datin_imkt_vocab:sample_cutting;
+    prov:atLocation datin_imkt_data:8143000a003;
+    prov:endedAtTime "2025-01-17T11:15:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-019_4, datin_imkt_data:disk_2410-018_11, datin_imkt_data:disk_2410-06_p0304_4;
+    prov:qualifiedUsage datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_2, datin_imkt_data:raw_billet_500x40_mm_2;
+    prov:startedAtTime "2025-01-17T11:00:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_1, datin_imkt_data:raw_billet_500x40_mm_1;
+    pmd:characteristic datin_imkt_data:atbjof7yz1prsa1nk6o87p28, datin_imkt_data:fhupe2frrxniihcwz4d32ia8.
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    obo:IAO_0000136 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    dcterms:created "2026-07-16T16:25:17.865+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T18:34:13.423+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    dcat:distribution datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_1;
+    prov:specializationOf datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_3.
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    obo:IAO_0000136 datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    dcterms:created "2026-07-16T16:25:17.864+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T18:34:13.421+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    dcat:distribution datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_1;
+    prov:specializationOf datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_3.
+
+datin_imkt_data:qv5bcnm0qflu4258yj1oajam a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:45:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:ovsq41de8x0ykvhiaxtt04ef a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:duration;
+    skos:scopeNote "Description";
+    prov:value "625"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "6.25E2";
+    pmd:unit preloaded:second.
+
+datin_imkt_data:jyw3eq5aobvk4vvd01rll7ct a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:55:42+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:zjifwwox77f2bjvjus2j9pbk a pmd:SetPoint, pmd:ValueObject;
+    rdfs:label "Specimen Position";
+    dcterms:references datin_imkt_data:d330e7ocgiun2jhuy9kld6e9;
+    dcterms:type datin_imkt_vocab:specimen_position;
+    skos:scopeNote "SetpointControlledConstantOccurrence";
+    prov:value "L1";
+    schema:position 3.
+
+datin_imkt_data:8143001132 a obo:BFO_0000029, prov:Location;
+    rdfs:label "8143.001.132", "Schmierstoffe Labor";
+    dcterms:created "2026-04-13T10:03:44.301+02:00"^^xsd:dateTime;
+    dcterms:identifier "8143.001.132";
+    dcterms:modified "2026-05-11T10:24:34.001+02:00"^^xsd:dateTime;
+    dcterms:title "8143.001.132".
+
+datin_imkt_data:alumina_ball_2410-018_l1_4 a prov:Entity, obo:BFO_0000040, obo:NCIT_C64353;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T15:52:10.525+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T15:52:10.525+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353, core:SphereModel;
+    pmd:characteristic datin_imkt_data:rprih3dniilnca2mcpowduub, datin_imkt_data:p37kbtuw3oj7ysak44c0vv2z, datin_imkt_data:s5c6tsj3gxljii3pgw4aqw9x, datin_imkt_data:f3cub8famafu0dof6vfp1fc7, datin_imkt_data:aimm7wnxm1lpnptnee6nw7sb, datin_imkt_data:o1qjnaf9nasdm1al47kfgl9b.
+
+datin_imkt_data:isopropanol_2 a obo:BFO_0000040, prov:Entity;
+    rdfs:label "Isopropanol";
+    dcterms:created "2026-07-16T14:49:45.104+02:00"^^xsd:dateTime;
+    dcterms:identifier "catshark-451352";
+    dcterms:modified "2026-07-16T14:49:45.104+02:00"^^xsd:dateTime;
+    dcterms:title "Isopropanol";
+    dcterms:type datin_imkt_vocab:isopropanol_concept;
+    pmd:characteristic datin_imkt_data:budxor4u544ey5oi2mxtxuqg, datin_imkt_data:o3vyblr04ilj9q3hfi3q37ax.
+
+datin_imkt_data:beaker_1 a nfdi4cat:voc4cat_0007231, pmd:PMD_0000602, prov:Entity;
+    rdfs:label "Beaker";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:created "2026-07-16T15:51:01.124+02:00"^^xsd:dateTime;
+    dcterms:identifier "bison-354563";
+    dcterms:modified "2026-07-16T15:51:01.124+02:00"^^xsd:dateTime;
+    dcterms:title "Beaker";
+    dcterms:type nfdi4cat:voc4cat_0007231;
+    prov:atLocation datin_imkt_data:8143001136;
+    pmd:PMD_0000004 datin_imkt_data:00_-_steel_beakerjpeg_1;
+    pmd:characteristic datin_imkt_data:h8nmjvb6pf4rhcbmvzii3oto.
+
+datin_imkt_data:beaker_2 a prov:Usage;
+    rdfs:label "Beaker";
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:identifier "bison-354563";
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Beaker";
+    dcterms:type nfdi4cat:voc4cat_0007231;
+    prov:entity datin_imkt_data:beaker_1;
+    pmd:characteristic datin_imkt_data:mo22twy4nmdge4apxv2duvzj.
+
+datin_imkt_data:alumina_ball_2410-018_l1_5 a prov:Usage;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353;
+    prov:entity datin_imkt_data:alumina_ball_2410-018_l1_4;
+    pmd:characteristic datin_imkt_data:uv0qkdg86xhna4i5bw42l6kf, datin_imkt_data:hhy1e311r90ylwoch9q1329y, datin_imkt_data:r31bhn93xqb7aleb77c7bi1i, datin_imkt_data:dbinflnjql3mdpvv9tcwvwke, datin_imkt_data:xhis60etpvfpphxfemxeby10, datin_imkt_data:kfql90tgid4q10n8gnq23x4a.
+
+datin_imkt_data:isopropanol_1 a prov:Usage;
+    rdfs:label "Isopropanol";
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:identifier "catshark-451352";
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Isopropanol";
+    dcterms:type datin_imkt_vocab:isopropanol_concept;
+    prov:entity datin_imkt_data:isopropanol_2;
+    pmd:characteristic datin_imkt_data:pnw0pbhd2u9fryyrm8uycsg3, datin_imkt_data:tbq85fv71on1wquq527lzef7.
+
+datin_imkt_data:dudvohcv2htxxxa47r96kp9x a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:30:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:j3la9rfl34d8wgtwddda6mus a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:duration;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "10";
+    pmd:unit preloaded:second.
+
+datin_imkt_data:xouw06cgh1lvk3zmq8klvijy a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:31:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:disk_2410-018_15 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-018_1;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-018_7;
+    prov:wasGeneratedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    pmd:characteristic datin_imkt_data:u3198wzegguc7cmen1ms4ybd, datin_imkt_data:bfcgtfpyzhu9l1funmctt86m, datin_imkt_data:w5z0aa9cnkab7fr8xs4wpzm0, datin_imkt_data:jmv3zd1mx8fpwgnodokr36f4.
+
+datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2 a kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp, pmd:PMD_0000602, prov:Entity;
+    rdfs:label "Bandelin TT6 - Ultrasonic Cleaner";
+    obo:RO_0001025 datin_imkt_data:8143001132;
+    dcterms:created "2026-07-01T19:37:58.242+02:00"^^xsd:dateTime;
+    dcterms:identifier "perch-760375";
+    dcterms:modified "2026-07-01T19:37:58.242+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin TT6 - Ultrasonic Cleaner";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp;
+    prov:atLocation datin_imkt_data:8143001132;
+    pmd:PMD_0000004 datin_imkt_data:bandelin_-_tt6jpeg_2;
+    pmd:characteristic datin_imkt_data:brt90zx6zqsoevqmz7mqhzqz, datin_imkt_data:cf4ms2dmtmm2pgpu6j1jdo4l, datin_imkt_data:qfuz71kkfaje2lzyf8f2dg54.
+
+datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3 a prov:Usage;
+    rdfs:label "Bandelin TT6 - Ultrasonic Cleaner";
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:identifier "perch-760375";
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin TT6 - Ultrasonic Cleaner";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp;
+    prov:entity datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    pmd:characteristic datin_imkt_data:ptav9xs7rgvpwz3cir8z2qtl, datin_imkt_data:xompa1jmamhzjlnwbw0gaavy, datin_imkt_data:hsybg7rwzxv29w6e7ivvfdv8.
+
+datin_imkt_data:isopropanol_3 a prov:Usage;
+    rdfs:label "Isopropanol";
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:identifier "catshark-451352";
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Isopropanol";
+    dcterms:type datin_imkt_vocab:isopropanol_concept;
+    prov:entity datin_imkt_data:isopropanol_2;
+    pmd:characteristic datin_imkt_data:jck9f1jnr1nfmkiqi3iee13l, datin_imkt_data:qzgavjfkdsfiiqrswyap2ljp.
+
+datin_imkt_data:disk_2410-018_16 a prov:Usage;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-018_15;
+    pmd:characteristic datin_imkt_data:ydui81pirfpnzhkrnpymsxw9, datin_imkt_data:dqesuzfrey5xezq8hnymmjd5, datin_imkt_data:pa2pbnpslmg9yyn1aksvpf3q, datin_imkt_data:meeq8m1qxyp4xbpwo1xv3ihe.
+
+datin_imkt_data:klbib0h4repbecn2gkqmwmz5 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:duration;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "600";
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:purnlrcw8dsdtf3cmcn4pd4w a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:25:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:ey4ed7f4tsbvold2as2xr5oe a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-20T09:15:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:disk_2410-018_6 a prov:Generation;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    pmd:characteristic datin_imkt_data:nuncd6t9441kjlimvwr3xu1v, datin_imkt_data:rsumjta8izwmwhedlr2at24x, datin_imkt_data:r2cft9c2e6ol7kllfk5lvlhr, datin_imkt_data:yblmklz6g6blqy51w0nhfuit.
+
+datin_imkt_data:wa1fasdwt3wjnksj5l7fpg6b a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:bt48t2jze5zoqr9fwrgu441c a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:dgsqbivintdqdnihmi9wa0im a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:uys4cmcx7u5mgy5hlg39eo2r;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:q9smh4lwwlrwqs38mc6x5s5t a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:uys4cmcx7u5mgy5hlg39eo2r;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:alumina_ball_2410-018_l1_1 a prov:Generation;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353;
+    prov:activity datin_imkt_data:cleaning_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:vh82wpjh02lndeon8kguk989, datin_imkt_data:aeef1qu8t36atifsbr7w55hm, datin_imkt_data:ln4wydarwikyg0v665lxssyy, datin_imkt_data:p24k46b7e0erjdaq7acy0d7s, datin_imkt_data:ghi0o8dhewtifx018vtafj5c, datin_imkt_data:odi8skusb7rgtddty2hs6dqk.
+
+datin_imkt_data:fig4bbuli506pd53ng1gkb7i a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "Description";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:b789ik5g5trek352okvdzu1g a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:i34ha6vt21vfc4shdsp4haeq a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:fui5yem9aag5hr6aez4h7nrx a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "Description";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3870";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:nnv2t3g64bbj970brbjb5kbp a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:zg8mcr25ni6o843rkzag7sz0 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:dhokdytbpkaczn8igaljic2e;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:wear_track a prov:Generation;
+    rdfs:label "Wear Track";
+    dcterms:created "2026-07-16T16:28:58.454+02:00"^^xsd:dateTime;
+    dcterms:identifier "owl-922237";
+    dcterms:modified "2026-07-16T18:34:13.426+02:00"^^xsd:dateTime;
+    dcterms:title "Wear Track";
+    dcterms:type datin_imkt_vocab:wear_track;
+    prov:activity datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    schema:position 0;
+    pmd:characteristic datin_imkt_data:ti49eish7z5lcslisqdce034, datin_imkt_data:vv4gw8oxgubcbx2tuxyjgmhu.
+
+datin_imkt_data:vyl1p4k35zdxjbm4zxghjraj a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:htpaghjafdxpgsqqpw1nhm3r a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:y7r2cb3glx2yzff51t9gemhc;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    schema:position 0.
+
+datin_imkt_data:disk_2410-018_2 a prov:Generation;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T16:28:58.454+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T18:34:13.426+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:c82syvfnat08456e9ba7ltkq, datin_imkt_data:zzswow7ehnsxam9omg8lntmr, datin_imkt_data:rpqr84an8gm7duugvzi8io51, datin_imkt_data:svwfveis5c5pup5w0jkovl5b.
+
+datin_imkt_data:zimxtyu94jyidio44hofp11l a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:mxkd689mmwpphayhbyl56lqv a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:bpo4ik6jdwvc7htfhmeo48kz;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:viwswm8nkdhn6ngx72l2bpkh a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:hm6prav71vpbybh66nv348xa a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:bpo4ik6jdwvc7htfhmeo48kz;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:alumina_ball_2410-018_l1_2 a prov:Generation;
+    rdfs:label "Alumina Ball 2410-018 L1";
+    dcterms:created "2026-07-16T16:17:50.071+02:00"^^xsd:dateTime;
+    dcterms:description "<p>99.8 % Al2O3</p>";
+    dcterms:identifier "marmot-224195";
+    dcterms:modified "2026-07-16T18:34:13.425+02:00"^^xsd:dateTime;
+    dcterms:title "Alumina Ball 2410-018 L1";
+    dcterms:type obo:NCIT_C64353;
+    prov:activity datin_imkt_data:tribological_experiment_2410-018_l1_2;
+    pmd:characteristic datin_imkt_data:dmrrkfx5tszfr6gki8cb9zl2, datin_imkt_data:ozczfjyw9o82tg9ne2xpwbeu, datin_imkt_data:u753lwadk51e5jmsxcqbcbvv, datin_imkt_data:p57907p23bkxerxlad4wn46m, datin_imkt_data:ce1qxyfisalrbrlapnjsbqro, datin_imkt_data:xbw4tawhl80pkywel4ygw5uy.
+
+datin_imkt_data:icz54y8xmpjpzoxwn6qiyjih a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:ewuh7yuupw6iri5uj37rt0qw a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "Description";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3.87E3";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:pv8i6isgiby67rbfaii5zhqu a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "Description";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:eixcljnjdpencvcc9evoo7xs a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:j209uoanx46x5dx4du74ssdk;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:q028irowupe5zaovpkw1zcmi a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:pydg278ktglk934xyetpbdeo a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:cz2ps69k6wh4sx7vvyj1j101 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:pasted-imagepng_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "pasted-image.png";
+    obo:IAO_0000136 datin_imkt_data:rubber_anti-slip_sheet_1;
+    dcterms:created "2026-06-30T14:02:59.18+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-30T14:02:59.18+02:00"^^xsd:dateTime;
+    dcterms:title "pasted-image.png";
+    dcat:distribution datin_imkt_data:pasted-imagepng_1;
+    prov:specializationOf datin_imkt_data:pasted-imagepng_3.
+
+datin_imkt_data:sd17axpo0t5x3m6m5lnw5hmy a pmd:Metadata, pmd:ValueObject;
+    dcterms:references pmd:PMD_0000888;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Polymer";
+    schema:position 2.
+
+datin_imkt_data:kraeeieekr8aa49100vyrmet a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Thickness";
+    dcterms:type obo:NCIT_C41145;
+    skos:scopeNote "Description";
+    prov:value "1"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "1.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:suvrc08wckz0ffuglv8k64ox a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Color";
+    dcterms:type obo:NCIT_C37927;
+    skos:scopeNote "Description";
+    prov:value "Red";
+    schema:position 0.
+
+datin_imkt_data:1_n_dead_weight a pmd:PMD_0000602, prov:Entity;
+    rdfs:label "1 N Dead Weight";
+    dcterms:created "2026-06-30T13:58:49.551+02:00"^^xsd:dateTime;
+    dcterms:identifier "vicuna-157344-quokka-809800";
+    dcterms:modified "2026-06-30T13:58:49.551+02:00"^^xsd:dateTime;
+    dcterms:title "1 N Dead Weight";
+    pmd:PMD_0000004 datin_imkt_data:tribotechnic_-_1_n_weightjpeg_3;
+    pmd:characteristic datin_imkt_data:zd3p0wgsztj6kg2u3t7sciid, datin_imkt_data:lp0174zcs4griqd9r96qh2am.
+
+datin_imkt_data:2_n_dead_weight a pmd:PMD_0000602, prov:Entity;
+    rdfs:label "2 N Dead Weight";
+    dcterms:created "2026-06-30T13:59:50.925+02:00"^^xsd:dateTime;
+    dcterms:identifier "shark-811202";
+    dcterms:modified "2026-06-30T13:59:50.925+02:00"^^xsd:dateTime;
+    dcterms:title "2 N Dead Weight";
+    pmd:characteristic datin_imkt_data:cakximcdizaolyu8rx19zi6x, datin_imkt_data:fv8yhv3d31gpojx3j8yxlime.
+
+datin_imkt_data:brochure_milli_tribotester-gbpdf_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    obo:IAO_0000136 datin_imkt_data:milli_tribotester_premium_1;
+    dcterms:created "2026-06-30T13:56:10.676+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-30T13:56:10.676+02:00"^^xsd:dateTime;
+    dcterms:title "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    dcat:distribution datin_imkt_data:brochure_milli_tribotester-gbpdf_1;
+    prov:specializationOf datin_imkt_data:brochure_milli_tribotester-gbpdf_3.
+
+datin_imkt_data:pyv14mzk3k98cvpolfn438w6 a pmd:ValueObject;
+    dcterms:type preloaded:friction_force;
+    skos:scopeNote "MeasuredCapability";
+    schema:maxValue "3"^^xsd:double;
+    schema:minValue "0.001"^^xsd:double;
+    schema:position 1;
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:dynefld0odwve4q0afnkrznv a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:speed_velocity_magnitude;
+    skos:scopeNote "SetpointControlledConstantCapability";
+    schema:maxValue "8"^^xsd:double;
+    schema:minValue "0.08"^^xsd:double;
+    schema:position 3;
+    pmd:unit preloaded:millimeter_per_second.
+
+datin_imkt_data:w4tjhy4jxljr8q2e2rehk6q6 a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:distance;
+    skos:scopeNote "SetpointControlledConstantCapability";
+    schema:maxValue "10000"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 2;
+    pmd:unit preloaded:meter.
+
+datin_imkt_data:do01yv8vp21q12bf98apb6fp a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:displacement;
+    skos:scopeNote "SetpointControlledConstantCapability";
+    schema:maxValue "20"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 4;
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:o7luv0gyxv74ltfenf0clbis a pmd:ValueObject;
+    dcterms:type preloaded:normal_force;
+    skos:scopeNote "SetpointUncontrolledConstantCapability";
+    schema:maxValue "3"^^xsd:double;
+    schema:minValue "0.001"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:n2t7tp65u0cud3m9ua5m7qe7 a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:o6gl7agg7dd9bh0kmv2a1tm5 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references pmd:PMD_0000888;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Polymer";
+    schema:position 2.
+
+datin_imkt_data:td8ot7lvwpblthq5uiluj09u a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Thickness";
+    dcterms:type obo:NCIT_C41145;
+    skos:scopeNote "InputOccurrence";
+    prov:value "1"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "1.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:n6c4itj26baemx0jp5y7o677 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Color";
+    dcterms:type obo:NCIT_C37927;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Red";
+    schema:position 0.
+
+datin_imkt_data:xltthvlrna88bw53o3pf9svr a prov:Entity;
+    dcterms:hasPart datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:rubber_anti-slip_sheet_1;
+    prov:specializationOf datin_imkt_data:milli_tribotester_premium_1;
+    schema:position 5.
+
+datin_imkt_data:n3ndessnhg6fpdk8nlkuj5pq a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:friction_force;
+    skos:scopeNote "MeasuredOccurrence";
+    schema:maxValue "3"^^xsd:double;
+    schema:minValue "0.001"^^xsd:double;
+    schema:position 1;
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:to9dl80670skmd05y9vjbath a pmd:ValueObject;
+    dcterms:type preloaded:normal_force;
+    skos:scopeNote "SetpointUncontrolledConstantOccurrence";
+    prov:value "1"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "1.0E0";
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:jc48xrkova0qzeqbd50txsid a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:displacement;
+    skos:scopeNote "SetpointControlledConstantOccurrence";
+    schema:maxValue "20"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 4;
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:g5ys2pgy8ug2t2peogmje018 a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:speed_velocity_magnitude;
+    skos:scopeNote "SetpointControlledConstantOccurrence";
+    prov:value "8"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "8.0E-3";
+    pmd:unit preloaded:millimeter_per_second.
+
+datin_imkt_data:igisima51ak2gqrijvxwzpfe a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:distance;
+    skos:scopeNote "SetpointControlledConstantOccurrence";
+    prov:value "5"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "5.0E0";
+    pmd:unit preloaded:meter.
+
+datin_imkt_data:ll2c2sbb1yepoxyb7np7x2jl a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:zr5my4ih97sao2j0lnmqzo5u;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:d8nb3gjenvjr92pivwz0mixk a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:gld5v8bzutwn5u4wocv3n6wb a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:zr5my4ih97sao2j0lnmqzo5u;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:f4c0xvmvqvo4kaox8ai56gaj a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:d1l3nsv4ob346k8fl006qfn0 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:qlexsgir7t3hnhfhj6i3t0pr a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:khgbxyavkp9bgtgoe3fl9s2q a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:t4ign45b7o9pse4i7ub137wg;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:l98wcw12nlgb04rncswld299 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "InputOccurrence";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:me2j7drlikq0lqcmmcere2xy a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "InputOccurrence";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3.87E3";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:m1zyelg9lujagjkaw932vycx a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:acetone_1 a obo:BFO_0000040, prov:Entity;
+    rdfs:label "Acetone";
+    dcterms:created "2026-07-16T14:48:18.386+02:00"^^xsd:dateTime;
+    dcterms:identifier "ptarmigan-872151";
+    dcterms:modified "2026-07-16T14:48:18.386+02:00"^^xsd:dateTime;
+    dcterms:title "Acetone";
+    dcterms:type datin_imkt_vocab:acetone_concept;
+    pmd:characteristic datin_imkt_data:op5bmm75fjq23cnvsz9pty0f, datin_imkt_data:tvana5jg76xhs15mzzi9qsrr.
+
+datin_imkt_data:disk_2410-018_7 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-018_5;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-018_13;
+    prov:wasGeneratedBy datin_imkt_data:finishing_2410-018_2;
+    pmd:characteristic datin_imkt_data:bj1zmi0ki7jjbotui2x2ozl8, datin_imkt_data:p9o8d6f4gqf9t9v148i71li1, datin_imkt_data:jb4by78mwynh3pvfcjuhuk1t, datin_imkt_data:gsw4rjikjoesb2kpzjqjdqzm.
+
+datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_1 a prov:Usage;
+    rdfs:label "Bandelin TT6 - Ultrasonic Cleaner";
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:identifier "perch-760375";
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin TT6 - Ultrasonic Cleaner";
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp;
+    prov:entity datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    pmd:characteristic datin_imkt_data:sbhlvejcwlqsmwlu18p03wnr, datin_imkt_data:te7iuyi5qy6km784121834vd, datin_imkt_data:hdrqcym2ksp4dg1v9u8dg5ie.
+
+datin_imkt_data:acetone_2 a prov:Usage;
+    rdfs:label "Acetone";
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:identifier "ptarmigan-872151";
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Acetone";
+    dcterms:type datin_imkt_vocab:acetone_concept;
+    prov:entity datin_imkt_data:acetone_1;
+    pmd:characteristic datin_imkt_data:uer4wdop820lqfms3kqa038a, datin_imkt_data:ara8yhx7ph6jr4s7xjhk5y3i.
+
+datin_imkt_data:disk_2410-018_8 a prov:Usage;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-018_7;
+    pmd:characteristic datin_imkt_data:oqc5qilcegu16zqnsfojerfz, datin_imkt_data:rll2oig8gdqymetn3p32f1x4, datin_imkt_data:srh4efii6htuzugopqf4ow3j, datin_imkt_data:f5ieidf383u6hy6z22lc9vva.
+
+datin_imkt_data:y70489xtl0kjfhe802xcbxz1 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T13:10:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:uslij13w6trvhis19qdxg5it a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:duration;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "600";
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:nw6ty7wzyr8a0nmc8c288ki8 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T13:00:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:finishing_2410-019_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Finishing 2410-019";
+    obo:BFO_0000062 datin_imkt_data:hardening_2;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-019_6;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-019_3;
+    obo:RO_0000057 datin_imkt_data:surface_grinding_machine_3;
+    obo:RO_0002233 datin_imkt_data:disk_2410-019_6;
+    obo:RO_0002234 datin_imkt_data:disk_2410-019_3;
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-019";
+    dcterms:type datin_imkt_vocab:grinding;
+    prov:endedAtTime "2025-01-17T12:10:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-019_3;
+    prov:qualifiedUsage datin_imkt_data:disk_2410-019_7, datin_imkt_data:surface_grinding_machine_2;
+    prov:startedAtTime "2025-01-17T12:00:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:disk_2410-019_6, datin_imkt_data:surface_grinding_machine_3;
+    prov:wasInfluencedBy datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:ttszy6kn3sugtm0ziymsners, datin_imkt_data:ejj1nr71mwtedik1er499m0p.
+
+datin_imkt_data:finishing_2410-06_p0304_2 a prov:Activity, obo:COB_0000035;
+    rdfs:label "Finishing 2410-06 P0304";
+    obo:BFO_0000062 datin_imkt_data:hardening_2;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-06_p0304_6;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-06_p0304_3;
+    obo:RO_0000057 datin_imkt_data:surface_grinding_machine_3;
+    obo:RO_0002233 datin_imkt_data:disk_2410-06_p0304_6;
+    obo:RO_0002234 datin_imkt_data:disk_2410-06_p0304_3;
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-06 P0304";
+    dcterms:type datin_imkt_vocab:grinding;
+    prov:endedAtTime "2025-01-17T12:25:00+01:00"^^xsd:dateTime;
+    prov:generated datin_imkt_data:disk_2410-06_p0304_3;
+    prov:qualifiedUsage datin_imkt_data:disk_2410-06_p0304_7, datin_imkt_data:surface_grinding_machine_1;
+    prov:startedAtTime "2025-01-17T12:15:00+01:00"^^xsd:dateTime;
+    prov:used datin_imkt_data:disk_2410-06_p0304_6, datin_imkt_data:surface_grinding_machine_3;
+    prov:wasInfluencedBy datin_imkt_data:sample_cutting_2;
+    prov:wasInformedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:hqygn9xq4kg5gsxrzmqa6h0h, datin_imkt_data:bdjzq6zr9tcvkgsm8t2kxacn.
+
+datin_imkt_data:disk_2410-019_4 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_1;
+    prov:wasDerivedFrom datin_imkt_data:raw_billet_500x40_mm_1;
+    prov:wasGeneratedBy datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:pu3krrsul0inq8lwk7kh25ln, datin_imkt_data:g8zwn5xnpuw4spk6zyxint7s, datin_imkt_data:wwhrsiygoab9zpdgd14lf7hr, datin_imkt_data:je188ejd1foq92p1d0que8ld.
+
+datin_imkt_data:disk_2410-018_11 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_3;
+    prov:wasDerivedFrom datin_imkt_data:raw_billet_500x40_mm_1;
+    prov:wasGeneratedBy datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:e2rdyvh1lwsf3vejw1puqr74, datin_imkt_data:o5h0whhdupbagrh04tsimtv8, datin_imkt_data:adihdf1w1q1fcu2dgi1bc2ia, datin_imkt_data:aj3o5o8a43aq4yeeuiyvvio7.
+
+datin_imkt_data:disk_2410-06_p0304_4 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2;
+    prov:wasDerivedFrom datin_imkt_data:raw_billet_500x40_mm_1;
+    prov:wasGeneratedBy datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:l7mm9w23hk9x9fu5ei4f7nkf, datin_imkt_data:o7wkg4jpjhz45qksotysb2np, datin_imkt_data:m5c0mclbj7xf59jq9lhxpdy5, datin_imkt_data:m6bdf2p0q8uorggwumcqg80t.
+
+datin_imkt_data:disk_2410-019_6 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-019_1;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-019_4;
+    prov:wasGeneratedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:ovhbzylwripd89z5iixic479, datin_imkt_data:v8uc55oygjys7o9ob403hwm4, datin_imkt_data:hbc3wjwmjxbbszfrdo3paj4n, datin_imkt_data:f00gguiygz20zw72sw5b9pzc.
+
+datin_imkt_data:disk_2410-018_13 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-018_4;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-018_11;
+    prov:wasGeneratedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:jakqzgx3eyknol9ct7orhk77, datin_imkt_data:lgrejjvzjft9o8az23kae15x, datin_imkt_data:jd78wdcx4piz7ahwv9uuaj7d, datin_imkt_data:hsbi6yrc7iycsdvadbkikg0d.
+
+datin_imkt_data:disk_2410-06_p0304_6 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-06_p0304_1;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-06_p0304_4;
+    prov:wasGeneratedBy datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:bcjkp9imun1kvfwapen4cfp9, datin_imkt_data:tlu5rxuxmg78sfwqm9ivwyy0, datin_imkt_data:sjfb4svh6rl4zqggrjxgjhrs, datin_imkt_data:qxufdkzn03vayli6tqd5s1v7.
+
+datin_imkt_data:furnace_1 a kitmtxx41732562vp:fur_xxx_xxx-c04aefd269c64c6fa2773c318193f2d6-vp, pmd:PMD_0000602, prov:Entity;
+    rdfs:label "Furnace";
+    dcterms:created "2026-07-16T13:38:20.799+02:00"^^xsd:dateTime;
+    dcterms:identifier "rooster-366894";
+    dcterms:modified "2026-07-16T13:38:20.799+02:00"^^xsd:dateTime;
+    dcterms:title "Furnace";
+    dcterms:type kitmtxx41732562vp:fur_xxx_xxx-c04aefd269c64c6fa2773c318193f2d6-vp;
+    pmd:characteristic datin_imkt_data:tyeflidww3a4kczvig94r93d, datin_imkt_data:baowb5lhm3b367ltbqy0u85u, datin_imkt_data:nv1d3qgv9quv012kk971fn28.
+
+datin_imkt_data:furnace_2 a prov:Usage;
+    rdfs:label "Furnace";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "rooster-366894";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Furnace";
+    dcterms:type kitmtxx41732562vp:fur_xxx_xxx-c04aefd269c64c6fa2773c318193f2d6-vp;
+    prov:entity datin_imkt_data:furnace_1;
+    pmd:characteristic datin_imkt_data:ndu3qw5qxs6jrw8o7gu7bw8c, datin_imkt_data:ozyf1cshi3ptix9z1gqlto4o, datin_imkt_data:kq05uhm4s0qze2dh46m7fh8v.
+
+datin_imkt_data:disk_2410-06_p0304_5 a prov:Usage;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-06_p0304_4;
+    pmd:characteristic datin_imkt_data:qn72qvs9qqc45rm9qksvlk0d, datin_imkt_data:rfvwb12fjbvukcv5h9610lqs, datin_imkt_data:pajblfa878imzc5sj4j9anwu, datin_imkt_data:danayx0qvw7cwwp7p3rclsqn.
+
+datin_imkt_data:disk_2410-019_5 a prov:Usage;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-019_4;
+    pmd:characteristic datin_imkt_data:mr99uievnwqfdxbmoly1clnt, datin_imkt_data:asybz9ukokan5sxkropihyj1, datin_imkt_data:bf5kcr5d75ni89m47xkv8uof, datin_imkt_data:o4zqd02uakrrx3v3maduuxqr.
+
+datin_imkt_data:disk_2410-018_12 a prov:Usage;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-018_11;
+    pmd:characteristic datin_imkt_data:tl8i6qczmo28tp3so6a8r4gy, datin_imkt_data:iltx0da13u5zo82elmea3uq7, datin_imkt_data:j663xc2ckb9h0iieexqhg0d8, datin_imkt_data:vq6n7zricacrk07q2nfei47v.
+
+datin_imkt_data:hhs8aty5fmtio92j2jz4rlhh a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:35:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:sd62fbhlzwk6je8zwpaat0j6 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:20:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:surface_grinding_machine_3 a pmd:PMD_0000667, pmd:PMD_0000602, prov:Entity;
+    rdfs:label "Surface Grinding Machine";
+    dcterms:created "2026-07-16T14:24:02.709+02:00"^^xsd:dateTime;
+    dcterms:identifier "snipe-205236";
+    dcterms:modified "2026-07-16T14:24:02.709+02:00"^^xsd:dateTime;
+    dcterms:title "Surface Grinding Machine";
+    dcterms:type pmd:PMD_0000667;
+    pmd:PMD_0000004 datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_2;
+    pmd:characteristic datin_imkt_data:yfbdauvr1u0e12xqa27001gh.
+
+datin_imkt_data:disk_2410-018_14 a prov:Usage;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-018_13;
+    pmd:characteristic datin_imkt_data:lhb3dx7zkm0lx4nmduagc14o, datin_imkt_data:nn29p8xlwog8prft40ilg6w2, datin_imkt_data:sz4jynzu5qjrcbml4ldj3qfp, datin_imkt_data:oibx88z0fec9doa6djh01d07.
+
+datin_imkt_data:surface_grinding_machine_4 a prov:Usage;
+    rdfs:label "Surface Grinding Machine";
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Surface Grinding Machine";
+    prov:entity datin_imkt_data:surface_grinding_machine_3;
+    pmd:characteristic datin_imkt_data:su8y2tvwphhkae26gxv88goi.
+
+datin_imkt_data:e2woda00vsu91lkmxjt1kb3w a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:40:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:js0fn9acxcmxqtpt2w1l7p48 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:50:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:8143000a003 a obo:BFO_0000029, prov:Location;
+    rdfs:label "8143.000.A003", "Workshop";
+    dcterms:created "2026-04-13T10:00:36.034+02:00"^^xsd:dateTime;
+    dcterms:identifier "8143.000.A003";
+    dcterms:modified "2026-05-11T10:24:33.946+02:00"^^xsd:dateTime;
+    dcterms:title "8143.000.A003".
+
+datin_imkt_data:raw_billet_500x40_mm_1 a obo:BFO_0000040, prov:Entity;
+    rdfs:label "Raw Billet (500x40 mm)";
+    dcterms:created "2026-07-16T13:29:22.663+02:00"^^xsd:dateTime;
+    dcterms:identifier "cricket-641037";
+    dcterms:modified "2026-07-16T13:29:22.663+02:00"^^xsd:dateTime;
+    dcterms:title "Raw Billet (500x40 mm)";
+    dcterms:type core:RightCircularCylinderModel, datin_imkt_vocab:raw_billetstock;
+    pmd:characteristic datin_imkt_data:km0wheok2fg3xurdwxr7ymr7, datin_imkt_data:c4czalej3yukyzhcvialkd9n, datin_imkt_data:ko368ku1x3q5s4jbolf0tcn9, datin_imkt_data:ryhcnamqw95fnesq3vtddazv, datin_imkt_data:a8ql3g6b4a7kx1jnzp9gkfhg.
+
+datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_1 a pmd:PMD_0000602, prov:Entity;
+    rdfs:label "HURCO VMX 42t - CNC Lathe";
+    obo:RO_0001025 datin_imkt_data:8143000a003;
+    dcterms:created "2026-07-14T11:05:38.005+02:00"^^xsd:dateTime;
+    dcterms:identifier "chameleon-222303";
+    dcterms:modified "2026-07-14T11:05:38.005+02:00"^^xsd:dateTime;
+    dcterms:title "HURCO VMX 42t - CNC Lathe";
+    dcterms:type datin_imkt_vocab:lathe;
+    prov:atLocation datin_imkt_data:8143000a003;
+    pmd:characteristic datin_imkt_data:ukhd42gzo92s54oudv7i2siu, datin_imkt_data:qep4zun8xwxgoo5j9b2t77lv.
+
+datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_2 a prov:Usage;
+    rdfs:label "HURCO VMX 42t - CNC Lathe";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "HURCO VMX 42t - CNC Lathe";
+    prov:atLocation datin_imkt_data:8143000a003;
+    prov:entity datin_imkt_data:hurco_vmx_42t_-_cnc_lathe_1;
+    pmd:characteristic datin_imkt_data:bd9c51euzdx8ofub4q8mvf1i, datin_imkt_data:r8zn80mv13xpihp01iscfdni.
+
+datin_imkt_data:raw_billet_500x40_mm_2 a prov:Usage;
+    rdfs:label "Raw Billet (500x40 mm)";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "cricket-641037";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Raw Billet (500x40 mm)";
+    dcterms:type datin_imkt_vocab:raw_billetstock;
+    prov:entity datin_imkt_data:raw_billet_500x40_mm_1;
+    pmd:characteristic datin_imkt_data:t97pycelch95aq7o3guq79ck, datin_imkt_data:smpkshb9m9qlosp24aqcuf6p, datin_imkt_data:audp5vsr74bpkmh1xwd6j6f5, datin_imkt_data:qmiy2vh0trzgeu3p0iq7194d, datin_imkt_data:q9l1yauui4s6g5z3e264y89p.
+
+datin_imkt_data:atbjof7yz1prsa1nk6o87p28 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:15:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:fhupe2frrxniihcwz4d32ia8 a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T11:00:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_1 a dcat:Distribution;
+    dcterms:created "2026-07-16T16:24:23.197+02:00"^^xsd:dateTime;
+    dcterms:identifier "xdt04yqwzgmfvl6a9muhqs0w/681512c3ab633970618876a7eeefde472c9416cc538ff3ec599b86c274c56d23/REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    dcterms:modified "2026-07-16T16:24:23.197+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    <http://spdx.org/rdf/terms#checksumValue> "681512c3ab633970618876a7eeefde472c9416cc538ff3ec599b86c274c56d23";
+    dcat:byteSize 488072;
+    dcat:mediaType "application/octet-stream".
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    dcterms:created "2026-07-16T16:24:27.327+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T16:24:27.327+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.MTT";
+    dcterms:type preloaded:common_data_object.
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_1 a dcat:Distribution;
+    dcterms:created "2026-07-16T16:24:23.197+02:00"^^xsd:dateTime;
+    dcterms:identifier "b6kaz0i12ewskotnv9cxmoxt/105cf4d9695ea1d16685d69b26c3a534f37e56a0030a7afe79e65a47a05c6c65/REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    dcterms:modified "2026-07-16T16:24:23.197+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    <http://spdx.org/rdf/terms#checksumValue> "105cf4d9695ea1d16685d69b26c3a534f37e56a0030a7afe79e65a47a05c6c65";
+    dcat:byteSize 28670;
+    dcat:mediaType "text/csv".
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    dcterms:created "2026-07-16T16:24:27.327+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T16:24:27.327+02:00"^^xsd:dateTime;
+    dcterms:title "REF_Wear_CERAMIC_5m_8mms_1000mN_001.csv";
+    dcterms:type preloaded:simple_tabular_data_object.
+
+preloaded:second a qudt:Unit.
+
+datin_imkt_data:d330e7ocgiun2jhuy9kld6e9 rdfs:label "L1".
+
+datin_imkt_data:rprih3dniilnca2mcpowduub a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:p37kbtuw3oj7ysak44c0vv2z a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:aasa0chr41awkdxt5u5garl7;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:s5c6tsj3gxljii3pgw4aqw9x a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:f3cub8famafu0dof6vfp1fc7 a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "Description";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:aimm7wnxm1lpnptnee6nw7sb a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:o1qjnaf9nasdm1al47kfgl9b a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "Description";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3870";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_vocab:isopropanol_concept prov:alternateOf compound:CID3776.
+
+datin_imkt_data:budxor4u544ey5oi2mxtxuqg a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:liquid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:o3vyblr04ilj9q3hfi3q37ax a pmd:Metadata, pmd:ValueObject;
+    dcterms:references compound:CID3776;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Isopropanol (Material)";
+    schema:position 0.
+
+datin_imkt_data:00_-_steel_beakerjpeg_1 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "00 - Steel Beaker.jpeg";
+    obo:IAO_0000136 datin_imkt_data:beaker_1;
+    dcterms:created "2026-07-16T15:51:01.124+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T15:51:01.124+02:00"^^xsd:dateTime;
+    dcterms:title "00 - Steel Beaker.jpeg";
+    dcat:distribution datin_imkt_data:00_-_steel_beakerjpeg_2;
+    prov:specializationOf datin_imkt_data:00_-_steel_beakerjpeg_4.
+
+datin_imkt_data:h8nmjvb6pf4rhcbmvzii3oto a pmd:Metadata, pmd:ValueObject;
+    dcterms:references entity:Q172587;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Stainless Steel";
+    schema:position 0.
+
+datin_imkt_data:mo22twy4nmdge4apxv2duvzj a pmd:Metadata, pmd:ValueObject;
+    dcterms:references entity:Q172587;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Stainless Steel";
+    schema:position 0.
+
+datin_imkt_data:uv0qkdg86xhna4i5bw42l6kf a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:hhy1e311r90ylwoch9q1329y a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wsnt4d6hh1m15dyaq5azzfzp;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:r31bhn93xqb7aleb77c7bi1i a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:dbinflnjql3mdpvv9tcwvwke a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "InputOccurrence";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:xhis60etpvfpphxfemxeby10 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:kfql90tgid4q10n8gnq23x4a a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "InputOccurrence";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3870";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:pnw0pbhd2u9fryyrm8uycsg3 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references compound:CID3776;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Isopropanol (Material)";
+    schema:position 0.
+
+datin_imkt_data:tbq85fv71on1wquq527lzef7 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:liquid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:disk_2410-018_1 a prov:Generation;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    pmd:characteristic datin_imkt_data:gbs1niwf4olivcp9wppxo5hd, datin_imkt_data:vidaypy5f3y46s50wl9n0hdq, datin_imkt_data:mz1ccjluxe3ympvaiu19w9n0, datin_imkt_data:kw0fz2yb68be6qkqs43tl5d5.
+
+datin_imkt_data:u3198wzegguc7cmen1ms4ybd a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:bfcgtfpyzhu9l1funmctt86m a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:muuh1nc1270u1qdmnmbfhe3k;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:w5z0aa9cnkab7fr8xs4wpzm0 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:jmv3zd1mx8fpwgnodokr36f4 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:muuh1nc1270u1qdmnmbfhe3k;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:bandelin_-_tt6jpeg_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "Bandelin - TT6.jpeg";
+    obo:IAO_0000136 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
+    dcterms:created "2026-07-01T19:37:58.242+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-01T19:37:58.242+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin - TT6.jpeg";
+    dcat:distribution datin_imkt_data:bandelin_-_tt6jpeg_1;
+    prov:specializationOf datin_imkt_data:bandelin_-_tt6jpeg_3.
+
+datin_imkt_data:brt90zx6zqsoevqmz7mqhzqz a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "Bandelin Electronic";
+    schema:position 2.
+
+datin_imkt_data:cf4ms2dmtmm2pgpu6j1jdo4l a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:frequency_hertz_cyclic;
+    skos:scopeNote "Description";
+    prov:value "35"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "35000";
+    pmd:unit preloaded:kilohertz.
+
+datin_imkt_data:qfuz71kkfaje2lzyf8f2dg54 a pmd:ValueObject;
+    dcterms:type preloaded:time;
+    skos:scopeNote "SetpointControlledVariableCapability";
+    schema:maxValue "120"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:ptav9xs7rgvpwz3cir8z2qtl a pmd:ValueObject;
+    dcterms:type preloaded:time;
+    skos:scopeNote "SetpointControlledVariableOccurrence";
+    schema:maxValue "120"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:xompa1jmamhzjlnwbw0gaavy a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:frequency_hertz_cyclic;
+    skos:scopeNote "InputOccurrence";
+    prov:value "35"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "35000";
+    pmd:unit preloaded:kilohertz.
+
+datin_imkt_data:hsybg7rwzxv29w6e7ivvfdv8 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Bandelin Electronic";
+    schema:position 2.
+
+datin_imkt_data:jck9f1jnr1nfmkiqi3iee13l a pmd:Metadata, pmd:ValueObject;
+    dcterms:references compound:CID3776;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Isopropanol (Material)";
+    schema:position 0.
+
+datin_imkt_data:qzgavjfkdsfiiqrswyap2ljp a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:liquid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:ydui81pirfpnzhkrnpymsxw9 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:dqesuzfrey5xezq8hnymmjd5 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:l47cz9b85639kd4sjlk7fk0i;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:pa2pbnpslmg9yyn1aksvpf3q a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:l47cz9b85639kd4sjlk7fk0i;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:meeq8m1qxyp4xbpwo1xv3ihe a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+preloaded:minute a qudt:Unit.
+
+datin_imkt_data:nuncd6t9441kjlimvwr3xu1v a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a6v7lvvso1cedna0pka2stfw;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:rsumjta8izwmwhedlr2at24x a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a6v7lvvso1cedna0pka2stfw;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:r2cft9c2e6ol7kllfk5lvlhr a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:yblmklz6g6blqy51w0nhfuit a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp rdfs:label "100Cr6 Steel".
+
+datin_imkt_data:uys4cmcx7u5mgy5hlg39eo2r a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+preloaded:millimeter a qudt:Unit.
+
+datin_imkt_data:vh82wpjh02lndeon8kguk989 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:aeef1qu8t36atifsbr7w55hm a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:ln4wydarwikyg0v665lxssyy a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:w3vyy20cxcp3u0pjskcyqt8t;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:p24k46b7e0erjdaq7acy0d7s a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3870";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:ghi0o8dhewtifx018vtafj5c a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:odi8skusb7rgtddty2hs6dqk a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:e4ert7uygr516mqlu52qg3kb rdfs:label "G28".
+
+datin_imkt_data:h5um1zwbytfn4nwameda81c4 rdfs:label "TK Linear".
+
+obo:CHEBI_30191 rdfs:label "Alpha-Aluminium Oxide".
+
+preloaded:gram_per_cubic_centimeter a qudt:Unit.
+
+datin_imkt_data:dhokdytbpkaczn8igaljic2e a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:ti49eish7z5lcslisqdce034 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:vv4gw8oxgubcbx2tuxyjgmhu a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:y7r2cb3glx2yzff51t9gemhc;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    schema:position 0.
+
+datin_imkt_data:c82syvfnat08456e9ba7ltkq a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:zzswow7ehnsxam9omg8lntmr a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:rpqr84an8gm7duugvzi8io51 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:r57crgcs69oxupq26h6u5o8m;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:svwfveis5c5pup5w0jkovl5b a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:r57crgcs69oxupq26h6u5o8m;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:bpo4ik6jdwvc7htfhmeo48kz a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:dmrrkfx5tszfr6gki8cb9zl2 a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:h5um1zwbytfn4nwameda81c4;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "TK Linear";
+    schema:position 4.
+
+datin_imkt_data:ozczfjyw9o82tg9ne2xpwbeu a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Steel Ball Tolerance";
+    dcterms:references datin_imkt_data:e4ert7uygr516mqlu52qg3kb;
+    dcterms:type datin_imkt_vocab:steel_ball_tolerance;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "G28";
+    schema:position 2.
+
+datin_imkt_data:u753lwadk51e5jmsxcqbcbvv a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:density;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "3.87"^^xsd:double;
+    schema:position 5;
+    pmd:PMD_0000006 "3.87E3";
+    pmd:unit preloaded:gram_per_cubic_centimeter.
+
+datin_imkt_data:p57907p23bkxerxlad4wn46m a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:ctr5oiqfchm59s00k8g3camu;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "6"^^xsd:double;
+    schema:position 0;
+    pmd:PMD_0000006 "6.0E-3";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:ce1qxyfisalrbrlapnjsbqro a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:xbw4tawhl80pkywel4ygw5uy a pmd:Metadata, pmd:ValueObject;
+    dcterms:references obo:CHEBI_30191;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Alpha-Aluminium Oxide";
+    schema:position 3.
+
+datin_imkt_data:j209uoanx46x5dx4du74ssdk a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:pasted-imagepng_1 a dcat:Distribution;
+    dcterms:created "2026-06-23T13:34:59.013+02:00"^^xsd:dateTime;
+    dcterms:identifier "acxmp8rpddtufdq6s6xhbw5r/f45acf3ab776bfeb701fa289389cf92115ae3ecffde28ac32445e229877ab94b/pasted-image.png";
+    dcterms:modified "2026-06-23T13:34:59.013+02:00"^^xsd:dateTime;
+    dcterms:title "pasted-image.png";
+    <http://spdx.org/rdf/terms#checksumValue> "f45acf3ab776bfeb701fa289389cf92115ae3ecffde28ac32445e229877ab94b";
+    dcat:byteSize 170519;
+    dcat:mediaType "image/png".
+
+datin_imkt_data:pasted-imagepng_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "pasted-image.png";
+    dcterms:created "2026-06-23T13:35:03.112+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-23T13:35:03.112+02:00"^^xsd:dateTime;
+    dcterms:title "pasted-image.png";
+    dcterms:type preloaded:datin-generated_raster_image_data_object.
+
+pmd:PMD_0000888 rdfs:label "Polymer".
+
+datin_imkt_data:tribotechnic_-_1_n_weightjpeg_3 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "TRIBOtechnic - 1 N Weight.jpeg";
+    obo:IAO_0000136 datin_imkt_data:1_n_dead_weight;
+    dcterms:created "2026-06-30T13:58:49.551+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-30T13:58:49.551+02:00"^^xsd:dateTime;
+    dcterms:title "TRIBOtechnic - 1 N Weight.jpeg";
+    dcat:distribution datin_imkt_data:tribotechnic_-_1_n_weightjpeg_2;
+    prov:specializationOf datin_imkt_data:tribotechnic_-_1_n_weightjpeg_4.
+
+datin_imkt_data:zd3p0wgsztj6kg2u3t7sciid a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:weight;
+    skos:scopeNote "Description";
+    prov:value "1"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "1";
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:lp0174zcs4griqd9r96qh2am a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "22"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "2.2E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:cakximcdizaolyu8rx19zi6x a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:fv8yhv3d31gpojx3j8yxlime a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:weight;
+    skos:scopeNote "Description";
+    prov:value "2"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "2";
+    pmd:unit preloaded:newton.
+
+datin_imkt_data:brochure_milli_tribotester-gbpdf_1 a dcat:Distribution;
+    dcterms:created "2026-06-16T13:52:36.565+02:00"^^xsd:dateTime;
+    dcterms:identifier "o13tba4bpz3m575cay1r2qli/9ecb88dce8f39f26bf5e5561c9005324727ab20d717d108d49413c45665d385a/BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    dcterms:modified "2026-06-16T13:52:36.565+02:00"^^xsd:dateTime;
+    dcterms:title "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    <http://spdx.org/rdf/terms#checksumValue> "9ecb88dce8f39f26bf5e5561c9005324727ab20d717d108d49413c45665d385a";
+    dcat:byteSize 1505378;
+    dcat:mediaType "application/pdf".
+
+datin_imkt_data:brochure_milli_tribotester-gbpdf_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    dcterms:created "2026-06-16T13:52:40.785+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-16T13:52:40.785+02:00"^^xsd:dateTime;
+    dcterms:title "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    dcterms:type preloaded:document_data_object.
+
+preloaded:newton a qudt:Unit.
+
+preloaded:millimeter_per_second a qudt:Unit.
+
+preloaded:meter a qudt:Unit.
+
+datin_imkt_data:zr5my4ih97sao2j0lnmqzo5u a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:t4ign45b7o9pse4i7ub137wg a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_vocab:acetone_concept prov:alternateOf compound:CID180.
+
+datin_imkt_data:op5bmm75fjq23cnvsz9pty0f a pmd:Metadata, pmd:ValueObject;
+    dcterms:references compound:CID180;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Acetone (Material)";
+    schema:position 0.
+
+datin_imkt_data:tvana5jg76xhs15mzzi9qsrr a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:liquid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:disk_2410-018_5 a prov:Generation;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:finishing_2410-018_2;
+    pmd:characteristic datin_imkt_data:r97spb7nvcsn0z693sfnems0, datin_imkt_data:lel2xxuo9spdryyxyy24prd0, datin_imkt_data:xovhj67pzrkv37zzvgwsbtf8, datin_imkt_data:cnt8d4ic2y7e6jz4c4t42jzq.
+
+datin_imkt_data:bj1zmi0ki7jjbotui2x2ozl8 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:znayu7nuu2b2jl614az29av0;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:p9o8d6f4gqf9t9v148i71li1 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:znayu7nuu2b2jl614az29av0;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:jb4by78mwynh3pvfcjuhuk1t a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:gsw4rjikjoesb2kpzjqjdqzm a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:sbhlvejcwlqsmwlu18p03wnr a pmd:ValueObject;
+    dcterms:type preloaded:time;
+    skos:scopeNote "SetpointControlledVariableOccurrence";
+    schema:maxValue "120"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:te7iuyi5qy6km784121834vd a pmd:Measurement, pmd:ValueObject;
+    dcterms:type preloaded:frequency_hertz_cyclic;
+    skos:scopeNote "InputOccurrence";
+    prov:value "35"^^xsd:double;
+    schema:position 1;
+    pmd:PMD_0000006 "35000";
+    pmd:unit preloaded:kilohertz.
+
+datin_imkt_data:hdrqcym2ksp4dg1v9u8dg5ie a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Bandelin Electronic";
+    schema:position 2.
+
+datin_imkt_data:uer4wdop820lqfms3kqa038a a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:liquid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:ara8yhx7ph6jr4s7xjhk5y3i a pmd:Metadata, pmd:ValueObject;
+    dcterms:references compound:CID180;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "Acetone (Material)";
+    schema:position 0.
+
+datin_imkt_data:oqc5qilcegu16zqnsfojerfz a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:rll2oig8gdqymetn3p32f1x4 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:srh4efii6htuzugopqf4ow3j a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:bj74fceii4cl5linhej7q1ia;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:f5ieidf383u6hy6z22lc9vva a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:bj74fceii4cl5linhej7q1ia;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:disk_2410-019_3 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-019_2;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-019_6;
+    prov:wasGeneratedBy datin_imkt_data:finishing_2410-019_2;
+    pmd:characteristic datin_imkt_data:pk3065h4w4s1dwu2pawxej3h, datin_imkt_data:pxzlj8ipw3zw9tbii6vs6wfn, datin_imkt_data:v4lmzlnigi9iizrb6xdmv7ki, datin_imkt_data:ge7t3txl7ue7np1ibbo18v1k.
+
+datin_imkt_data:disk_2410-019_7 a prov:Usage;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-019_6;
+    pmd:characteristic datin_imkt_data:na18d69dphp6dmejjh4z2bw9, datin_imkt_data:mmunx2y5rva0c7icwqxznrx1, datin_imkt_data:ep1dsqnaq9ner4lzppd4yuzo, datin_imkt_data:y6kzcuhxr19exm3durz4w609.
+
+datin_imkt_data:surface_grinding_machine_2 a prov:Usage;
+    rdfs:label "Surface Grinding Machine";
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Surface Grinding Machine";
+    prov:entity datin_imkt_data:surface_grinding_machine_3;
+    pmd:characteristic datin_imkt_data:yiwkz86svo1y367gaeofdjxy.
+
+datin_imkt_data:ttszy6kn3sugtm0ziymsners a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T12:00:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:ejj1nr71mwtedik1er499m0p a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T12:10:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:disk_2410-06_p0304_3 a prov:Entity, obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp, core:RightCircularCylinderModel;
+    prov:qualifiedGeneration datin_imkt_data:disk_2410-06_p0304_2;
+    prov:wasDerivedFrom datin_imkt_data:disk_2410-06_p0304_6;
+    prov:wasGeneratedBy datin_imkt_data:finishing_2410-06_p0304_2;
+    pmd:characteristic datin_imkt_data:irkdkvx6m66ogwbii91bcdg5, datin_imkt_data:j947b8r6zh6794sz0entabpq, datin_imkt_data:oot6iiowr51yv62thxf0vcdt, datin_imkt_data:cgld58kh1bb4i2ukammblokf.
+
+datin_imkt_data:disk_2410-06_p0304_7 a prov:Usage;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:entity datin_imkt_data:disk_2410-06_p0304_6;
+    pmd:characteristic datin_imkt_data:bf3utf71k6d0de501fwlxdxw, datin_imkt_data:gfwb2j3mf7nl2dragxbgdpok, datin_imkt_data:mubh79wnrpv6alftxy72dejv, datin_imkt_data:tuvd4fh93wlqpszx6899hsqr.
+
+datin_imkt_data:surface_grinding_machine_1 a prov:Usage;
+    rdfs:label "Surface Grinding Machine";
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Surface Grinding Machine";
+    prov:entity datin_imkt_data:surface_grinding_machine_3;
+    pmd:characteristic datin_imkt_data:mff8dnajqhvxu1fx093gprxe.
+
+datin_imkt_data:hqygn9xq4kg5gsxrzmqa6h0h a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:start_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T12:15:00+01:00"^^xsd:dateTime;
+    schema:position 0.
+
+datin_imkt_data:bdjzq6zr9tcvkgsm8t2kxacn a pmd:Metadata, pmd:ValueObject;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description";
+    prov:value "2025-01-17T12:25:00+01:00"^^xsd:dateTime;
+    schema:position 1.
+
+datin_imkt_data:disk_1 a prov:Generation;
+    rdfs:label "Disk";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:hp2aq9ah4ouh1ffws4r7bf4j, datin_imkt_data:spurykn9l81cx50svhajuxk2, datin_imkt_data:juc2owehfcxlurabz0xkpr3n, datin_imkt_data:qe72fqflykfhx7hwqndz1tlg.
+
+datin_imkt_data:pu3krrsul0inq8lwk7kh25ln a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a72bx47waujpubljja6psq7j;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:g8zwn5xnpuw4spk6zyxint7s a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:wwhrsiygoab9zpdgd14lf7hr a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:je188ejd1foq92p1d0que8ld a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a72bx47waujpubljja6psq7j;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:disk_3 a prov:Generation;
+    rdfs:label "Disk";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:yo8vz51rfwqh58lr9hep2feo, datin_imkt_data:ug732vag3yhvqpotcb99m59q, datin_imkt_data:jatfqbskamuvkukba58gt6dg, datin_imkt_data:tzwpdllsj7srn7ak7ayuzcmc.
+
+datin_imkt_data:e2rdyvh1lwsf3vejw1puqr74 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:o5h0whhdupbagrh04tsimtv8 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:h1wt4v89sjye92z97p5bx8fm;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:adihdf1w1q1fcu2dgi1bc2ia a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:h1wt4v89sjye92z97p5bx8fm;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:aj3o5o8a43aq4yeeuiyvvio7 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:disk_2 a prov:Generation;
+    rdfs:label "Disk";
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Disk";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:sample_cutting_2;
+    pmd:characteristic datin_imkt_data:yle5nasv3vwsnfr6yccixpi7, datin_imkt_data:x634n2ks4y6anp83pnoao7jc, datin_imkt_data:pvz1c4nd34nfonywirbdbz0t, datin_imkt_data:t03bqum5h5odoqkhst6l0ypq.
+
+datin_imkt_data:l7mm9w23hk9x9fu5ei4f7nkf a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:o7wkg4jpjhz45qksotysb2np a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:cs1vvniy4hx2rxsig7pdj0qt;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:m5c0mclbj7xf59jq9lhxpdy5 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:cs1vvniy4hx2rxsig7pdj0qt;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:m6bdf2p0q8uorggwumcqg80t a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:disk_2410-019_1 a prov:Generation;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:ni0s94rnq89v5dyw0ofbngmv, datin_imkt_data:tgwr2jufonkgzu0v7ng6znum, datin_imkt_data:exle6ld9gceb2uex9qyzvixi, datin_imkt_data:i92wqxsg5n369pxk5mkz00lm.
+
+datin_imkt_data:ovhbzylwripd89z5iixic479 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:v8uc55oygjys7o9ob403hwm4 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:hbc3wjwmjxbbszfrdo3paj4n a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:zpqu7kwst7k5ath79w2wai8n;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:f00gguiygz20zw72sw5b9pzc a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:zpqu7kwst7k5ath79w2wai8n;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:disk_2410-018_4 a prov:Generation;
+    rdfs:label "Disk 2410-018";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "salamander-572884";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-018";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:iogwxs6gslcj8o237dogl0hh, datin_imkt_data:zpthj3nghu5otvgl0srbs4de, datin_imkt_data:qcs22sb2641zfaoej1oojsc1, datin_imkt_data:dk5p3tnb5kk9kp4cm9ujyqln.
+
+datin_imkt_data:jakqzgx3eyknol9ct7orhk77 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:lks461ihvv8fe4uweybojnot;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:lgrejjvzjft9o8az23kae15x a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:jd78wdcx4piz7ahwv9uuaj7d a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:lks461ihvv8fe4uweybojnot;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:hsbi6yrc7iycsdvadbkikg0d a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:disk_2410-06_p0304_1 a prov:Generation;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:hardening_2;
+    pmd:characteristic datin_imkt_data:p6po9rk3g3edu5qjame43c73, datin_imkt_data:ba6278czzzp2gwnhojk5dduv, datin_imkt_data:qtt79u4cucpin61eodpcr41y, datin_imkt_data:op9jb5bww6hdxtxx2knpwn99.
+
+datin_imkt_data:bcjkp9imun1kvfwapen4cfp9 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:tlu5rxuxmg78sfwqm9ivwyy0 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:pyl329qy5bs0llwwc3ykqdjd;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:sjfb4svh6rl4zqggrjxgjhrs a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:pyl329qy5bs0llwwc3ykqdjd;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:qxufdkzn03vayli6tqd5s1v7 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:tyeflidww3a4kczvig94r93d a pmd:ValueObject;
+    rdfs:label "Time at High Temperature";
+    dcterms:type datin_imkt_vocab:time_at_high_temperature;
+    skos:scopeNote "SetpointControlledVariableCapability";
+    schema:maxValue "60"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 1;
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:baowb5lhm3b367ltbqy0u85u a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:iizpxfx585mrmkjgk7ghlri7;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "Kutz & Schulze";
+    schema:position 2.
+
+datin_imkt_data:nv1d3qgv9quv012kk971fn28 a pmd:ValueObject;
+    rdfs:label "Process Temperature";
+    dcterms:type datin_imkt_vocab:process_temperature;
+    skos:scopeNote "SetpointControlledVariableCapability";
+    schema:maxValue "1500"^^xsd:double;
+    schema:minValue "500"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:degree_celsius.
+
+datin_imkt_data:ndu3qw5qxs6jrw8o7gu7bw8c a pmd:ValueObject;
+    rdfs:label "Process Temperature";
+    dcterms:type datin_imkt_vocab:process_temperature;
+    skos:scopeNote "SetpointControlledVariableOccurrence";
+    schema:maxValue "1500"^^xsd:double;
+    schema:minValue "500"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:degree_celsius.
+
+datin_imkt_data:ozyf1cshi3ptix9z1gqlto4o a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:iizpxfx585mrmkjgk7ghlri7;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Kutz & Schulze";
+    schema:position 2.
+
+datin_imkt_data:kq05uhm4s0qze2dh46m7fh8v a pmd:ValueObject;
+    rdfs:label "Time at High Temperature";
+    dcterms:type datin_imkt_vocab:time_at_high_temperature;
+    skos:scopeNote "SetpointControlledVariableOccurrence";
+    schema:maxValue "60"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 1;
+    pmd:unit preloaded:minute.
+
+datin_imkt_data:qn72qvs9qqc45rm9qksvlk0d a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:rfvwb12fjbvukcv5h9610lqs a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:c91az2lhq7kbjgtp1aqonjc5;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:pajblfa878imzc5sj4j9anwu a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:danayx0qvw7cwwp7p3rclsqn a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:c91az2lhq7kbjgtp1aqonjc5;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:mr99uievnwqfdxbmoly1clnt a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:asybz9ukokan5sxkropihyj1 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:bf5kcr5d75ni89m47xkv8uof a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:lpjtkv8ss1j2bvwhtikkh8z0;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:o4zqd02uakrrx3v3maduuxqr a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:lpjtkv8ss1j2bvwhtikkh8z0;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:tl8i6qczmo28tp3so6a8r4gy a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:w5r5bzrkkot1wa89qvnhbndv;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:iltx0da13u5zo82elmea3uq7 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:j663xc2ckb9h0iieexqhg0d8 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:vq6n7zricacrk07q2nfei47v a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:w5r5bzrkkot1wa89qvnhbndv;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_2 a dcat:Dataset, obo:IAO_0000027, prov:Entity;
+    rdfs:label "Elb- werkzeug - Grinding Machine.jpeg";
+    obo:IAO_0000136 datin_imkt_data:surface_grinding_machine_3;
+    dcterms:created "2026-07-16T14:24:02.709+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:24:02.709+02:00"^^xsd:dateTime;
+    dcterms:title "Elb- werkzeug - Grinding Machine.jpeg";
+    dcat:distribution datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_1;
+    prov:specializationOf datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_3.
+
+datin_imkt_data:yfbdauvr1u0e12xqa27001gh a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:tzg6yf0lrgkm5cg6g36ofhz2;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "ELB-Werkzeug- und Maschinenbau GmbH";
+    schema:position 0.
+
+datin_imkt_data:lhb3dx7zkm0lx4nmduagc14o a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:qn1o20jep9cgd5edy6pq7lyh;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:nn29p8xlwog8prft40ilg6w2 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:sz4jynzu5qjrcbml4ldj3qfp a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:oibx88z0fec9doa6djh01d07 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:qn1o20jep9cgd5edy6pq7lyh;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:su8y2tvwphhkae26gxv88goi a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:tzg6yf0lrgkm5cg6g36ofhz2;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "ELB-Werkzeug- und Maschinenbau GmbH";
+    schema:position 0.
+
+datin_imkt_data:km0wheok2fg3xurdwxr7ymr7 a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:rkhs1xz7ztrsj994glg8y5dj;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:c4czalej3yukyzhcvialkd9n a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:ko368ku1x3q5s4jbolf0tcn9 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:ryhcnamqw95fnesq3vtddazv a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:rkhs1xz7ztrsj994glg8y5dj;
+    dcterms:type preloaded:length;
+    skos:scopeNote "Description";
+    prov:value "500"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "5.0E-1";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:a8ql3g6b4a7kx1jnzp9gkfhg a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:nq7e7znmh5ps7uez5q55xw8g;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "Sürth Stahl- und Metallhandel";
+    schema:position 4.
+
+datin_imkt_data:ukhd42gzo92s54oudv7i2siu a pmd:Metadata, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "Description";
+    prov:value "Hurco";
+    schema:position 1.
+
+datin_imkt_data:qep4zun8xwxgoo5j9b2t77lv a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:angular_velocity;
+    skos:scopeNote "SetpointControlledConstantCapability";
+    schema:maxValue "12000"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:revolution_per_minute.
+
+datin_imkt_data:bd9c51euzdx8ofub4q8mvf1i a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Hurco";
+    schema:position 1.
+
+datin_imkt_data:r8zn80mv13xpihp01iscfdni a pmd:SetPoint, pmd:ValueObject;
+    dcterms:type preloaded:angular_velocity;
+    skos:scopeNote "SetpointControlledConstantOccurrence";
+    schema:maxValue "12000"^^xsd:double;
+    schema:minValue "0"^^xsd:double;
+    schema:position 0;
+    pmd:unit preloaded:revolution_per_minute.
+
+datin_imkt_data:t97pycelch95aq7o3guq79ck a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:smpkshb9m9qlosp24aqcuf6p a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:nq7e7znmh5ps7uez5q55xw8g;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "Sürth Stahl- und Metallhandel";
+    schema:position 4.
+
+datin_imkt_data:audp5vsr74bpkmh1xwd6j6f5 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:qmiy2vh0trzgeu3p0iq7194d a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:qutukaitojnyxpm6zf94wzyl;
+    dcterms:type preloaded:length;
+    skos:scopeNote "InputOccurrence";
+    prov:value "500"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "5.0E-1";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:q9l1yauui4s6g5z3e264y89p a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:qutukaitojnyxpm6zf94wzyl;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:aasa0chr41awkdxt5u5garl7 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+compound:CID3776 rdfs:label "Isopropanol (Material)".
+
+datin_imkt_data:00_-_steel_beakerjpeg_2 a dcat:Distribution;
+    dcterms:created "2026-06-30T11:51:39.842+02:00"^^xsd:dateTime;
+    dcterms:identifier "icuxbv2hy7p009euck6cwhcc/41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224/00_-_Steel_Beaker.jpeg";
+    dcterms:modified "2026-06-30T11:51:39.842+02:00"^^xsd:dateTime;
+    dcterms:title "00 - Steel Beaker.jpeg";
+    <http://spdx.org/rdf/terms#checksumValue> "41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224";
+    dcat:byteSize 766555;
+    dcat:mediaType "image/jpeg".
+
+datin_imkt_data:00_-_steel_beakerjpeg_4 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "00 - Steel Beaker.jpeg";
+    dcterms:created "2026-06-30T11:51:43.635+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-30T11:51:43.635+02:00"^^xsd:dateTime;
+    dcterms:title "00 - Steel Beaker.jpeg";
+    dcterms:type preloaded:raster_image_data_object.
+
+entity:Q172587 rdfs:label "Stainless Steel".
+
+datin_imkt_data:wsnt4d6hh1m15dyaq5azzfzp a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:gbs1niwf4olivcp9wppxo5hd a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:vidaypy5f3y46s50wl9n0hdq a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:iin42ocg8if9zn82tc7cerx5;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:mz1ccjluxe3ympvaiu19w9n0 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:iin42ocg8if9zn82tc7cerx5;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:kw0fz2yb68be6qkqs43tl5d5 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:muuh1nc1270u1qdmnmbfhe3k a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:bandelin_-_tt6jpeg_1 a dcat:Distribution;
+    dcterms:created "2026-07-01T19:34:44.147+02:00"^^xsd:dateTime;
+    dcterms:identifier "oeijdh01n3tmsdhl3h9ys26r/6e991c1b224e2078046b5cb2bd1184dee549e7965e5a7f78803f972741d26747/Bandelin_-_TT6.jpeg";
+    dcterms:modified "2026-07-01T19:34:44.147+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin - TT6.jpeg";
+    <http://spdx.org/rdf/terms#checksumValue> "6e991c1b224e2078046b5cb2bd1184dee549e7965e5a7f78803f972741d26747";
+    dcat:byteSize 1059595;
+    dcat:mediaType "image/jpeg".
+
+datin_imkt_data:bandelin_-_tt6jpeg_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "Bandelin - TT6.jpeg";
+    dcterms:created "2026-07-01T19:34:47.712+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-01T19:34:47.712+02:00"^^xsd:dateTime;
+    dcterms:title "Bandelin - TT6.jpeg";
+    dcterms:type preloaded:raster_image_data_object.
+
+preloaded:kilohertz a qudt:Unit.
+
+datin_imkt_data:l47cz9b85639kd4sjlk7fk0i a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:a6v7lvvso1cedna0pka2stfw a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:w3vyy20cxcp3u0pjskcyqt8t a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:r57crgcs69oxupq26h6u5o8m a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:ctr5oiqfchm59s00k8g3camu a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:tribotechnic_-_1_n_weightjpeg_2 a dcat:Distribution;
+    dcterms:created "2026-06-30T11:56:01.101+02:00"^^xsd:dateTime;
+    dcterms:identifier "qr2crn1l3g46ojexgg8d39yd/641cc75e24a60f760f4d88e3827474d7f0f40dbc17b08986137db558dc21ac78/TRIBOtechnic_-_1_N_Weight.jpeg";
+    dcterms:modified "2026-06-30T11:56:01.101+02:00"^^xsd:dateTime;
+    dcterms:title "TRIBOtechnic - 1 N Weight.jpeg";
+    <http://spdx.org/rdf/terms#checksumValue> "641cc75e24a60f760f4d88e3827474d7f0f40dbc17b08986137db558dc21ac78";
+    dcat:byteSize 658157;
+    dcat:mediaType "image/jpeg".
+
+datin_imkt_data:tribotechnic_-_1_n_weightjpeg_4 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "TRIBOtechnic - 1 N Weight.jpeg";
+    dcterms:created "2026-06-30T11:56:04.97+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-06-30T11:56:04.97+02:00"^^xsd:dateTime;
+    dcterms:title "TRIBOtechnic - 1 N Weight.jpeg";
+    dcterms:type preloaded:raster_image_data_object.
+
+compound:CID180 rdfs:label "Acetone (Material)".
+
+datin_imkt_data:r97spb7nvcsn0z693sfnems0 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:te5t4qdihzq6rdm1rrc5m7we;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:lel2xxuo9spdryyxyy24prd0 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:xovhj67pzrkv37zzvgwsbtf8 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:te5t4qdihzq6rdm1rrc5m7we;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:cnt8d4ic2y7e6jz4c4t42jzq a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:znayu7nuu2b2jl614az29av0 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:bj74fceii4cl5linhej7q1ia a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:disk_2410-019_2 a prov:Generation;
+    rdfs:label "Disk 2410-019";
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:identifier "stoat-597635";
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-019";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:finishing_2410-019_2;
+    pmd:characteristic datin_imkt_data:yb1qesxtshjpdgi5lv1qxr0c, datin_imkt_data:a3zjg9xmzk29hmzbanf34ye3, datin_imkt_data:kkg6yvxb84ci550648h379un, datin_imkt_data:zbrh8y8sd58aqeiy766unjcb.
+
+datin_imkt_data:pk3065h4w4s1dwu2pawxej3h a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wfn3slaorl7v2jcwwwsbrnw4;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:pxzlj8ipw3zw9tbii6vs6wfn a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:v4lmzlnigi9iizrb6xdmv7ki a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wfn3slaorl7v2jcwwwsbrnw4;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:ge7t3txl7ue7np1ibbo18v1k a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:na18d69dphp6dmejjh4z2bw9 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:mmunx2y5rva0c7icwqxznrx1 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:vvgkcxiyi1i4pwp3noguz7a1;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:ep1dsqnaq9ner4lzppd4yuzo a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:vvgkcxiyi1i4pwp3noguz7a1;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:y6kzcuhxr19exm3durz4w609 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:yiwkz86svo1y367gaeofdjxy a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:tzg6yf0lrgkm5cg6g36ofhz2;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "ELB-Werkzeug- und Maschinenbau GmbH";
+    schema:position 0.
+
+datin_imkt_data:disk_2410-06_p0304_2 a prov:Generation;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:identifier "marlin-129997";
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Disk 2410-06 P0304";
+    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    prov:activity datin_imkt_data:finishing_2410-06_p0304_2;
+    pmd:characteristic datin_imkt_data:rxx4oy3jc9bxlr7kpjy9k92j, datin_imkt_data:nn35d211fb59ncj9udhjq18m, datin_imkt_data:qd93umw641p6sf57izs6hoh5, datin_imkt_data:i18bajcpucxbn91f3xzlo3g5.
+
+datin_imkt_data:irkdkvx6m66ogwbii91bcdg5 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description";
+    schema:position 1.
+
+datin_imkt_data:j947b8r6zh6794sz0entabpq a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a5bouazrhqmudgtghapygnw9;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "Description";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:oot6iiowr51yv62thxf0vcdt a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:cgld58kh1bb4i2ukammblokf a pmd:Metadata, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:a5bouazrhqmudgtghapygnw9;
+    dcterms:type preloaded:height;
+    skos:scopeNote "Description";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:bf3utf71k6d0de501fwlxdxw a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:thj7qek2178x606zwpa438j3;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "InputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:gfwb2j3mf7nl2dragxbgdpok a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:thj7qek2178x606zwpa438j3;
+    dcterms:type preloaded:height;
+    skos:scopeNote "InputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:mubh79wnrpv6alftxy72dejv a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "InputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:tuvd4fh93wlqpszx6899hsqr a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:mff8dnajqhvxu1fx093gprxe a pmd:Measurement, pmd:ValueObject;
+    rdfs:label "Company or Vendor Name";
+    dcterms:references datin_imkt_data:tzg6yf0lrgkm5cg6g36ofhz2;
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "InputOccurrence";
+    prov:value "ELB-Werkzeug- und Maschinenbau GmbH";
+    schema:position 0.
+
+datin_imkt_data:hp2aq9ah4ouh1ffws4r7bf4j a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:sdy7nqkte4gdejoaieellgdd;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:spurykn9l81cx50svhajuxk2 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:sdy7nqkte4gdejoaieellgdd;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:juc2owehfcxlurabz0xkpr3n a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:qe72fqflykfhx7hwqndz1tlg a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:a72bx47waujpubljja6psq7j a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:yo8vz51rfwqh58lr9hep2feo a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:ug732vag3yhvqpotcb99m59q a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:z2j4hmkw9mcjbmypltgx5qv8;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:jatfqbskamuvkukba58gt6dg a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:tzwpdllsj7srn7ak7ayuzcmc a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:z2j4hmkw9mcjbmypltgx5qv8;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:h1wt4v89sjye92z97p5bx8fm a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:yle5nasv3vwsnfr6yccixpi7 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wb6gysv0smco3f4gm91qtttd;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:x634n2ks4y6anp83pnoao7jc a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:pvz1c4nd34nfonywirbdbz0t a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wb6gysv0smco3f4gm91qtttd;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:t03bqum5h5odoqkhst6l0ypq a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:cs1vvniy4hx2rxsig7pdj0qt a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:ni0s94rnq89v5dyw0ofbngmv a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:cgp41pgw9bwnd76jfnaz28lu;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:tgwr2jufonkgzu0v7ng6znum a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:exle6ld9gceb2uex9qyzvixi a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:cgp41pgw9bwnd76jfnaz28lu;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:i92wqxsg5n369pxk5mkz00lm a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:zpqu7kwst7k5ath79w2wai8n a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:iogwxs6gslcj8o237dogl0hh a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:zpthj3nghu5otvgl0srbs4de a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:m3kdiz5s1vozgltzmubqmaj4;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:qcs22sb2641zfaoej1oojsc1 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:m3kdiz5s1vozgltzmubqmaj4;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:dk5p3tnb5kk9kp4cm9ujyqln a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:lks461ihvv8fe4uweybojnot a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:p6po9rk3g3edu5qjame43c73 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:ba6278czzzp2gwnhojk5dduv a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:ba0gancmec77bgyrmk1zgdis;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:qtt79u4cucpin61eodpcr41y a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:ba0gancmec77bgyrmk1zgdis;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:op9jb5bww6hdxtxx2knpwn99 a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:pyl329qy5bs0llwwc3ykqdjd a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:iizpxfx585mrmkjgk7ghlri7 rdfs:label "Kutz & Schulze".
+
+preloaded:degree_celsius a qudt:Unit.
+
+datin_imkt_data:c91az2lhq7kbjgtp1aqonjc5 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:lpjtkv8ss1j2bvwhtikkh8z0 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:w5r5bzrkkot1wa89qvnhbndv a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_1 a dcat:Distribution;
+    dcterms:created "2026-07-16T14:18:23.976+02:00"^^xsd:dateTime;
+    dcterms:identifier "nm0m11dx393hue3as3qalgid/bd7b38ec2fa61d2a5a93ce541140e06d061599b3474824acda22da51af4dba43/Elb-_werkzeug_-_Grinding_Machine.jpeg";
+    dcterms:modified "2026-07-16T14:18:23.976+02:00"^^xsd:dateTime;
+    dcterms:title "Elb- werkzeug - Grinding Machine.jpeg";
+    <http://spdx.org/rdf/terms#checksumValue> "bd7b38ec2fa61d2a5a93ce541140e06d061599b3474824acda22da51af4dba43";
+    dcat:byteSize 1794215;
+    dcat:mediaType "image/jpeg".
+
+datin_imkt_data:elb-_werkzeug_-_grinding_machinejpeg_3 a obo:IAO_0000027, prov:Entity;
+    rdfs:label "Elb- werkzeug - Grinding Machine.jpeg";
+    dcterms:created "2026-07-16T14:18:28.35+02:00"^^xsd:dateTime;
+    dcterms:modified "2026-07-16T14:18:28.35+02:00"^^xsd:dateTime;
+    dcterms:title "Elb- werkzeug - Grinding Machine.jpeg";
+    dcterms:type preloaded:raster_image_data_object.
+
+datin_imkt_data:tzg6yf0lrgkm5cg6g36ofhz2 rdfs:label "ELB-Werkzeug- und Maschinenbau GmbH".
+
+datin_imkt_data:qn1o20jep9cgd5edy6pq7lyh a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:rkhs1xz7ztrsj994glg8y5dj a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:nq7e7znmh5ps7uez5q55xw8g rdfs:label "Sürth Stahl- und Metallhandel".
+
+preloaded:revolution_per_minute a qudt:Unit.
+
+datin_imkt_data:qutukaitojnyxpm6zf94wzyl a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:iin42ocg8if9zn82tc7cerx5 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:te5t4qdihzq6rdm1rrc5m7we a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:yb1qesxtshjpdgi5lv1qxr0c a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:a3zjg9xmzk29hmzbanf34ye3 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wz6w0aklo4u20llzn5hqizx5;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:kkg6yvxb84ci550648h379un a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:zbrh8y8sd58aqeiy766unjcb a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:wz6w0aklo4u20llzn5hqizx5;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:wfn3slaorl7v2jcwwwsbrnw4 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:vvgkcxiyi1i4pwp3noguz7a1 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:rxx4oy3jc9bxlr7kpjy9k92j a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:ffw16x3l7yocupadiwfto295;
+    dcterms:type preloaded:diameter;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "40"^^xsd:double;
+    schema:position 2;
+    pmd:PMD_0000006 "4.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:nn35d211fb59ncj9udhjq18m a pmd:Metadata, pmd:ValueObject;
+    dcterms:references kitmtxx41732562vp:100_ste_xxx-a2989b559b144c2ba9cfc7affcc1235e-vp;
+    dcterms:type preloaded:type_of_material;
+    skos:scopeNote "Description";
+    prov:value "100Cr6 Steel";
+    schema:position 0.
+
+datin_imkt_data:qd93umw641p6sf57izs6hoh5 a pmd:Measurement, pmd:ValueObject;
+    dcterms:references preloaded:solid;
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "OutputOccurrence";
+    schema:position 1.
+
+datin_imkt_data:i18bajcpucxbn91f3xzlo3g5 a pmd:Measurement, pmd:ValueObject;
+    dcterms:isPartOf datin_imkt_data:ffw16x3l7yocupadiwfto295;
+    dcterms:type preloaded:height;
+    skos:scopeNote "OutputOccurrence";
+    prov:value "10"^^xsd:double;
+    schema:position 3;
+    pmd:PMD_0000006 "1.0E-2";
+    pmd:unit preloaded:millimeter.
+
+datin_imkt_data:a5bouazrhqmudgtghapygnw9 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:thj7qek2178x606zwpa438j3 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:sdy7nqkte4gdejoaieellgdd a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:z2j4hmkw9mcjbmypltgx5qv8 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:wb6gysv0smco3f4gm91qtttd a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:cgp41pgw9bwnd76jfnaz28lu a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:m3kdiz5s1vozgltzmubqmaj4 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:ba0gancmec77bgyrmk1zgdis a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:wz6w0aklo4u20llzn5hqizx5 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+datin_imkt_data:ffw16x3l7yocupadiwfto295 a pmd:ValueObject, prov:Entity;
+    dcterms:type preloaded:amount_or_size.
+
+
+
+
+
+datin_imkt_data:hardening_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Hardening";
+    obo:BFO_0000117 datin_imkt_data:hardening_2;
+    obo:OBI_0000417 core:FabricationPurpose;
+    dcterms:created "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:hardening_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:12:22.869+02:00"^^xsd:dateTime;
+    dcterms:title "Hardening";
+    dcterms:type core:FabricationPurpose;
+    prov:wasInfluencedBy datin_imkt_data:sample_cutting_1;
+    prov:wasInformedBy datin_imkt_data:sample_cutting_1.
+
+
+
+
+
+datin_imkt_data:finishing_2410-019_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Finishing 2410-019";
+    obo:BFO_0000117 datin_imkt_data:finishing_2410-019_2;
+    obo:OBI_0000417 core:FabricationPurpose;
+    dcterms:created "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:finishing_2410-019_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:39:33.882+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-019";
+    dcterms:type core:FabricationPurpose;
+    prov:wasInfluencedBy datin_imkt_data:hardening_1, datin_imkt_data:sample_cutting_1;
+    prov:wasInformedBy datin_imkt_data:hardening_1.
+
+
+
+
+
+datin_imkt_data:cleaning_2410-018_l1_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Cleaning 2410-018 L1";
+    obo:BFO_0000117 datin_imkt_data:cleaning_2410-018_l1_2;
+    obo:OBI_0000417 core:ProcessingPurpose;
+    dcterms:created "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:cleaning_2410-018_l1_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T16:02:06.182+02:00"^^xsd:dateTime;
+    dcterms:title "Cleaning 2410-018 L1";
+    dcterms:type core:ProcessingPurpose.
+
+
+
+
+
+datin_imkt_data:finishing_2410-018_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Finishing 2410-018";
+    obo:BFO_0000117 datin_imkt_data:finishing_2410-018_2;
+    obo:OBI_0000417 core:FabricationPurpose;
+    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:finishing_2410-018_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-018";
+    dcterms:type core:FabricationPurpose;
+    prov:wasInfluencedBy datin_imkt_data:hardening_1, datin_imkt_data:sample_cutting_1;
+    prov:wasInformedBy datin_imkt_data:hardening_1.
+
+
+
+
+
+datin_imkt_data:sample_cutting_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Sample Cutting";
+    obo:BFO_0000117 datin_imkt_data:sample_cutting_2;
+    obo:OBI_0000417 core:FabricationPurpose;
+    dcterms:created "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:sample_cutting_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:04:11.067+02:00"^^xsd:dateTime;
+    dcterms:title "Sample Cutting";
+    dcterms:type core:FabricationPurpose.
+
+
+
+
+
+datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_1 a prov:Activity, obo:COB_0000035, pmd:PMD_0020143, pmd:PMD_0000833;
+    rdfs:label "Ultrasonic Cleaning 2410-018 (Isopropanol)";
+    obo:BFO_0000117 datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    obo:OBI_0000417 core:ProcessingPurpose;
+    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    dcterms:title "Ultrasonic Cleaning 2410-018 (Isopropanol)";
+    dcterms:type core:ProcessingPurpose;
+    prov:wasInfluencedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_1, datin_imkt_data:sample_cutting_1, datin_imkt_data:finishing_2410-018_1, datin_imkt_data:hardening_1;
+    prov:wasInformedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_1.
+
+
+
+
+
+datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_1 a prov:Activity, obo:COB_0000035, pmd:PMD_0020143, pmd:PMD_0000833;
+    rdfs:label "Ultrasonic Cleaning 2410-018 (Acetone)";
+    obo:BFO_0000117 datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    obo:OBI_0000417 core:ProcessingPurpose;
+    dcterms:created "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:57:07.473+02:00"^^xsd:dateTime;
+    dcterms:title "Ultrasonic Cleaning 2410-018 (Acetone)";
+    dcterms:type core:ProcessingPurpose;
+    prov:wasInfluencedBy datin_imkt_data:sample_cutting_1, datin_imkt_data:finishing_2410-018_1, datin_imkt_data:hardening_1;
+    prov:wasInformedBy datin_imkt_data:finishing_2410-018_1.
+
+
+
+
+
+datin_imkt_data:finishing_2410-06_p0304_1 a pmd:PMD_0000833, pmd:PMD_0020143, obo:COB_0000035, prov:Activity;
+    rdfs:label "Finishing 2410-06 P0304";
+    obo:BFO_0000117 datin_imkt_data:finishing_2410-06_p0304_2;
+    obo:OBI_0000417 core:FabricationPurpose;
+    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:hasPart datin_imkt_data:finishing_2410-06_p0304_2;
+    dcterms:isPartOf datin_imkt_data:dfg_mo_spraying;
+    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
+    dcterms:title "Finishing 2410-06 P0304";
+    dcterms:type core:FabricationPurpose;
+    prov:wasInfluencedBy datin_imkt_data:hardening_1, datin_imkt_data:sample_cutting_1;
+    prov:wasInformedBy datin_imkt_data:hardening_1.
