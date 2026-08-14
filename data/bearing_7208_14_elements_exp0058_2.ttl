@@ -1,0 +1,37 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:bearing_7208_14_elements_exp0058_2 a prov:Entity;
+    pmd:characteristic datin_imkt_data:ht06b30mxd7z2d12um72y9s2, datin_imkt_data:vkgygw5wtthncyhgp0nyupp2, datin_imkt_data:wcbc4ruij1mgjiq9t8sgbm9n, datin_imkt_data:so4pymlikm8z0k652ddqu006, datin_imkt_data:pjzqxk078n3zeimzryeqedkf, datin_imkt_data:qkjwxk6ii1b3rw9xo9nm2bie;
+    prov:wasDerivedFrom datin_imkt_data:bearing_7208_14_elements_exp0058_1;
+    dcterms:type datin_imkt_vocab:angular_contact_ball_bearing;
+    dcterms:identifier "bearing-7208-14-exp0058";
+    dcterms:title "Bearing 7208 (14 elements) EXP#0058";
+    rdfs:label "Bearing 7208 (14 elements) EXP#0058";
+    dcterms:modified "2026-08-13T14:10:13.185Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T14:10:13.185Z"^^xsd:dateTime;
+    a obo:BFO_0000040;
+    prov:qualifiedGeneration datin_imkt_data:bearing_7208_14_elements_exp0058_4;
+    prov:wasGeneratedBy datin_imkt_data:rotational_run-in_exp0058_2.

@@ -1,0 +1,34 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:bearing_7208_14_elements_exp0059_8 pmd:characteristic datin_imkt_data:a9jnbhjn69i7b4rvdwnyl0y7, datin_imkt_data:letnv87a233dk11k3tmor6c4, datin_imkt_data:n9t5sysjxpk72m668guhd8eh, datin_imkt_data:i0steq34l9c6deojxhl4gnhm, datin_imkt_data:rghkqmbpa35zxwl611wp1ke2, datin_imkt_data:tustm3mn8iehep0j18zd5f5p;
+    dcterms:type datin_imkt_vocab:angular_contact_ball_bearing;
+    dcterms:identifier "bearing-7208-14-exp0059";
+    dcterms:title "Bearing 7208 (14 elements) EXP#0059";
+    rdfs:label "Bearing 7208 (14 elements) EXP#0059";
+    dcterms:modified "2026-08-13T14:12:43.805Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T14:12:43.805Z"^^xsd:dateTime;
+    prov:entity datin_imkt_data:bearing_7208_14_elements_exp0059_1;
+    a prov:Usage.

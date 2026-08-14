@@ -1,0 +1,37 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:bearing_81212_3_elements_exp0119_1 a prov:Entity;
+    pmd:characteristic datin_imkt_data:qz1p21aevs8syuvrplqcy646, datin_imkt_data:qo8rxzeyr1d6u9z8zuz3jg0m, datin_imkt_data:q2hciucmc5x2ygopiwh09rg0, datin_imkt_data:i9oxf964lmw2ffaiiez9f6ey, datin_imkt_data:rj8y898z4p4bni31icjtkrg1;
+    prov:wasDerivedFrom datin_imkt_data:bearing_81212_3_elements_exp0119_6;
+    dcterms:type datin_imkt_vocab:cylindrical_roller_thrust_bearing;
+    dcterms:identifier "bearing-81212-3-exp0119";
+    dcterms:title "Bearing 81212 (3 elements) EXP#0119";
+    rdfs:label "Bearing 81212 (3 elements) EXP#0119";
+    dcterms:modified "2026-08-13T15:38:45.092Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T15:38:45.092Z"^^xsd:dateTime;
+    a obo:BFO_0000040;
+    prov:qualifiedGeneration datin_imkt_data:bearing_81212_3_elements_exp0119_7;
+    prov:wasGeneratedBy datin_imkt_data:greasing_exp0119_2.

@@ -1,0 +1,38 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:gleitmo_585_k_0155_3 a prov:Entity;
+    prov:wasDerivedFrom datin_imkt_data:bearing_51212_7_elements_exp0155_3;
+    pmd:characteristic datin_imkt_data:blcj095ybk4mfrj5qe2vh5ij, datin_imkt_data:issyvryoueh95s6he8zgay4f, datin_imkt_data:kql427bfkp39x0rc75xpx42r;
+    prov:wasDerivedFrom datin_imkt_data:gleitmo_585_k_1_184;
+    dcterms:type datin_imkt_vocab:gleitmo_585_k_sample;
+    dcterms:identifier "gleitmo-585-k-1-0155";
+    dcterms:title "Gleitmo 585 K 0155";
+    rdfs:label "Gleitmo 585 K 0155";
+    dcterms:modified "2026-08-13T16:47:00.523Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T16:47:00.523Z"^^xsd:dateTime;
+    a obo:BFO_0000040;
+    prov:qualifiedGeneration datin_imkt_data:gleitmo_585_k_0155_4;
+    prov:wasGeneratedBy datin_imkt_data:greasing_exp0155_2.

@@ -1,0 +1,34 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:bearing_81212_3_elements_exp0122_5 pmd:characteristic datin_imkt_data:denlx483pvg3tfaj481xhdgb, datin_imkt_data:nkwpwvvfx3lemdaga4qtfa5x, datin_imkt_data:dtnhwcmoetde6pmcaiz28saw, datin_imkt_data:u6178yzy7cxguexq5s01y69n, datin_imkt_data:ufzeqjj7s0gs5pa6f3w1nfqv;
+    dcterms:type datin_imkt_vocab:cylindrical_roller_thrust_bearing;
+    dcterms:identifier "bearing-81212-3-exp0122";
+    dcterms:title "Bearing 81212 (3 elements) EXP#0122";
+    rdfs:label "Bearing 81212 (3 elements) EXP#0122";
+    dcterms:modified "2026-08-13T15:47:10.474Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T15:47:10.474Z"^^xsd:dateTime;
+    prov:activity datin_imkt_data:rotational_run-in_exp0122_2;
+    a prov:Generation.

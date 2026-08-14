@@ -1,0 +1,34 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix preloaded: <https://w3id.org/datin/preloaded/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix core: <https://w3id.org/datin/core/> .
+
+
+datin_imkt_data:gleitmo_585_k_0026_6 pmd:characteristic datin_imkt_data:iknr7zyljmrcn2hl2qcsn2py, datin_imkt_data:q7xyhkhs95gptu4ps1td9u66, datin_imkt_data:tk2p819ywsrh1mmbd4b0e82j;
+    dcterms:type datin_imkt_vocab:gleitmo_585_k_sample;
+    dcterms:identifier "gleitmo-585-k-1-0026";
+    dcterms:title "Gleitmo 585 K 0026";
+    rdfs:label "Gleitmo 585 K 0026";
+    dcterms:modified "2026-08-13T14:04:46.905Z"^^xsd:dateTime;
+    dcterms:created "2026-08-13T14:04:46.905Z"^^xsd:dateTime;
+    prov:activity datin_imkt_data:rotational_run-in_exp0026_2;
+    a prov:Generation.
