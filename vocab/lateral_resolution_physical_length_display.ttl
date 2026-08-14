@@ -8,52 +8,41 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
 @prefix datacite: <http://datacite.org/schema/kernel-4/>.
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>.
-@prefix entity: <http://www.wikidata.org/entity/>.
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
-@prefix pmd: <https://w3id.org/pmd/co/>.
 @prefix obo: <http://purl.obolibrary.org/obo/>.
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
-@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
 @prefix polymat: <https://w3id.org/polymat/>.
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+@prefix entity: <http://www.wikidata.org/entity/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
 @prefix emmo: <https://w3id.org/emmo#>.
 @prefix nfdi4cat: <https://w3id.org/nfdi4cat/>.
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
-@prefix time: <http://www.w3.org/2006/time#>.
-@prefix qudt: <http://qudt.org/schema/qudt/>.
-@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
-@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
-@prefix core: <https://spec.industrialontologies.org/ontology/core/Core/>.
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
 @prefix construct: <https://spec.industrialontologies.org/ontology/construct/>.
-@prefix calculation: <https://w3id.org/mdo/calculation/>.
-@prefix span: <http://www.ifomis.org/bfo/1.0/span#>.
+@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
 @prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#>.
-@prefix process: <http://purl.allotrope.org/ontologies/process#>.
-@prefix npo: <http://purl.bioontology.org/ontology/npo#>.
-@prefix opb: <http://bhi.washington.edu/OPB#>.
-@prefix core2: <https://w3id.org/mdo/core/>.
-@prefix result: <http://purl.allotrope.org/ontologies/result#>.
-@prefix sio: <http://semanticscience.org/resource/>.
-@prefix wiki: <https://www.wikidata.org/wiki/>.
+@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/>.
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#>.
 
-datin_imkt_vocab:lateral_resolution_physical_length_display a skos:Concept, prov:Entity, dcat:Resource, qudt:Quantity, schema:QuantitativeValue;
-    dcterms:created "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
+datin_imkt_vocab:lateral_resolution_physical_length_display a schema:QuantitativeValue, qudt:Quantity, dcat:Resource, prov:Entity, skos:Concept;
+    dcterms:created "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    datacite:date "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    prov:generatedAtTime "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    schema:dateCreated "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
     dcterms:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
-    dcterms:modified "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
-    dcterms:title "Lateral Resolution (Physical Length, Display)";
-    schema:dateCreated "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
-    schema:dateModified "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
-    schema:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
-    schema:name "Lateral Resolution (Physical Length, Display)";
-    skos:changeNote "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
-    skos:definition "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
-    skos:prefLabel "Lateral Resolution (Physical Length, Display)";
-    prov:generatedAtTime "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
-    prov:value "Lateral Resolution (Physical Length, Display)";
-    datacite:date "2026-07-14T11:37:48.241+02:00"^^xsd:dateTime;
     datacite:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    schema:description "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    skos:definition "The lateral resolution of a sensor, not in pixels, but of the produces image which a camera captures at the end with all its lenses.";
+    dcterms:modified "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    skos:changeNote "2026-07-23T16:44:09.819+02:00"^^xsd:dateTime;
+    dcterms:title "Lateral Resolution (Physical Length, Display)";
     datacite:title "Lateral Resolution (Physical Length, Display)";
+    prov:value "Lateral Resolution (Physical Length, Display)";
+    schema:name "Lateral Resolution (Physical Length, Display)";
+    skos:prefLabel "Lateral Resolution (Physical Length, Display)";
     skos:inScheme datin_imkt_vocab:concept_scheme;
     schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
     dcterms:isPartOf datin_imkt_vocab:concept_scheme.

@@ -8,52 +8,41 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#>.
 @prefix prov: <http://www.w3.org/ns/prov#>.
 @prefix datacite: <http://datacite.org/schema/kernel-4/>.
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/>.
-@prefix entity: <http://www.wikidata.org/entity/>.
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
-@prefix pmd: <https://w3id.org/pmd/co/>.
 @prefix obo: <http://purl.obolibrary.org/obo/>.
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
-@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
 @prefix polymat: <https://w3id.org/polymat/>.
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+@prefix entity: <http://www.wikidata.org/entity/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
 @prefix emmo: <https://w3id.org/emmo#>.
 @prefix nfdi4cat: <https://w3id.org/nfdi4cat/>.
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
-@prefix time: <http://www.w3.org/2006/time#>.
-@prefix qudt: <http://qudt.org/schema/qudt/>.
-@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
-@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
-@prefix core: <https://spec.industrialontologies.org/ontology/core/Core/>.
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
 @prefix construct: <https://spec.industrialontologies.org/ontology/construct/>.
-@prefix calculation: <https://w3id.org/mdo/calculation/>.
-@prefix span: <http://www.ifomis.org/bfo/1.0/span#>.
+@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
 @prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#>.
-@prefix process: <http://purl.allotrope.org/ontologies/process#>.
-@prefix npo: <http://purl.bioontology.org/ontology/npo#>.
-@prefix opb: <http://bhi.washington.edu/OPB#>.
-@prefix core2: <https://w3id.org/mdo/core/>.
-@prefix result: <http://purl.allotrope.org/ontologies/result#>.
-@prefix sio: <http://semanticscience.org/resource/>.
-@prefix wiki: <https://www.wikidata.org/wiki/>.
+@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/>.
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
 @prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#>.
 
-datin_imkt_vocab:lathe a skos:Concept, prov:Entity, dcat:Resource, nfdi4cat:voc4cat_0000187, tribodatafairontologyowl:SawingBlade, nci:C62103, pmd:PMD_0000602, mslewl:Equipment, core:PieceOfEquipment, construct:PieceOfEquipment, obo:OBI_0000968, equipment:AFE_0000354;
-    dcterms:created "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
+datin_imkt_vocab:lathe a obo:OBI_0000968, mslewl:Equipment, pmd:PMD_0000602, nfdi4cat:voc4cat_0000187, dcat:Resource, prov:Entity, skos:Concept;
+    dcterms:created "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    datacite:date "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    prov:generatedAtTime "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    schema:dateCreated "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
     dcterms:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
-    dcterms:modified "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
-    dcterms:title "Lathe";
-    schema:dateCreated "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
-    schema:dateModified "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
-    schema:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
-    schema:name "Lathe";
-    skos:changeNote "2026-03-10T11:24:50.153+01:00"^^xsd:dateTime;
-    skos:definition "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
-    skos:prefLabel "Lathe";
-    prov:generatedAtTime "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
-    prov:value "Lathe";
-    datacite:date "2026-02-24T14:06:32.866+01:00"^^xsd:dateTime;
     datacite:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    schema:description "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    skos:definition "Machine tool that rotates a workpiece around an axis to perform cutting, sanding, knurling, or deformation, enabling the creation of symmetrical cylindrical parts.";
+    dcterms:modified "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    schema:dateModified "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    skos:changeNote "2026-07-23T15:57:23.523+02:00"^^xsd:dateTime;
+    dcterms:title "Lathe";
     datacite:title "Lathe";
+    prov:value "Lathe";
+    schema:name "Lathe";
+    skos:prefLabel "Lathe";
     skos:inScheme datin_imkt_vocab:concept_scheme;
     schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;
     dcterms:isPartOf datin_imkt_vocab:concept_scheme.
