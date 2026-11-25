@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:aps0304_wear_al2o3_50m_8mms_3000mn_002 a obo:IAO_0000027;
+    rdfs:label "APS0304_Wear_Al2O3_50m_8mms_3000mN_002";
+    obo:BFO_0000051 datin_imkt_data:counter-body_-_microscope_photographs_41, datin_imkt_data:specimen_-_profilometry_50, datin_imkt_data:tribometry_2.

@@ -1,0 +1,8 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:aps0304_wear_al2o3_100m_8mms_3000mn_002csv a obo:IAO_0000027;
+    rdfs:label "APS0304_Wear_Al2O3_100m_8mms_3000mN_002.csv";
+    obo:BFO_0000051 datin_imkt_data:an2sdhgaght66o8f2j9lizxt;
+    obo:IAO_0000136 datin_imkt_data:aps0304_wear_al2o3_100m_8mms_3000mn_002csv_3, datin_imkt_data:tribological_experiment_2410-06_p0304_r8.

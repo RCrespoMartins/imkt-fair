@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-06_p0304_c12_2 a obo:IAO_0000030;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-06 P0304 C12";
+    obo:IAO_0000136 datin_imkt_data:cleaning_alumina_ball_2410-06_p0304_c12_2, datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-06_p0304_c12;
+    dcterms:identifier "anteater-662546";
+    pmd:PMD_0000077 datin_imkt_data:afwlr8jm7fzw64rzyw35r5ck, datin_imkt_data:ai913jzklcl88hnp59vhqjcb, datin_imkt_data:om92ehozue789ygk6rhsayby.

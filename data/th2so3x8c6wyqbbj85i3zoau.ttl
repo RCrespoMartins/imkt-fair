@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:th2so3x8c6wyqbbj85i3zoau a obo:IAO_0000027;
+    rdfs:label "Mitutoyo_-_Caliper.jpeg";
+    dcterms:identifier "th2so3x8c6wyqbbj85i3zoau/71868fbe0cf38731acccac2b85cc7080ac6f2fa955be8c763dd583a4f1df799b/Mitutoyo_-_Caliper.jpeg";
+    rdfs:comment "71868fbe0cf38731acccac2b85cc7080ac6f2fa955be8c763dd583a4f1df799b", "image/jpeg".

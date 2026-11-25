@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:nm0m11dx393hue3as3qalgid a obo:IAO_0000027;
+    rdfs:label "Elb- werkzeug - Grinding Machine.jpeg";
+    dcterms:identifier "nm0m11dx393hue3as3qalgid/bd7b38ec2fa61d2a5a93ce541140e06d061599b3474824acda22da51af4dba43/Elb-_werkzeug_-_Grinding_Machine.jpeg";
+    rdfs:comment "bd7b38ec2fa61d2a5a93ce541140e06d061599b3474824acda22da51af4dba43", "image/jpeg".

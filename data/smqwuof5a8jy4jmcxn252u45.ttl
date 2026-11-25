@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:smqwuof5a8jy4jmcxn252u45 a obo:IAO_0000027;
+    rdfs:label "Experimental_Plan_MilliTribometer_v2.xlsx";
+    dcterms:identifier "smqwuof5a8jy4jmcxn252u45/437ba00287d4a36e71d475dccafe4f2dc75a46258ced28d559b05528489007b7/Experimental_Plan_MilliTribometer_v2.xlsx";
+    rdfs:comment "437ba00287d4a36e71d475dccafe4f2dc75a46258ced28d559b05528489007b7", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet".

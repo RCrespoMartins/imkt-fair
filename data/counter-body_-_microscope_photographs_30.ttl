@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:counter-body_-_microscope_photographs_30 a obo:IAO_0000027;
+    rdfs:label "Counter-body - Microscope Photographs";
+    obo:BFO_0000051 datin_imkt_data:4b-2-messjpg, datin_imkt_data:4b-2jpg.

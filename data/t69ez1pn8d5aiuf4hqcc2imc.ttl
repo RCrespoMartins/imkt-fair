@@ -1,0 +1,14 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:t69ez1pn8d5aiuf4hqcc2imc a obo:IAO_0000030, obo:OBI_0001933, pmd:PMD_0001044;
+    rdfs:label "End Time";
+    obo:OBI_0002135 "2025-02-07T11:04:10+02:00"^^xsd:dateTime;
+    dcterms:type preloaded:end_time;
+    skos:scopeNote "Description".

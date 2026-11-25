@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:wy9vbty015jr0i3xcue3byto a obo:IAO_0000027;
+    rdfs:label "1B-3.jpg";
+    dcterms:identifier "wy9vbty015jr0i3xcue3byto/8a316e23437c5e47c1d83b71ab7eea987a1b2471c96de4656e556fff98440e91/1B-3.jpg";
+    rdfs:comment "8a316e23437c5e47c1d83b71ab7eea987a1b2471c96de4656e556fff98440e91", "image/jpeg".

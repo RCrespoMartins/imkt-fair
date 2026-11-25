@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+
+datin_imkt_data:cat-625975 a obo:BFO_0000040, kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
+    rdfs:label "Disk 2410-019";
+    obo:RO_0001000 datin_imkt_data:sturgeon-369403;
+    dcterms:identifier "cat-625975".

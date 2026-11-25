@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:ylulaypel3g92df10ihiaevh a obo:IAO_0000027;
+    rdfs:label "3A-2-measurement.jpg";
+    dcterms:identifier "ylulaypel3g92df10ihiaevh/719d1153029c7811b9f857ba4e5be5659425edbfb5b2a65e2a039348d96928c4/3A-2-measurement.jpg";
+    rdfs:comment "719d1153029c7811b9f857ba4e5be5659425edbfb5b2a65e2a039348d96928c4", "image/jpeg".

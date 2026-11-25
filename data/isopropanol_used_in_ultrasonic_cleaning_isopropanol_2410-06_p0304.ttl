@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_ultrasonic_cleaning_isopropanol_2410-06_p0304 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol used in Ultrasonic Cleaning (Isopropanol) 2410-06 P0304";
+    dcterms:identifier "newt-465094";
+    pmd:PMD_0000070 datin_imkt_data:newt-465094;
+    pmd:PMD_0000077 datin_imkt_data:pupt083yyef15vw44tnnt15r, datin_imkt_data:s19morrapry7al6h5rq4tj83, datin_imkt_data:tmof0b1p06feu5z1m5cocr0p.

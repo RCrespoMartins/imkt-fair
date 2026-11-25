@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:topography_measurement_2410-06_p0304_c11_2 a obo:COB_0000035;
+    rdfs:label "Topography Measurement 2410-06 P0304 C11";
+    obo:BFO_0000062 datin_imkt_data:tribological_experiment_2410-06_p0304_c11_2;
+    obo:BFO_0000063 datin_imkt_data:tribological_experiment_2410-06_p0304_c12;
+    obo:BFO_0000066 datin_imkt_data:8143001131;
+    obo:OBI_0000293 datin_imkt_data:coated_disk_2410-06_p0304_113, datin_imkt_data:disk_2410-06_p0304_111, datin_imkt_data:mo_coating_144, datin_imkt_data:wear_track_c10_116, datin_imkt_data:wear_track_c11_110, datin_imkt_data:wear_track_c7_31, datin_imkt_data:wear_track_c8_12, datin_imkt_data:wear_track_c9_77;
+    obo:OBI_0000299 datin_imkt_data:coated_disk_2410-06_p0304_14, datin_imkt_data:disk_2410-06_p0304_112, datin_imkt_data:mo_coating_125, datin_imkt_data:wear_track_c10_98, datin_imkt_data:wear_track_c11_112, datin_imkt_data:wear_track_c7_45, datin_imkt_data:wear_track_c8_133, datin_imkt_data:wear_track_c9_93;
+    obo:RO_0000057 datin_imkt_data:keyence_vk-x260k_-_laser_scanning_microscope_39, datin_imkt_data:nikon_-_cf_ic_epi_plan_150x_40;
+    obo:RO_0002234 datin_imkt_data:coated_disk_2410-06_p0304_14, datin_imkt_data:disk_2410-06_p0304_112, datin_imkt_data:mo_coating_125, datin_imkt_data:wear_track_c10_98, datin_imkt_data:wear_track_c11_112, datin_imkt_data:wear_track_c7_45, datin_imkt_data:wear_track_c8_133, datin_imkt_data:wear_track_c9_93;
+    dcterms:type datin_imkt_vocab:topography_measurement;
+    pmd:PMD_0000004 datin_imkt_data:c11c_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2_heightcsv_3, datin_imkt_data:c11c_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2jpg_3, datin_imkt_data:c11l_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2_heightcsv_2, datin_imkt_data:c11l_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2jpg_2, datin_imkt_data:c11r_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2_heightcsv_2, datin_imkt_data:c11r_aps_wear_al2o3_5m_8mms_3000mn_002_wp_150x_15x2jpg_3;
+    pmd:PMD_0000077 datin_imkt_data:lhxmirqlky7sh3ldtyyj6cq3, datin_imkt_data:t1kqhe1xs5alz56ht46p8e6c.

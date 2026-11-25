@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:mo_coating_171 a obo:IAO_0000030;
+    rdfs:label "Mo Coating";
+    obo:IAO_0000136 datin_imkt_data:mo_coating_15, datin_imkt_data:topography_measurement_2410-06_p0304_r1;
+    dcterms:identifier "raven-259325";
+    pmd:PMD_0000077 datin_imkt_data:d45rbloe0u6u8vkoer7skl61, datin_imkt_data:jmmizx71cm9aa213as87c8ab, datin_imkt_data:w6z8b52o0a2bgw1o9i3hmq9w.

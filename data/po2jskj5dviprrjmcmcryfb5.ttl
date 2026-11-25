@@ -1,0 +1,20 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix unit: <http://qudt.org/vocab/unit/>.
+
+datin_imkt_data:po2jskj5dviprrjmcmcryfb5 a obo:IAO_0000030, obo:OBI_0001933, pmd:PMD_0080205;
+    rdfs:label "Particle Size";
+    obo:OBI_0001937 "300"^^xsd:double;
+    obo:OBI_0002135 "300"^^xsd:double;
+    dcterms:type preloaded:particle_size;
+    qudt:hasUnit unit:MicroM;
+    qudt:standardUncertainty "50"^^xsd:double;
+    skos:scopeNote "Description";
+    pmd:PMD_0000006 "3.0E-4".

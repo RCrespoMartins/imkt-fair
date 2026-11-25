@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:qmvq5jz1ttqzty5tfwyf14mv a obo:IAO_0000027;
+    rdfs:label "REF_Wear_CERAMIC_50m_8mms_2000mN_003.MTT";
+    dcterms:identifier "qmvq5jz1ttqzty5tfwyf14mv/feb3ae58f13fd37f43210f536d4ae27486a59ac680eb518748896a1210727a4d/REF_Wear_CERAMIC_50m_8mms_2000mN_003.MTT";
+    rdfs:comment "application/octet-stream", "feb3ae58f13fd37f43210f536d4ae27486a59ac680eb518748896a1210727a4d".

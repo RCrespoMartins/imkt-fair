@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:dupnchqs650vygu8v21vt2mi a obo:IAO_0000027;
+    rdfs:label "2A-4.jpg";
+    dcterms:identifier "dupnchqs650vygu8v21vt2mi/25210a578c497985e8d59b5c5606a75f5732f7c75f298e076d6c0cfe7a03a07f/2A-4.jpg";
+    rdfs:comment "25210a578c497985e8d59b5c5606a75f5732f7c75f298e076d6c0cfe7a03a07f", "image/jpeg".

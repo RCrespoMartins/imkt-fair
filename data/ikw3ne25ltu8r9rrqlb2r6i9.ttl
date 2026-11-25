@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:ikw3ne25ltu8r9rrqlb2r6i9 a obo:IAO_0000027;
+    rdfs:label "1A-2-measurement.jpg";
+    dcterms:identifier "ikw3ne25ltu8r9rrqlb2r6i9/98f8923825c5cadb64e704cdc7f2e615d8cfb883410bf8b23c9644942d61e923/1A-2-measurement.jpg";
+    rdfs:comment "98f8923825c5cadb64e704cdc7f2e615d8cfb883410bf8b23c9644942d61e923", "image/jpeg".

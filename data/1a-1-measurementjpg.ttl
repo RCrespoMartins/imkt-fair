@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:1a-1-measurementjpg a obo:IAO_0000027;
+    rdfs:label "1A-1-measurement.jpg";
+    obo:BFO_0000051 datin_imkt_data:jk2cjp18om3mgrrjweqdfr9z.

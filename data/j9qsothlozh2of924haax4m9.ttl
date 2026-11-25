@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:j9qsothlozh2of924haax4m9 a obo:IAO_0000027;
+    rdfs:label "28128-63e4bc829c861 (1).pdf";
+    dcterms:identifier "j9qsothlozh2of924haax4m9/d0db02d0936b03266223be2d60c9a3dfdc8402aba25f5e734c2d4aa97d36b42a/28128-63e4bc829c861__1_.pdf";
+    rdfs:comment "application/pdf", "d0db02d0936b03266223be2d60c9a3dfdc8402aba25f5e734c2d4aa97d36b42a".

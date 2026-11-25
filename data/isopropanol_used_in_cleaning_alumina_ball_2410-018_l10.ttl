@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-018_l10 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-018 L10";
+    dcterms:identifier "jellyfish-228021";
+    pmd:PMD_0000070 datin_imkt_data:jellyfish-228021;
+    pmd:PMD_0000077 datin_imkt_data:i9446fosr9upkq48cyj1r35t, datin_imkt_data:pywva0w2ovq8o1vg7don66ld, datin_imkt_data:r5fnyuqfamchatfatuud2w7d.

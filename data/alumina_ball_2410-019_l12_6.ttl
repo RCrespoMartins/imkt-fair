@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:alumina_ball_2410-019_l12_6 a pmd:PMD_0000068;
+    rdfs:label "Alumina Ball 2410-019 L12";
+    dcterms:identifier "alumina-ball-2410-019-l12";
+    pmd:PMD_0000070 datin_imkt_data:alumina-ball-2410-019-l12;
+    pmd:PMD_0000077 datin_imkt_data:pb9b27cne08r6kwnx4f1agav, datin_imkt_data:q2sy0n3kwtvigxgc8lxgdmos, datin_imkt_data:qu2c07iw8686myxysigryfm2, datin_imkt_data:svbyn38pr2tlwnx3m794m2dq, datin_imkt_data:u37i93axy30al215blt8ekq3, datin_imkt_data:xlo7lf2avlgmixjscj67a4oe.

@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:tribological_experiment_2410-06_p0304_c17 a obo:COB_0000035;
+    rdfs:label "Tribological Experiment 2410-06 P0304 C17";
+    obo:BFO_0000062 datin_imkt_data:cleaning_alumina_ball_2410-06_p0304_c17_2, datin_imkt_data:topography_measurement_2410-06_p0304_c16_2;
+    obo:BFO_0000063 datin_imkt_data:topography_measurement_2410-06_p0304_c17_2;
+    obo:BFO_0000066 datin_imkt_data:8143001136;
+    obo:OBI_0000293 datin_imkt_data:alumina_ball_2410-06_p0304_c17_4, datin_imkt_data:coated_disk_2410-06_p0304_138, datin_imkt_data:disk_2410-06_p0304_61, datin_imkt_data:mo_coating_127, datin_imkt_data:wear_track_c10_27, datin_imkt_data:wear_track_c11_43, datin_imkt_data:wear_track_c12_35, datin_imkt_data:wear_track_c13_99, datin_imkt_data:wear_track_c14_81, datin_imkt_data:wear_track_c15_63, datin_imkt_data:wear_track_c16_102, datin_imkt_data:wear_track_c7_96, datin_imkt_data:wear_track_c8_134, datin_imkt_data:wear_track_c9_20;
+    obo:OBI_0000299 datin_imkt_data:alumina_ball_2410-06_p0304_c17_6, datin_imkt_data:coated_disk_2410-06_p0304_110, datin_imkt_data:disk_2410-06_p0304_180, datin_imkt_data:mo_coating_132, datin_imkt_data:wear_track_c10_25, datin_imkt_data:wear_track_c11_45, datin_imkt_data:wear_track_c12_14, datin_imkt_data:wear_track_c13_118, datin_imkt_data:wear_track_c14_104, datin_imkt_data:wear_track_c15_94, datin_imkt_data:wear_track_c16_41, datin_imkt_data:wear_track_c17_85, datin_imkt_data:wear_track_c7_142, datin_imkt_data:wear_track_c8_145, datin_imkt_data:wear_track_c9_64;
+    obo:RO_0000057 datin_imkt_data:1_n_dead_weight_35, datin_imkt_data:6_mm_ball_holder_32, datin_imkt_data:milli_tribotester_premium_30, datin_imkt_data:rubber_anti-slip_sheet_35, datin_imkt_data:weight_holder_32;
+    obo:RO_0002234 datin_imkt_data:alumina_ball_2410-06_p0304_c17_6, datin_imkt_data:coated_disk_2410-06_p0304_110, datin_imkt_data:disk_2410-06_p0304_180, datin_imkt_data:mo_coating_132, datin_imkt_data:wear_track_c10_25, datin_imkt_data:wear_track_c11_45, datin_imkt_data:wear_track_c12_14, datin_imkt_data:wear_track_c13_118, datin_imkt_data:wear_track_c14_104, datin_imkt_data:wear_track_c15_94, datin_imkt_data:wear_track_c16_41, datin_imkt_data:wear_track_c17_85, datin_imkt_data:wear_track_c7_142, datin_imkt_data:wear_track_c8_145, datin_imkt_data:wear_track_c9_64;
+    dcterms:type datin_imkt_vocab:micro-tribology_experiment;
+    pmd:PMD_0000004 datin_imkt_data:aps0304_wear_al2o3_50m_8mms_3000mn_002csv_2, datin_imkt_data:aps0304_wear_al2o3_50m_8mms_3000mn_002mtt_3;
+    pmd:PMD_0000077 datin_imkt_data:gby5rz4nxsnj7e4lr7lywbqy, datin_imkt_data:npg28nm831vmawyq2kknkays, datin_imkt_data:q76735yb71w4w64q2xxqe3qq, datin_imkt_data:wgoid0ukrz8wkxekwudydzam, datin_imkt_data:xqrgz1v25txwqkeuymeoa5je.

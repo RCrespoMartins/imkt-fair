@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:milli_tribotester_premium_49 a obo:IAO_0000030;
+    rdfs:label "MILLI TRIBOtester PREMIUM";
+    obo:IAO_0000136 datin_imkt_data:milli_tribotester_premium_30, datin_imkt_data:tribological_experiment_2410-06_p0304_c17;
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    pmd:PMD_0000077 datin_imkt_data:g3bjozdy04j35d5w9x4cyx41, datin_imkt_data:h6rxiv9f5mjzj9poo1qx2x98, datin_imkt_data:igx8j5lrxbo3ov6plnm8z788, datin_imkt_data:tfloyfb71c2rmoxhuaz7vzgg.

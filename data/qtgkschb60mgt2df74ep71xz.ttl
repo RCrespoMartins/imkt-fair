@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix unit: <http://qudt.org/vocab/unit/>.
+
+datin_imkt_data:qtgkschb60mgt2df74ep71xz a obo:IAO_0000030, obo:OBI_0001933, pmd:PMD_0080205;
+    rdfs:label "Nominal Height";
+    obo:OBI_0001937 "7.5"^^xsd:double;
+    obo:OBI_0002135 "7.5"^^xsd:double;
+    dcterms:type datin_imkt_vocab:nominal_height;
+    qudt:hasUnit unit:MilliM;
+    skos:scopeNote "Description";
+    pmd:PMD_0000006 "7.5E-3".

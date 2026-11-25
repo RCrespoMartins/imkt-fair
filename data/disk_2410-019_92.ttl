@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-019_92 a pmd:PMD_0000068;
+    rdfs:label "Disk 2410-019";
+    dcterms:identifier "cat-625975";
+    pmd:PMD_0000070 datin_imkt_data:cat-625975;
+    pmd:PMD_0000077 datin_imkt_data:oxue30yuyhsfko287dzcam2q, datin_imkt_data:plzs6aqllkzzflc6qhfmcu5d, datin_imkt_data:urhm38h06zk3p2m0bqzeso3e, datin_imkt_data:y2m2t1c7388xl6seyb660bs8;
+    pmd:PMD_0020322 datin_imkt_data:disk_2410-019_22.

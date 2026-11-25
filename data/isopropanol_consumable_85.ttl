@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_consumable_85 a obo:IAO_0000030;
+    rdfs:label "Isopropanol (Consumable)";
+    obo:IAO_0000136 datin_imkt_data:cleaning_alumina_ball_2410-06_p0304_r11_2, datin_imkt_data:isopropanol_consumable_145;
+    dcterms:identifier "dormouse-905516";
+    pmd:PMD_0000077 datin_imkt_data:iu8oqdl7w3z4subbh20mv7q6, datin_imkt_data:um7nxykxlc6gpqdrrw8pvfsh, datin_imkt_data:we73jwvl67xnvpndmbtz4byi.

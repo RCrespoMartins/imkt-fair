@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:txzld5lzo08ws8bt795iy9vw a obo:IAO_0000027;
+    rdfs:label "Pilot_-_SEM_Marker.jpeg";
+    dcterms:identifier "txzld5lzo08ws8bt795iy9vw/82241e7ffcb58e51d458759f855e6808299d94759f2c7c6630b90043cddd4057/Pilot_-_SEM_Marker.jpeg";
+    rdfs:comment "82241e7ffcb58e51d458759f855e6808299d94759f2c7c6630b90043cddd4057", "image/jpeg".

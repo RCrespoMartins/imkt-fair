@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:acetone_used_in_ultrasonic_cleaning_acetone_2410-06_p0304_2 a obo:IAO_0000030;
+    rdfs:label "Acetone used in Ultrasonic Cleaning (Acetone) 2410-06 P0304";
+    obo:IAO_0000136 datin_imkt_data:acetone_used_in_ultrasonic_cleaning_acetone_2410-06_p0304, datin_imkt_data:ultrasonic_cleaning_acetone_2410-06_p0304;
+    dcterms:identifier "lynx-335862";
+    pmd:PMD_0000077 datin_imkt_data:fui7yj6zmngx9tzdil8t8xn4, datin_imkt_data:gjlaqya1qqrglg6dqrhmxkc7, datin_imkt_data:ws0q4fcbw15qwcmwp4a5soyu.

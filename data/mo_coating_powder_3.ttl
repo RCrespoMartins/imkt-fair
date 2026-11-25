@@ -1,0 +1,12 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:mo_coating_powder_3 a pmd:PMD_0000068;
+    rdfs:label "MO Coating Powder";
+    dcterms:identifier "dragon-981412";
+    rdfs:comment "<p><span style=\"background-color: lab(98.1434 -0.369519 -1.05966); color: lab(26.9569 -1.47016 -15.6993);\">GTV No. 30.63.2</span></p>";
+    pmd:PMD_0000070 datin_imkt_data:dragon-981412;
+    pmd:PMD_0000077 datin_imkt_data:k2k8lynays4n1hucy490bpok, datin_imkt_data:omkff348fjj277t5pabagvvz, datin_imkt_data:wzli0t6dmyt72r9fr2x8w6gf;
+    pmd:PMD_0020322 datin_imkt_data:mo_coating_powder_4.

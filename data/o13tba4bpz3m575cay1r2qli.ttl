@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:o13tba4bpz3m575cay1r2qli a obo:IAO_0000027;
+    rdfs:label "BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    dcterms:identifier "o13tba4bpz3m575cay1r2qli/9ecb88dce8f39f26bf5e5561c9005324727ab20d717d108d49413c45665d385a/BROCHURE_MILLI_TRIBOTESTER-GB.pdf";
+    rdfs:comment "9ecb88dce8f39f26bf5e5561c9005324727ab20d717d108d49413c45665d385a", "application/pdf".

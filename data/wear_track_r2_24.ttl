@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:wear_track_r2_24 a pmd:PMD_0000068;
+    rdfs:label "Wear Track R2";
+    dcterms:identifier "wear-track-2410-06-p0304-r2";
+    pmd:PMD_0000070 datin_imkt_data:wear-track-2410-06-p0304-r2;
+    pmd:PMD_0000077 datin_imkt_data:g9u1dg5fnuc0kbzv7zifg45o, datin_imkt_data:nu9ypfe91g7hy8mm3g1rzac6;
+    pmd:PMD_0020322 datin_imkt_data:wear_track_r2_8.

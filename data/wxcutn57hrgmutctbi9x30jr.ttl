@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:wxcutn57hrgmutctbi9x30jr a obo:IAO_0000027;
+    rdfs:label "00_-_Blue_Industrial_Paper_Towel_.jpeg";
+    dcterms:identifier "wxcutn57hrgmutctbi9x30jr/78afee799f1ef2adfb87737127e81d7bc17b9fe92be0ac10928a81060ff10a80/00_-_Blue_Industrial_Paper_Towel_.jpeg";
+    rdfs:comment "78afee799f1ef2adfb87737127e81d7bc17b9fe92be0ac10928a81060ff10a80", "image/jpeg".

@@ -1,35 +1,8 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-
-datin_imkt_data:tribotechnic_-_1_n_weightjpeg_2 a dcat:Distribution;
-    dcterms:created "2026-06-30T11:56:01.101+02:00"^^xsd:dateTime;
-    dcterms:identifier "qr2crn1l3g46ojexgg8d39yd/641cc75e24a60f760f4d88e3827474d7f0f40dbc17b08986137db558dc21ac78/TRIBOtechnic_-_1_N_Weight.jpeg";
-    dcterms:modified "2026-06-30T11:56:01.101+02:00"^^xsd:dateTime;
-    dcterms:title "TRIBOtechnic - 1 N Weight.jpeg";
-    <http://spdx.org/rdf/terms#checksumValue> "641cc75e24a60f760f4d88e3827474d7f0f40dbc17b08986137db558dc21ac78";
-    dcat:byteSize 658157;
-    dcat:mediaType "image/jpeg".
+datin_imkt_data:tribotechnic_-_1_n_weightjpeg_2 a obo:IAO_0000027;
+    rdfs:label "TRIBOtechnic - 1 N Weight.jpeg";
+    obo:BFO_0000051 datin_imkt_data:qr2crn1l3g46ojexgg8d39yd;
+    obo:IAO_0000136 datin_imkt_data:1_n_dead_weight_35, datin_imkt_data:tribotechnic_-_1_n_weightjpeg_3.

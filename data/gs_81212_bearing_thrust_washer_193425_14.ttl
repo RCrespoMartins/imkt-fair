@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:gs_81212_bearing_thrust_washer_193425_14 a obo:IAO_0000030;
+    rdfs:label "GS 81212 Bearing Thrust Washer 193425";
+    obo:IAO_0000136 datin_imkt_data:gs_81212_bearing_thrust_washer_193425_10, datin_imkt_data:original_bearing_manual_cleaning_2;
+    dcterms:identifier "quelea-932618";
+    pmd:PMD_0000077 datin_imkt_data:aouix6xcxuy5gi7uhr7s972l, datin_imkt_data:b79qi4ihvkrkhq0pg5e9dgg2, datin_imkt_data:mx1t5mtp4l4g9r4zmy5f1tbw, datin_imkt_data:s7igldphychnqhei39dskypx, datin_imkt_data:sosx167inmdw92wjacf7r4vl.

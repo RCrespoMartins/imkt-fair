@@ -1,0 +1,18 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+
+datin_imkt_data:ultrasonic_cleaning_isopropanol_2410-019_2 a obo:COB_0000035, kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    rdfs:label "Ultrasonic Cleaning (Isopropanol) 2410-019";
+    obo:BFO_0000062 datin_imkt_data:cleaning_alumina_ball_2410-018_l13, datin_imkt_data:ultrasonic_cleaning_acetone_2410-019;
+    obo:BFO_0000063 datin_imkt_data:cleaning_alumina_ball_2410-019_l1, datin_imkt_data:tribological_experiment_2410-019_l1_2;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-019_2, datin_imkt_data:isopropanol_consumable_103;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-019_23, datin_imkt_data:isopropanol_consumable_34, datin_imkt_data:isopropanol_used_in_ultrasonic_cleaning_isopropanol_2410-019;
+    obo:RO_0000057 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3;
+    obo:RO_0002234 datin_imkt_data:disk_2410-019_23, datin_imkt_data:isopropanol_consumable_34, datin_imkt_data:isopropanol_used_in_ultrasonic_cleaning_isopropanol_2410-019;
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    pmd:PMD_0000077 datin_imkt_data:cme6fket1k52gpp7z9zcajml, datin_imkt_data:lj2hofrxtrb7efoa10orhme3.

@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:industrial_paper_towel_6 a obo:IAO_0000030;
+    rdfs:label "Industrial Paper Towel";
+    obo:IAO_0000136 datin_imkt_data:industrial_paper_towel_5, datin_imkt_data:original_bearing_manual_cleaning_2;
+    dcterms:identifier "ocelot-960850";
+    pmd:PMD_0000077 datin_imkt_data:jvk3thoqeelpostema8033x3, datin_imkt_data:ybw9ozkv6iw2xlu1ltavnnrq.

@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:beaker_6 a obo:IAO_0000030;
+    rdfs:label "Beaker";
+    obo:IAO_0000136 datin_imkt_data:beaker_29, datin_imkt_data:cleaning_alumina_ball_2410-019_l8;
+    dcterms:identifier "bison-354563";
+    pmd:PMD_0000077 datin_imkt_data:skupz2bb6worzbs38mv1qhhn.

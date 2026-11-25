@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-018_71 a pmd:PMD_0000068;
+    rdfs:label "Disk 2410-018";
+    dcterms:identifier "yak-639860";
+    pmd:PMD_0000070 datin_imkt_data:yak-639860;
+    pmd:PMD_0000077 datin_imkt_data:c4nhd4zb8req289fzk1obg8z, datin_imkt_data:c7mw9pj983pozzb6ov5skeou, datin_imkt_data:mgzivd03utq2t03g69i0fze5, datin_imkt_data:vf9v7ek0r1vf0g808rpeagf6;
+    pmd:PMD_0020322 datin_imkt_data:disk_2410-018_79.

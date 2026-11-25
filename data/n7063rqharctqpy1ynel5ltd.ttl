@@ -1,0 +1,13 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:n7063rqharctqpy1ynel5ltd a obo:OBI_0001930, obo:OBI_0001933, pmd:PMD_0060009;
+    rdfs:label "Company or Vendor Name";
+    obo:OBI_0002135 "TK Linear";
+    dcterms:type datin_imkt_vocab:company_or_vendor_name;
+    skos:scopeNote "SetpointInputOccurrence".

@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:wsmy2grni77liiwydr40f92v a obo:OBI_0001933;
+    rdfs:label "Amount or Size";
+    obo:BFO_0000051 datin_imkt_data:j0sr7cwyleum6k2b4tkr21j9, datin_imkt_data:l4005f5eojpqods9s7b81wjd;
+    dcterms:type preloaded:amount_or_size.

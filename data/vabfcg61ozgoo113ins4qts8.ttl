@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:vabfcg61ozgoo113ins4qts8 a obo:OBI_0001933;
+    rdfs:label "Calculated Quantities";
+    obo:BFO_0000051 datin_imkt_data:se1nswcwefznv9291iv4skho;
+    dcterms:type preloaded:calculated_quantities.

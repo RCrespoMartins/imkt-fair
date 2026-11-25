@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:sicco_-_desiccator_cabinet_premiumjpg a obo:IAO_0000027;
+    rdfs:label "Sicco_-_Desiccator_Cabinet_Premium.jpg";
+    obo:BFO_0000051 datin_imkt_data:wq52v0mav3gedb0j09qfh0wa.

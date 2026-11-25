@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:alumina_ball_2410-018_l11_7 a obo:IAO_0000030;
+    rdfs:label "Alumina Ball 2410-018 L11";
+    obo:IAO_0000136 datin_imkt_data:alumina_ball_2410-018_l11, datin_imkt_data:cleaning_alumina_ball_2410-018_l11;
+    dcterms:identifier "alumina-ball-2410-018-l11";
+    pmd:PMD_0000077 datin_imkt_data:lq0ig6n3d6k85qf6xi0163y7, datin_imkt_data:nni73otj68hdkenzohuwiah6, datin_imkt_data:o3hz2vq2fq0sc12xd6bdtri8, datin_imkt_data:uayt2mfzrnjwsxah3qiawavx, datin_imkt_data:w5xlbhqihml1aq99v4398bt0, datin_imkt_data:ydwhmkdn9x2fbv08o4h34ihv.

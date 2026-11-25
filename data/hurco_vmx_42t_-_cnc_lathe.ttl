@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:hurco_vmx_42t_-_cnc_lathe a pmd:PMD_0000602;
+    rdfs:label "HURCO VMX 42t - CNC Lathe";
+    obo:RO_0001025 datin_imkt_data:8143000a003;
+    dcterms:identifier "chameleon-222303";
+    pmd:PMD_0000077 datin_imkt_data:qep4zun8xwxgoo5j9b2t77lv, datin_imkt_data:ukhd42gzo92s54oudv7i2siu.

@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:falcon-541110 a obo:BFO_0000040;
+    rdfs:label "Isopropanol (Concept)";
+    obo:RO_0001000 datin_imkt_data:hyena-854362;
+    dcterms:identifier "falcon-541110".

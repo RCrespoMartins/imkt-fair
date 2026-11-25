@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-019_l5 a obo:IAO_0000030;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-019 L5";
+    obo:IAO_0000136 datin_imkt_data:cleaning_alumina_ball_2410-019_l5_2, datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-019_l5_2;
+    dcterms:identifier "rooster-757121";
+    pmd:PMD_0000077 datin_imkt_data:k5p466zx2rjratcv15jmattg, datin_imkt_data:o4z9n1ggwyvqbfsw2ufzvnfe, datin_imkt_data:q75mn19xnz0acr8a9nx0r43b.

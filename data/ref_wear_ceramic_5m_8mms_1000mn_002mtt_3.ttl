@@ -1,0 +1,8 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_002mtt_3 a obo:IAO_0000027;
+    rdfs:label "REF_Wear_CERAMIC_5m_8mms_1000mN_002.MTT";
+    obo:BFO_0000051 datin_imkt_data:bzcsi3mrd9wcrslvf3udacy5;
+    obo:IAO_0000136 datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_002mtt, datin_imkt_data:tribological_experiment_2410-018_l2_2.

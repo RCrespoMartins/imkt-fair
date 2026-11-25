@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:s5cts1ho9m4mv6k0jeievc9i a obo:IAO_0000027;
+    rdfs:label "L3R_REF_Wear_Al2O3_5m_8mms_3000mN_003_WP_150x_15x2_Height.csv";
+    dcterms:identifier "s5cts1ho9m4mv6k0jeievc9i/c84d70aa8994779e2605c2d28247c538d7175a210265fcc77981b98c5cf37741/L3R_REF_Wear_Al2O3_5m_8mms_3000mN_003_WP_150x_15x2_Height.csv";
+    rdfs:comment "c84d70aa8994779e2605c2d28247c538d7175a210265fcc77981b98c5cf37741", "text/csv".

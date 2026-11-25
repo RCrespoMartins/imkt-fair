@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_concept_2 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol (Concept)";
+    dcterms:identifier "falcon-541110";
+    pmd:PMD_0000070 datin_imkt_data:falcon-541110;
+    pmd:PMD_0000077 datin_imkt_data:awvesc3poxn4b5oobmwaf2f2, datin_imkt_data:ziu5uj0n49bkyblqbupid1j4.

@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:topography_measurement_2410-018_l5_2 a obo:COB_0000035;
+    rdfs:label "Topography Measurement 2410-018 L5";
+    obo:BFO_0000062 datin_imkt_data:tribological_experiment_2410-018_l5_2;
+    obo:BFO_0000063 datin_imkt_data:tribological_experiment_2410-018_l6;
+    obo:BFO_0000066 datin_imkt_data:8143001131;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-018_47, datin_imkt_data:wear_track_l1_149, datin_imkt_data:wear_track_l2_129, datin_imkt_data:wear_track_l3_110, datin_imkt_data:wear_track_l5_69;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018, datin_imkt_data:wear_track_l1_3, datin_imkt_data:wear_track_l2_105, datin_imkt_data:wear_track_l3_99, datin_imkt_data:wear_track_l5_41;
+    obo:RO_0000057 datin_imkt_data:keyence_vk-x260k_-_laser_scanning_microscope_39, datin_imkt_data:nikon_-_cf_ic_epi_plan_150x_40;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018, datin_imkt_data:wear_track_l1_3, datin_imkt_data:wear_track_l2_105, datin_imkt_data:wear_track_l3_99, datin_imkt_data:wear_track_l5_41;
+    dcterms:type datin_imkt_vocab:topography_measurement;
+    pmd:PMD_0000004 datin_imkt_data:l5c_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2_heightcsv_2, datin_imkt_data:l5c_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2jpg_3, datin_imkt_data:l5l_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2_heightcsv_2, datin_imkt_data:l5l_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2jpg_2, datin_imkt_data:l5r_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2_heightcsv, datin_imkt_data:l5r_ref_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2jpg_2;
+    pmd:PMD_0000077 datin_imkt_data:b12d9alj4onlvqa0uws9l1xx, datin_imkt_data:xoahlussdtelslzejqr8jud9.

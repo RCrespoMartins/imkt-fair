@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:c8c_aps_wear_al2o3_5m_8mms_2000mn_002_wp_150x_15x2_heightcsv a obo:IAO_0000027;
+    rdfs:label "C8C_APS_Wear_Al2O3_5m_8mms_2000mN_002_WP_150x_15x2_Height.csv";
+    obo:BFO_0000051 datin_imkt_data:tecwu3rxmad1bbqu8q6evlpn.

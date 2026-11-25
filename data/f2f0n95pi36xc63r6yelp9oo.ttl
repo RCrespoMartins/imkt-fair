@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:f2f0n95pi36xc63r6yelp9oo a obo:IAO_0000027;
+    rdfs:label "Plano-em_-_Universal_clamp_holder_-G3378-Z-S.jpg";
+    dcterms:identifier "f2f0n95pi36xc63r6yelp9oo/ffd335e720a22366892810fc0cc28eaba8dec0a8fd1a5b7f7c0b2d1885cffeb1/Plano-em_-_Universal_clamp_holder_-G3378-Z-S.jpg";
+    rdfs:comment "ffd335e720a22366892810fc0cc28eaba8dec0a8fd1a5b7f7c0b2d1885cffeb1", "image/jpeg".

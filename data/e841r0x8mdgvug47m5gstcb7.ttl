@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:e841r0x8mdgvug47m5gstcb7 a obo:IAO_0000027;
+    rdfs:label "00_-_Stainless_Steel_Bowl.jpeg";
+    dcterms:identifier "e841r0x8mdgvug47m5gstcb7/59af1c973a024495f5b983e8119d84d531de1ef8ba617798219647caa18d1295/00_-_Stainless_Steel_Bowl.jpeg";
+    rdfs:comment "59af1c973a024495f5b983e8119d84d531de1ef8ba617798219647caa18d1295", "image/jpeg".

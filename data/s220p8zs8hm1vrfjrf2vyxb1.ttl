@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:s220p8zs8hm1vrfjrf2vyxb1 a obo:IAO_0000027;
+    rdfs:label "3A-1-measurement.jpg";
+    dcterms:identifier "s220p8zs8hm1vrfjrf2vyxb1/121ee5e9a5d339846217306a346dc01594e4c64b50059d270c07950b9e44312e/3A-1-measurement.jpg";
+    rdfs:comment "121ee5e9a5d339846217306a346dc01594e4c64b50059d270c07950b9e44312e", "image/jpeg".

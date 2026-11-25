@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:keosnhlp82ba5tq5o0pys7yy a obo:IAO_0000027;
+    rdfs:label "Dust-Off_-_Compressed-gas_Spray_Can.jpeg";
+    dcterms:identifier "keosnhlp82ba5tq5o0pys7yy/52f4833ea2eede6a61e7524a19e1acce7b08d4f8a0cba579631c8ebeb13dc299/Dust-Off_-_Compressed-gas_Spray_Can.jpeg";
+    rdfs:comment "52f4833ea2eede6a61e7524a19e1acce7b08d4f8a0cba579631c8ebeb13dc299", "image/jpeg".

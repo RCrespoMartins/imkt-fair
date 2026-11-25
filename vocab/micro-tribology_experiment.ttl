@@ -1,48 +1,53 @@
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix dcterms: <http://purl.org/dc/terms/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix schema: <https://schema.org/>.
-@prefix dcat: <http://www.w3.org/ns/dcat#>.
-@prefix prov: <http://www.w3.org/ns/prov#>.
-@prefix datacite: <http://datacite.org/schema/kernel-4/>.
-@prefix obo: <http://purl.obolibrary.org/obo/>.
-@prefix polymat: <https://w3id.org/polymat/>.
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/>.
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
-@prefix entity: <http://www.wikidata.org/entity/>.
-@prefix pmd: <https://w3id.org/pmd/co/>.
-@prefix emmo: <https://w3id.org/emmo#>.
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/>.
-@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
-@prefix construct: <https://spec.industrialontologies.org/ontology/construct/>.
-@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#>.
-@prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#>.
-@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#>.
-@prefix qudt: <http://qudt.org/schema/qudt/>.
-@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/>.
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#>.
-@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <https://schema.org/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix datacite: <http://datacite.org/schema/kernel-4/> .
+@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
+@prefix polymat: <https://w3id.org/polymat/> .
+@prefix pmd: <https://w3id.org/pmd/co/> .
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#> .
+@prefix emmo: <https://w3id.org/emmo#> .
+@prefix entity: <http://www.wikidata.org/entity/> .
+@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
+@prefix construct: <https://spec.industrialontologies.org/ontology/construct/> .
+@prefix schema1: <http://dice.nims.go.jp/ontology/SuperCon-ont/Schema#> .
+@prefix process: <http://purl.allotrope.org/ontologies/process#> .
+@prefix mslewl: <http://www.semanticweb.org/hr7456/ontologies/2021/8/MSLEWL#> .
+@prefix equipment: <http://purl.allotrope.org/ontologies/equipment#> .
+@prefix qudt: <http://qudt.org/schema/qudt/> .
+@prefix chameo: <https://w3id.org/emmo/domain/characterisation-methodology/chameo#> .
+@prefix wiki: <https://www.wikidata.org/wiki/> .
+@prefix om2: <http://www.ontology-of-units-of-measure.org/resource/om-2/> .
+@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
+@prefix sio: <http://semanticscience.org/resource/> .
 
-datin_imkt_vocab:micro-tribology_experiment a obo:OBI_0000011, construct:PlannedProcess, obo:BFO_0000015, nfdi4cat:voc4cat_0000185, schema:Action, prov:Entity, dcat:Resource, skos:Concept;
-    dcterms:created "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    datacite:date "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    prov:generatedAtTime "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    schema:dateCreated "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
+
+datin_imkt_vocab:micro-tribology_experiment a obo:OBI_0000011, construct:PlannedProcess, obo:BFO_0000015, nfdi4cat:voc4cat_0000185, schema:Action, prov:Entity, dcat:Resource, skos:Concept, process:AFP_0002389, nci:C69187, pmd:PMD_0001039, schema1:MeasurementMethod, pmd:PMD_0000612, process:AFP_0001640, pmd:PMD_0000524;
+    dcterms:created "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    datacite:date "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    prov:generatedAtTime "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
+    schema:dateCreated "2026-02-10T13:51:21.245+01:00"^^xsd:dateTime;
     dcterms:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
     datacite:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
     schema:description "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
     skos:definition "Investigation of friction, wear, and lubrication at microscopic or nanoscopic scales to analyze surface interactions, adhesion, and mechanical behavior in materials, coatings, or small-scale systems.";
-    dcterms:modified "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    schema:dateModified "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    skos:changeNote "2026-07-23T14:43:52.213+02:00"^^xsd:dateTime;
-    dcterms:title "Micro-Tribology Experiment";
-    datacite:title "Micro-Tribology Experiment";
-    prov:value "Micro-Tribology Experiment";
-    schema:name "Micro-Tribology Experiment";
-    skos:prefLabel "Micro-Tribology Experiment";
+    dcterms:modified "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    schema:dateModified "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    skos:changeNote "2026-03-10T11:21:35.857+01:00"^^xsd:dateTime;
+    dcterms:title "Micro-tribology Experiment";
+    datacite:title "Micro-tribology Experiment";
+    prov:value "Micro-tribology Experiment";
+    schema:name "Micro-tribology Experiment";
+    skos:prefLabel "Micro-tribology Experiment";
     skos:broader kitmtxx41732562vp:tri_exp_xxx-9b84c31083254e40a6eb78601271d381-vp;
     skos:inScheme datin_imkt_vocab:concept_scheme;
     schema:inDefinedTermSet datin_imkt_vocab:concept_scheme;

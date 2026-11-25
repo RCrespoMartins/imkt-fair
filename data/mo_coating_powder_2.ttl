@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:mo_coating_powder_2 a obo:IAO_0000030;
+    rdfs:label "MO Coating Powder";
+    obo:IAO_0000136 datin_imkt_data:aps_coating_2410-06_p0304, datin_imkt_data:mo_coating_powder_4;
+    dcterms:identifier "dragon-981412";
+    pmd:PMD_0000077 datin_imkt_data:ai2z50qdderggmgqfkxckzok, datin_imkt_data:o3xgwz8ml2qihq189j725gky, datin_imkt_data:z1bn810jkxalfrcjzb6x128d.

@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:raw_billet_500x40_mm a obo:IAO_0000030;
+    rdfs:label "Raw Billet (500x40 mm)";
+    obo:IAO_0000136 datin_imkt_data:raw_billet_500x40_mm_2, datin_imkt_data:sample_cutting;
+    dcterms:identifier "sturgeon-369403";
+    pmd:PMD_0000077 datin_imkt_data:c8ztzsznnh456ac90elcqhch, datin_imkt_data:fahy0xu8i9mm228m9e873gk9, datin_imkt_data:tyv7xzi4oopw0qgqk2ghohlc, datin_imkt_data:zrixmczn45os4il9qn4ct7ah.

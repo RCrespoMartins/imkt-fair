@@ -1,50 +1,10 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
 
-
-datin_imkt_data:tribological_experiment_2410-018_l1_2 a prov:Activity, obo:COB_0000035;
+datin_imkt_data:tribological_experiment_2410-018_l1_2 a obo:COB_0000035, pmd:PMD_0000833, pmd:PMD_0020143;
     rdfs:label "Tribological Experiment 2410-018 L1";
-    obo:BFO_0000062 datin_imkt_data:cleaning_2410-018_l1_2, datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
-    obo:BFO_0000066 datin_imkt_data:8143001136;
-    obo:OBI_0000293 datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
-    obo:OBI_0000299 datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
-    obo:RO_0000057 datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:rubber_anti-slip_sheet_1, datin_imkt_data:milli_tribotester_premium_1;
-    obo:RO_0002233 datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
-    obo:RO_0002234 datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
-    dcterms:created "2026-07-16T16:17:50.072+02:00"^^xsd:dateTime;
-    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
-    dcterms:title "Tribological Experiment 2410-018 L1";
-    dcterms:type kitmtxx41732562vp:tri_exp_xxx-9b84c31083254e40a6eb78601271d381-vp;
-    prov:atLocation datin_imkt_data:8143001136;
-    prov:endedAtTime "2025-01-20T09:55:42+01:00"^^xsd:dateTime;
-    prov:generated datin_imkt_data:wear_track_l1, datin_imkt_data:disk_2410-018_3, datin_imkt_data:alumina_ball_2410-018_l1_3;
-    prov:qualifiedUsage datin_imkt_data:6_mm_ball_holder_2, datin_imkt_data:rubber_anti-slip_sheet_2, datin_imkt_data:milli_tribotester_premium_2, datin_imkt_data:disk_2410-018_10, datin_imkt_data:alumina_ball_2410-018_l1_7;
-    prov:startedAtTime "2025-01-20T09:45:00+01:00"^^xsd:dateTime;
-    prov:used datin_imkt_data:6_mm_ball_holder_1, datin_imkt_data:rubber_anti-slip_sheet_1, datin_imkt_data:milli_tribotester_premium_1, datin_imkt_data:disk_2410-018_9, datin_imkt_data:alumina_ball_2410-018_l1_6;
-    prov:wasInfluencedBy datin_imkt_data:ultrasonic_cleaning_2410-018_acetone_2, datin_imkt_data:hardening_2, datin_imkt_data:finishing_2410-018_2, datin_imkt_data:sample_cutting_2;
-    prov:wasInformedBy datin_imkt_data:cleaning_2410-018_l1_2, datin_imkt_data:ultrasonic_cleaning_2410-018_isopropanol_2;
-    pmd:PMD_0000004 datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001mtt_2, datin_imkt_data:ref_wear_ceramic_5m_8mms_1000mn_001csv_2;
-    pmd:characteristic datin_imkt_data:qv5bcnm0qflu4258yj1oajam, datin_imkt_data:ovsq41de8x0ykvhiaxtt04ef, datin_imkt_data:jyw3eq5aobvk4vvd01rll7ct, datin_imkt_data:zjifwwox77f2bjvjus2j9pbk.
+    obo:BFO_0000050 datin_imkt_data:dfg_mo_spraying;
+    obo:BFO_0000062 datin_imkt_data:cleaning_alumina_ball_2410-018_l1_2, datin_imkt_data:ultrasonic_cleaning_isopropanol_2410-018_2;
+    obo:BFO_0000117 datin_imkt_data:tribological_experiment_2410-018_l1.

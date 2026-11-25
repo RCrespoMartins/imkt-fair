@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_on_demand_3 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol (On Demand)";
+    dcterms:identifier "hyena-854362";
+    pmd:PMD_0000070 datin_imkt_data:hyena-854362;
+    pmd:PMD_0000077 datin_imkt_data:dualhmcv37cvzkors1c137rh, datin_imkt_data:tddldyfhz17wot0rujt31lga, datin_imkt_data:wtestkiqw252tzrffo95pgoq, datin_imkt_data:xyfdizs0euclm6pbrbeykr37.

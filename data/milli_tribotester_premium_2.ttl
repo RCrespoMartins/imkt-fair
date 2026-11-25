@@ -1,37 +1,10 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
 
-
-datin_imkt_data:milli_tribotester_premium_2 a prov:Usage;
+datin_imkt_data:milli_tribotester_premium_2 a obo:IAO_0000030;
     rdfs:label "MILLI TRIBOtester PREMIUM";
-    dcterms:conformsTo datin_imkt_data:xltthvlrna88bw53o3pf9svr;
-    dcterms:created "2026-07-16T16:17:50.072+02:00"^^xsd:dateTime;
-    dcterms:hasPart datin_imkt_data:6_mm_ball_holder_2, datin_imkt_data:rubber_anti-slip_sheet_2;
-    dcterms:modified "2026-07-16T18:34:13.427+02:00"^^xsd:dateTime;
-    dcterms:title "MILLI TRIBOtester PREMIUM";
-    prov:atLocation datin_imkt_data:8143001136;
-    prov:entity datin_imkt_data:milli_tribotester_premium_1;
-    pmd:characteristic datin_imkt_data:n3ndessnhg6fpdk8nlkuj5pq, datin_imkt_data:to9dl80670skmd05y9vjbath, datin_imkt_data:jc48xrkova0qzeqbd50txsid, datin_imkt_data:g5ys2pgy8ug2t2peogmje018, datin_imkt_data:igisima51ak2gqrijvxwzpfe.
+    obo:IAO_0000136 datin_imkt_data:milli_tribotester_premium_30, datin_imkt_data:tribological_experiment_2410-018_l7;
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    pmd:PMD_0000077 datin_imkt_data:eeijcvrkyhwuhcp4jry3ppfh, datin_imkt_data:kjrhkerwv7qv5rpew44v3p03, datin_imkt_data:nbjxfsgaxoj7xww43h3z0tsj, datin_imkt_data:rwzjkl5cabnebr8mg1et169l.

@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:gbm1xf27lurfhjxsrqr9q6fm a obo:IAO_0000027;
+    rdfs:label "00_-_PET_Refillable_Plastic_Jar.jpeg";
+    dcterms:identifier "gbm1xf27lurfhjxsrqr9q6fm/9a9efb316dc74d6ecb47adada3ceb9bacdfcfddb68b65d6282c279fb692831bb/00_-_PET_Refillable_Plastic_Jar.jpeg";
+    rdfs:comment "9a9efb316dc74d6ecb47adada3ceb9bacdfcfddb68b65d6282c279fb692831bb", "image/jpeg".
