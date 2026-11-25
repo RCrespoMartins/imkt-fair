@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-06_p0304_66 a obo:IAO_0000030;
+    rdfs:label "Disk 2410-06 P0304";
+    obo:IAO_0000136 datin_imkt_data:disk_2410-06_p0304_50, datin_imkt_data:tribological_experiment_2410-06_p0304_c19_2;
+    dcterms:identifier "koala-442562";
+    pmd:PMD_0000077 datin_imkt_data:ay2kzf52g29nqa9wotjkhoxc, datin_imkt_data:dgrzxkcc1x5tk4lsbkvayjvb, datin_imkt_data:gjic5e77r828ardrc93gl7zv, datin_imkt_data:swwrwzjsyotxr2zyx5mcjd3i.

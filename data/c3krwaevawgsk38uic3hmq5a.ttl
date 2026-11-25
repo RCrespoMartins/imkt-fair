@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:c3krwaevawgsk38uic3hmq5a a obo:IAO_0000027;
+    rdfs:label "3B-2.jpg";
+    dcterms:identifier "c3krwaevawgsk38uic3hmq5a/1ed71096b2483a3ab8b602115054abbd51c75e42b46a057f90daeb2c69317d0a/3B-2.jpg";
+    rdfs:comment "1ed71096b2483a3ab8b602115054abbd51c75e42b46a057f90daeb2c69317d0a", "image/jpeg".

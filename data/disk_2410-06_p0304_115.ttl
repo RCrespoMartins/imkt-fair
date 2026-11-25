@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-06_p0304_115 a pmd:PMD_0000068;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:identifier "koala-442562";
+    pmd:PMD_0000070 datin_imkt_data:koala-442562;
+    pmd:PMD_0000077 datin_imkt_data:j2ogv8n1iro7sny87isknz4y, datin_imkt_data:lcvnqfbmakbabahr7srr8rr8, datin_imkt_data:p06vj69mr9r6i58nped291bp, datin_imkt_data:pdb11tm6txagls6b9ygiu89a;
+    pmd:PMD_0020322 datin_imkt_data:disk_2410-06_p0304_119.

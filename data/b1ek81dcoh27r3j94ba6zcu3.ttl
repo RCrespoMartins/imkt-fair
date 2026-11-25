@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:b1ek81dcoh27r3j94ba6zcu3 a obo:IAO_0000027;
+    rdfs:label "Keyence - VK-X260K Laser Scanning Microscope.jpg";
+    dcterms:identifier "b1ek81dcoh27r3j94ba6zcu3/3e23a6e117297ab03a78c3f7575165c157196607c4fe2432dcb798b56926e20d/Keyence_-_VK-X260K_Laser_Scanning_Microscope.jpg";
+    rdfs:comment "3e23a6e117297ab03a78c3f7575165c157196607c4fe2432dcb798b56926e20d", "image/jpeg".

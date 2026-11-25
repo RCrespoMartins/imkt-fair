@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-018_54 a obo:IAO_0000030;
+    rdfs:label "Disk 2410-018";
+    obo:IAO_0000136 datin_imkt_data:disk_2410-018_45, datin_imkt_data:tribological_experiment_2410-018_l2_2;
+    dcterms:identifier "yak-639860";
+    pmd:PMD_0000077 datin_imkt_data:gwbkwayp38av0kg1hn7i3o4l, datin_imkt_data:hc2ske2bu9fwrw8vewv8wdev, datin_imkt_data:m414aw9r1r6deilx5i4ctvup, datin_imkt_data:si8j4tdofq5y7he17hxzwzdh.

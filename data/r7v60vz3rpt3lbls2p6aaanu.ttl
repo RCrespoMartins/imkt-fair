@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:r7v60vz3rpt3lbls2p6aaanu a obo:IAO_0000027;
+    rdfs:label "Keyence - VHX-600E Digital Microscope.jpg";
+    dcterms:identifier "r7v60vz3rpt3lbls2p6aaanu/8f799e9268caa66846d124c84618c94c0903a69bea0f08e7c26ca1ccddff5942/Keyence_-_VHX-600E_Digital_Microscope.jpg";
+    rdfs:comment "8f799e9268caa66846d124c84618c94c0903a69bea0f08e7c26ca1ccddff5942", "image/jpeg".

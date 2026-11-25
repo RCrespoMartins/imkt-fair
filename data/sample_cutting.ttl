@@ -1,0 +1,17 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:sample_cutting a obo:COB_0000035;
+    rdfs:label "Sample Cutting";
+    obo:BFO_0000063 datin_imkt_data:hardening_3;
+    obo:BFO_0000066 datin_imkt_data:8143000a003;
+    obo:OBI_0000293 datin_imkt_data:raw_billet_500x40_mm_2;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_14, datin_imkt_data:disk_2410-019_69, datin_imkt_data:disk_2410-06_p0304_104;
+    obo:RO_0000057 datin_imkt_data:hurco_vmx_42t_-_cnc_lathe;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_14, datin_imkt_data:disk_2410-019_69, datin_imkt_data:disk_2410-06_p0304_104;
+    dcterms:type datin_imkt_vocab:sample_cutting;
+    pmd:PMD_0000077 datin_imkt_data:fufddhbyigivhhgpnq5zizlp, datin_imkt_data:sxcnkxrpowb7r7gze9coc31l.

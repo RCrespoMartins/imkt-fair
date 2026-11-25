@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:icuxbv2hy7p009euck6cwhcc a obo:IAO_0000027;
+    rdfs:label "00 - Steel Beaker.jpeg";
+    dcterms:identifier "icuxbv2hy7p009euck6cwhcc/41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224/00_-_Steel_Beaker.jpeg";
+    rdfs:comment "41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224", "image/jpeg".

@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:elh9cvt8kqi7fwgf9m51b8id a obo:IAO_0000027;
+    rdfs:label "Metler_Toledo_-_Weighting_Scale.jpeg";
+    dcterms:identifier "elh9cvt8kqi7fwgf9m51b8id/661ba2b4adbd936b880f49cde212a121b468093f32af7812fa818f4fb92d4f94/Metler_Toledo_-_Weighting_Scale.jpeg";
+    rdfs:comment "661ba2b4adbd936b880f49cde212a121b468093f32af7812fa818f4fb92d4f94", "image/jpeg".

@@ -1,0 +1,18 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+
+datin_imkt_data:ultrasonic_cleaning_acetone_2410-06_p0304 a obo:COB_0000035, kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    rdfs:label "Ultrasonic Cleaning (Acetone) 2410-06 P0304";
+    obo:BFO_0000062 datin_imkt_data:grinding_2410-06_p0304_2, datin_imkt_data:ultrasonic_cleaning_acetone_2410-019;
+    obo:BFO_0000063 datin_imkt_data:ultrasonic_cleaning_isopropanol_2410-06_p0304;
+    obo:BFO_0000066 datin_imkt_data:8143001132;
+    obo:OBI_0000293 datin_imkt_data:acetone_consumable, datin_imkt_data:coated_disk_2410-06_p0304_125, datin_imkt_data:disk_2410-06_p0304_137, datin_imkt_data:mo_coating_10;
+    obo:OBI_0000299 datin_imkt_data:acetone_consumable_2, datin_imkt_data:acetone_used_in_ultrasonic_cleaning_acetone_2410-06_p0304, datin_imkt_data:coated_disk_2410-06_p0304_107, datin_imkt_data:disk_2410-06_p0304_129, datin_imkt_data:mo_coating_124;
+    obo:RO_0000057 datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3;
+    obo:RO_0002234 datin_imkt_data:acetone_consumable_2, datin_imkt_data:acetone_used_in_ultrasonic_cleaning_acetone_2410-06_p0304, datin_imkt_data:coated_disk_2410-06_p0304_107, datin_imkt_data:disk_2410-06_p0304_129, datin_imkt_data:mo_coating_124;
+    dcterms:type kitmtxx41732562vp:ult_cle_xxx-348042d057f0410d996155f9907d99fe-vp;
+    pmd:PMD_0000077 datin_imkt_data:h0engu53qtnxcfpvy2pug7gh, datin_imkt_data:ig7lanwpjve9pd28m8rpljbe.

@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-018_l8 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-018 L8";
+    dcterms:identifier "piranha-454643";
+    pmd:PMD_0000070 datin_imkt_data:piranha-454643;
+    pmd:PMD_0000077 datin_imkt_data:ahvigwllvgx0n74mg0pvkbhg, datin_imkt_data:haajxd6tctlmy3bz02m8wemk, datin_imkt_data:p4cvs5updj6e9irsma7y2bpr.

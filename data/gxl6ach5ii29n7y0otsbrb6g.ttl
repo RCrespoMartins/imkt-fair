@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:gxl6ach5ii29n7y0otsbrb6g a obo:IAO_0000027;
+    rdfs:label "TRIBOtechnic - Weight Holder.jpeg";
+    dcterms:identifier "gxl6ach5ii29n7y0otsbrb6g/f3e20929f8c3724456f66a3d571a9e07aa93d42ace668395c1c20696a1877d78/TRIBOtechnic_-_Weight_Holder.jpeg";
+    rdfs:comment "f3e20929f8c3724456f66a3d571a9e07aa93d42ace668395c1c20696a1877d78", "image/jpeg".

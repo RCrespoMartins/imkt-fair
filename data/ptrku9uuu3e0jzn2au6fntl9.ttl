@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:ptrku9uuu3e0jzn2au6fntl9 a obo:IAO_0000027;
+    rdfs:label "Braun_-_Scalpel.jpeg";
+    dcterms:identifier "ptrku9uuu3e0jzn2au6fntl9/acd0ae6a3c6887ae2a1750cb084bc6d4c4de4d15e6fe38d569dbd128ae6b2b83/Braun_-_Scalpel.jpeg";
+    rdfs:comment "acd0ae6a3c6887ae2a1750cb084bc6d4c4de4d15e6fe38d569dbd128ae6b2b83", "image/jpeg".

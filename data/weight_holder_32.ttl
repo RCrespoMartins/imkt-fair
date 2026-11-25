@@ -1,0 +1,12 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix nci: <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:weight_holder_32 a nci:C49989, pmd:PMD_0000602;
+    rdfs:label "Weight Holder";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:identifier "mammal-509611";
+    pmd:PMD_0000004 datin_imkt_data:imagepng_2.

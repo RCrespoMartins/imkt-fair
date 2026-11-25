@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:oojzr5116b4jtqfrhtr58061 a obo:IAO_0000027;
+    rdfs:label "8B-1.jpg";
+    dcterms:identifier "oojzr5116b4jtqfrhtr58061/c3fa9b3de21e73c47dbea60c461f48616b33dc30053d0af7a8b025ec39ba6917/8B-1.jpg";
+    rdfs:comment "c3fa9b3de21e73c47dbea60c461f48616b33dc30053d0af7a8b025ec39ba6917", "image/jpeg".

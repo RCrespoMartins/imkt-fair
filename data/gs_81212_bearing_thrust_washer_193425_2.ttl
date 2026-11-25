@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:gs_81212_bearing_thrust_washer_193425_2 a pmd:PMD_0000068;
+    rdfs:label "GS 81212 Bearing Thrust Washer 193425";
+    dcterms:identifier "quelea-932618";
+    pmd:PMD_0000070 datin_imkt_data:quelea-932618;
+    pmd:PMD_0000077 datin_imkt_data:a488sv6usd73v42fl1drfmwl, datin_imkt_data:gh6xwap9aip9vvt48c0nwpd9, datin_imkt_data:qtgkschb60mgt2df74ep71xz, datin_imkt_data:s65y4m94g9unpd83p71yfe7f, datin_imkt_data:sm2t843wo5e04b1jk6fxtz43;
+    pmd:PMD_0020322 datin_imkt_data:gs_81212_bearing_thrust_washer_193425.

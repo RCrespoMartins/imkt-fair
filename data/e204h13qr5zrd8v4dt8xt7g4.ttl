@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:e204h13qr5zrd8v4dt8xt7g4 a obo:IAO_0000027;
+    rdfs:label "REF_Wear_CERAMIC_50m_8mms_2000mN_001.csv";
+    dcterms:identifier "e204h13qr5zrd8v4dt8xt7g4/34cb09af37e13f52e005f21279b9405f690cf645ad7c7731f796e6e4a2865dfe/REF_Wear_CERAMIC_50m_8mms_2000mN_001.csv";
+    rdfs:comment "34cb09af37e13f52e005f21279b9405f690cf645ad7c7731f796e6e4a2865dfe", "text/csv".

@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_consumable_41 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol (Consumable)";
+    dcterms:identifier "dormouse-905516";
+    pmd:PMD_0000070 datin_imkt_data:dormouse-905516;
+    pmd:PMD_0000077 datin_imkt_data:bwvbl4q5injudfp90jwfr4na, datin_imkt_data:ixuukdaw3uo4rp8augqd94vd, datin_imkt_data:x3x1ayen6tv8xclque8gkf8l;
+    pmd:PMD_0020322 datin_imkt_data:isopropanol_consumable_145.

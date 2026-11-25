@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:l358zb7a1b9jrsf6udwtmxbe a obo:IAO_0000027;
+    rdfs:label "TRIBOtechnic - 2 N Weight.jpeg";
+    dcterms:identifier "l358zb7a1b9jrsf6udwtmxbe/2c2e00721cd196928df9d74708f18a3a474efaf16f7e87b369b43b6cc474a633/TRIBOtechnic_-_2_N_Weight.jpeg";
+    rdfs:comment "2c2e00721cd196928df9d74708f18a3a474efaf16f7e87b369b43b6cc474a633", "image/jpeg".

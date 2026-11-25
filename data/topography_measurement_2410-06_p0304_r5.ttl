@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:topography_measurement_2410-06_p0304_r5 a obo:COB_0000035;
+    rdfs:label "Topography Measurement 2410-06 P0304 R5";
+    obo:BFO_0000062 datin_imkt_data:tribological_experiment_2410-06_p0304_r5;
+    obo:BFO_0000063 datin_imkt_data:tribological_experiment_2410-06_p0304_r6;
+    obo:BFO_0000066 datin_imkt_data:8143001131;
+    obo:OBI_0000293 datin_imkt_data:coated_disk_2410-06_p0304_19, datin_imkt_data:disk_2410-06_p0304_68, datin_imkt_data:mo_coating_147, datin_imkt_data:wear_track_c10_119, datin_imkt_data:wear_track_c11_89, datin_imkt_data:wear_track_c12_104, datin_imkt_data:wear_track_c13_39, datin_imkt_data:wear_track_c14_111, datin_imkt_data:wear_track_c15_104, datin_imkt_data:wear_track_c16_46, datin_imkt_data:wear_track_c17_19, datin_imkt_data:wear_track_c18_63, datin_imkt_data:wear_track_c19_73, datin_imkt_data:wear_track_c20_4, datin_imkt_data:wear_track_c21_54, datin_imkt_data:wear_track_c7_68, datin_imkt_data:wear_track_c8_94, datin_imkt_data:wear_track_c9_124, datin_imkt_data:wear_track_r1_35, datin_imkt_data:wear_track_r2_55, datin_imkt_data:wear_track_r3_50, datin_imkt_data:wear_track_r4_28, datin_imkt_data:wear_track_r5_24;
+    obo:OBI_0000299 datin_imkt_data:coated_disk_2410-06_p0304_168, datin_imkt_data:disk_2410-06_p0304_172, datin_imkt_data:mo_coating_55, datin_imkt_data:wear_track_c10_106, datin_imkt_data:wear_track_c11_111, datin_imkt_data:wear_track_c12_66, datin_imkt_data:wear_track_c13_33, datin_imkt_data:wear_track_c14_25, datin_imkt_data:wear_track_c15_110, datin_imkt_data:wear_track_c16_25, datin_imkt_data:wear_track_c17_80, datin_imkt_data:wear_track_c18_2, datin_imkt_data:wear_track_c19_76, datin_imkt_data:wear_track_c20_68, datin_imkt_data:wear_track_c21_60, datin_imkt_data:wear_track_c7_106, datin_imkt_data:wear_track_c8_113, datin_imkt_data:wear_track_c9_110, datin_imkt_data:wear_track_r1_65, datin_imkt_data:wear_track_r2_49, datin_imkt_data:wear_track_r3_14, datin_imkt_data:wear_track_r4_46, datin_imkt_data:wear_track_r5_3;
+    obo:RO_0000057 datin_imkt_data:keyence_vk-x260k_-_laser_scanning_microscope_39, datin_imkt_data:nikon_-_cf_ic_epi_plan_150x_40;
+    obo:RO_0002234 datin_imkt_data:coated_disk_2410-06_p0304_168, datin_imkt_data:disk_2410-06_p0304_172, datin_imkt_data:mo_coating_55, datin_imkt_data:wear_track_c10_106, datin_imkt_data:wear_track_c11_111, datin_imkt_data:wear_track_c12_66, datin_imkt_data:wear_track_c13_33, datin_imkt_data:wear_track_c14_25, datin_imkt_data:wear_track_c15_110, datin_imkt_data:wear_track_c16_25, datin_imkt_data:wear_track_c17_80, datin_imkt_data:wear_track_c18_2, datin_imkt_data:wear_track_c19_76, datin_imkt_data:wear_track_c20_68, datin_imkt_data:wear_track_c21_60, datin_imkt_data:wear_track_c7_106, datin_imkt_data:wear_track_c8_113, datin_imkt_data:wear_track_c9_110, datin_imkt_data:wear_track_r1_65, datin_imkt_data:wear_track_r2_49, datin_imkt_data:wear_track_r3_14, datin_imkt_data:wear_track_r4_46, datin_imkt_data:wear_track_r5_3;
+    dcterms:type datin_imkt_vocab:topography_measurement;
+    pmd:PMD_0000004 datin_imkt_data:r5c_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2_heightcsv, datin_imkt_data:r5c_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2jpg_3, datin_imkt_data:r5l_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2_heightcsv_3, datin_imkt_data:r5l_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2jpg, datin_imkt_data:r5r_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2_heightcsv_3, datin_imkt_data:r5r_aps_wear_al2o3_100m_8mms_1000mn_002_wp_150x_15x2jpg;
+    pmd:PMD_0000077 datin_imkt_data:qf59dzjnuk0mj8n74c4qg118, datin_imkt_data:rf4865p6pgq4qw60gtw2virl.

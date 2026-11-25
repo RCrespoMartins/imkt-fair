@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:keyence_vk-x260k_-_laser_scanning_microscope_28 a obo:IAO_0000030;
+    rdfs:label "Keyence VK-X260K - Laser Scanning Microscope";
+    obo:IAO_0000136 datin_imkt_data:keyence_vk-x260k_-_laser_scanning_microscope_39, datin_imkt_data:topography_measurement_2410-019_l11_2.

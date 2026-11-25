@@ -1,35 +1,8 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-
-datin_imkt_data:00_-_steel_beakerjpeg_2 a dcat:Distribution;
-    dcterms:created "2026-06-30T11:51:39.842+02:00"^^xsd:dateTime;
-    dcterms:identifier "icuxbv2hy7p009euck6cwhcc/41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224/00_-_Steel_Beaker.jpeg";
-    dcterms:modified "2026-06-30T11:51:39.842+02:00"^^xsd:dateTime;
-    dcterms:title "00 - Steel Beaker.jpeg";
-    <http://spdx.org/rdf/terms#checksumValue> "41682f26e66d73642b3c22d173be80ecf52ddf6f1d5a2a5f4d1813097bb49224";
-    dcat:byteSize 766555;
-    dcat:mediaType "image/jpeg".
+datin_imkt_data:00_-_steel_beakerjpeg_2 a obo:IAO_0000027;
+    rdfs:label "00 - Steel Beaker.jpeg";
+    obo:BFO_0000051 datin_imkt_data:icuxbv2hy7p009euck6cwhcc;
+    obo:IAO_0000136 datin_imkt_data:00_-_steel_beakerjpeg, datin_imkt_data:beaker_29.

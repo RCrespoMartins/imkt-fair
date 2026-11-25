@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:tribological_experiment_2410-06_p0304_c11_2 a obo:COB_0000035;
+    rdfs:label "Tribological Experiment 2410-06 P0304 C11";
+    obo:BFO_0000062 datin_imkt_data:cleaning_alumina_ball_2410-06_p0304_c11_2, datin_imkt_data:topography_measurement_2410-06_p0304_c10;
+    obo:BFO_0000063 datin_imkt_data:topography_measurement_2410-06_p0304_c11_2;
+    obo:BFO_0000066 datin_imkt_data:8143001136;
+    obo:OBI_0000293 datin_imkt_data:alumina_ball_2410-06_p0304_c11_4, datin_imkt_data:coated_disk_2410-06_p0304_50, datin_imkt_data:disk_2410-06_p0304_167, datin_imkt_data:mo_coating_161, datin_imkt_data:wear_track_c10_44, datin_imkt_data:wear_track_c7_158, datin_imkt_data:wear_track_c8_77, datin_imkt_data:wear_track_c9_19;
+    obo:OBI_0000299 datin_imkt_data:alumina_ball_2410-06_p0304_c11_7, datin_imkt_data:coated_disk_2410-06_p0304_113, datin_imkt_data:disk_2410-06_p0304_111, datin_imkt_data:mo_coating_144, datin_imkt_data:wear_track_c10_116, datin_imkt_data:wear_track_c11_110, datin_imkt_data:wear_track_c7_31, datin_imkt_data:wear_track_c8_12, datin_imkt_data:wear_track_c9_77;
+    obo:RO_0000057 datin_imkt_data:1_n_dead_weight_35, datin_imkt_data:6_mm_ball_holder_32, datin_imkt_data:milli_tribotester_premium_30, datin_imkt_data:rubber_anti-slip_sheet_35, datin_imkt_data:weight_holder_32;
+    obo:RO_0002234 datin_imkt_data:alumina_ball_2410-06_p0304_c11_7, datin_imkt_data:coated_disk_2410-06_p0304_113, datin_imkt_data:disk_2410-06_p0304_111, datin_imkt_data:mo_coating_144, datin_imkt_data:wear_track_c10_116, datin_imkt_data:wear_track_c11_110, datin_imkt_data:wear_track_c7_31, datin_imkt_data:wear_track_c8_12, datin_imkt_data:wear_track_c9_77;
+    dcterms:type datin_imkt_vocab:micro-tribology_experiment;
+    pmd:PMD_0000004 datin_imkt_data:aps0304_wear_al2o3_5m_8mms_3000mn_002csv_3, datin_imkt_data:aps0304_wear_al2o3_5m_8mms_3000mn_002mtt_3;
+    pmd:PMD_0000077 datin_imkt_data:cud42wllfugm20xy4y9qvdra, datin_imkt_data:d3c667dey4n8xmme3fgr0ca3, datin_imkt_data:dexiibdfcv91kp8iofo39wfq, datin_imkt_data:nuvxsy1872swxgysguwaixq3, datin_imkt_data:xp8vbu8yv1nexp2131hvxort.

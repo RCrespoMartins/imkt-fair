@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:kxmsb2i75uvskcnakwvxlb2p a obo:IAO_0000027;
+    rdfs:label "5B-3-mess.jpg";
+    dcterms:identifier "kxmsb2i75uvskcnakwvxlb2p/4a5fc7350151b3d1af075476ecc128ac4cf91b213015da25b344b656447b7576/5B-3-mess.jpg";
+    rdfs:comment "4a5fc7350151b3d1af075476ecc128ac4cf91b213015da25b344b656447b7576", "image/jpeg".

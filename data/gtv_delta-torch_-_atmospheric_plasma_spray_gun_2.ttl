@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:gtv_delta-torch_-_atmospheric_plasma_spray_gun_2 a pmd:PMD_0000602;
+    rdfs:label "GTV Delta-torch - Atmospheric Plasma Spray Gun";
+    dcterms:identifier "zebra-139059";
+    pmd:PMD_0000077 datin_imkt_data:a8lxy12dpisyews8nxpqz04q, datin_imkt_data:qnyhqgnjx5zfolfu3rskzqv7.

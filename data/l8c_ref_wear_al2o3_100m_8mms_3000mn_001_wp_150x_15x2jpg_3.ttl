@@ -1,0 +1,8 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:l8c_ref_wear_al2o3_100m_8mms_3000mn_001_wp_150x_15x2jpg_3 a obo:IAO_0000027;
+    rdfs:label "L8C_REF_Wear_Al2O3_100m_8mms_3000mN_001_WP_150x_15x2.jpg";
+    obo:BFO_0000051 datin_imkt_data:cc78rf2e162t4tv8vi5395fh;
+    obo:IAO_0000136 datin_imkt_data:l8c_ref_wear_al2o3_100m_8mms_3000mn_001_wp_150x_15x2jpg, datin_imkt_data:topography_measurement_2410-019_l8_2.

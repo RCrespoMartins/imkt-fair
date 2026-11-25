@@ -1,0 +1,17 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix emmo: <https://w3id.org/emmo#>.
+
+datin_imkt_data:original_bearing_manual_cleaning_2 a obo:COB_0000035, emmo:EMMO_92eaefcb_50be_4237_9ec0_4a019ce24921;
+    rdfs:label "Original Bearing Manual Cleaning";
+    obo:BFO_0000062 datin_imkt_data:original_bearing_thickness_measurement_2;
+    obo:BFO_0000063 datin_imkt_data:abrasive_machining_3;
+    obo:BFO_0000066 datin_imkt_data:aps_room;
+    obo:OBI_0000293 datin_imkt_data:gs_81212_bearing_thrust_washer_193425_10, datin_imkt_data:industrial_paper_towel_5, datin_imkt_data:isopropanol_on_demand_3;
+    obo:OBI_0000299 datin_imkt_data:gs_81212_bearing_thrust_washer_193425_12, datin_imkt_data:used_industrial_paper_towel, datin_imkt_data:used_isopropanol;
+    obo:RO_0002234 datin_imkt_data:gs_81212_bearing_thrust_washer_193425_12, datin_imkt_data:used_industrial_paper_towel, datin_imkt_data:used_isopropanol;
+    dcterms:type emmo:EMMO_92eaefcb_50be_4237_9ec0_4a019ce24921;
+    pmd:PMD_0000077 datin_imkt_data:e1aa33oeittm57i6oh8j8lye, datin_imkt_data:k24lnl02phhzq7jbuqr0ukag.

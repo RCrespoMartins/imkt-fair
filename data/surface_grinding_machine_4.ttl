@@ -1,34 +1,7 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-
-datin_imkt_data:surface_grinding_machine_4 a prov:Usage;
+datin_imkt_data:surface_grinding_machine_4 a obo:IAO_0000030;
     rdfs:label "Surface Grinding Machine";
-    dcterms:created "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
-    dcterms:modified "2026-07-16T14:37:26.27+02:00"^^xsd:dateTime;
-    dcterms:title "Surface Grinding Machine";
-    prov:entity datin_imkt_data:surface_grinding_machine_3;
-    pmd:characteristic datin_imkt_data:su8y2tvwphhkae26gxv88goi.
+    obo:IAO_0000136 datin_imkt_data:grinding_2410-06_p0304_2, datin_imkt_data:surface_grinding_machine_5.

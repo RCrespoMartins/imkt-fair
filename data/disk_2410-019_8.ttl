@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-019_8 a obo:IAO_0000030;
+    rdfs:label "Disk 2410-019";
+    obo:IAO_0000136 datin_imkt_data:disk_2410-019_18, datin_imkt_data:topography_measurement_2410-019_c3;
+    dcterms:identifier "cat-625975";
+    pmd:PMD_0000077 datin_imkt_data:j6hjva4fkc3ai8m7iqw6o42q, datin_imkt_data:lj1ayc1ywktwn0uci7x0h87s, datin_imkt_data:ta798jbacmcjsgh2mi1avc4z, datin_imkt_data:wc9a395jiykm64e7hdrk3boz.

@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-019_c1 a pmd:PMD_0000068;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-019 C1";
+    dcterms:identifier "lobster-337386";
+    pmd:PMD_0000070 datin_imkt_data:lobster-337386;
+    pmd:PMD_0000077 datin_imkt_data:hbx43e62vuj2933uef28ch6w, datin_imkt_data:s8byv0mno5ktqkfsijj1ivus, datin_imkt_data:vgnogawwobtmhsmp2km5ldmf.

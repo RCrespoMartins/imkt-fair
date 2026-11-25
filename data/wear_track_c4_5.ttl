@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:wear_track_c4_5 a obo:IAO_0000030;
+    rdfs:label "Wear Track C4";
+    obo:IAO_0000136 datin_imkt_data:tribological_experiment_2410-019_c4_2, datin_imkt_data:wear_track_c4_2;
+    dcterms:identifier "wear-track-2410-019-c4";
+    pmd:PMD_0000077 datin_imkt_data:eb74c2ob26abqno7msd3laiv, datin_imkt_data:vf3aq4fo5bt7k88yxtyjc7o4.

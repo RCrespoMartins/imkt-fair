@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix unit: <http://qudt.org/vocab/unit/>.
+
+datin_imkt_data:pyrw1d0hvm6za8npxkpl52ha a obo:OBI_0001933, pmd:PMD_0060009, pmd:PMD_0080205;
+    rdfs:label "Density";
+    obo:OBI_0001937 "3.87"^^xsd:double;
+    obo:OBI_0002135 "3.87"^^xsd:double;
+    dcterms:type preloaded:density;
+    qudt:hasUnit unit:GM-PER-CentiM3;
+    skos:scopeNote "SetpointInputOccurrence";
+    pmd:PMD_0000006 "3870".

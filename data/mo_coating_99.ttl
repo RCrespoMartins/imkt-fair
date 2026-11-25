@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:mo_coating_99 a pmd:PMD_0000068;
+    rdfs:label "Mo Coating";
+    dcterms:identifier "raven-259325";
+    pmd:PMD_0000070 datin_imkt_data:raven-259325;
+    pmd:PMD_0000077 datin_imkt_data:hwc4fcizzo2bzv4bwkzgo3zh, datin_imkt_data:yfgsqxtnsubc0hr57o7blt6q, datin_imkt_data:zrkt0ad52k5je8ql639gmmsr;
+    pmd:PMD_0020322 datin_imkt_data:mo_coating_142.

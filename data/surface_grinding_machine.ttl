@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:surface_grinding_machine a obo:IAO_0000030;
+    rdfs:label "Surface Grinding Machine";
+    obo:IAO_0000136 datin_imkt_data:finishing_2410-019, datin_imkt_data:surface_grinding_machine_5.

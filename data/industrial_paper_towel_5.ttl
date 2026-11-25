@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:industrial_paper_towel_5 a pmd:PMD_0000068;
+    rdfs:label "Industrial Paper Towel";
+    dcterms:identifier "ocelot-960850";
+    pmd:PMD_0000070 datin_imkt_data:ocelot-960850;
+    pmd:PMD_0000077 datin_imkt_data:bbcnsc9024xb7o7028y54lyq, datin_imkt_data:kt7vv0ruxhp3dhmki6wzm2ak, datin_imkt_data:xex9p16f0gs9tiwyvxl1m479.

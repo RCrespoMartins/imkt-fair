@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:tu3yzjpp3cimrwnyyst7av71 a obo:IAO_0000027;
+    rdfs:label "00_-_Plastic_Tweezers.jpeg";
+    dcterms:identifier "tu3yzjpp3cimrwnyyst7av71/a9006d9cfbfeafc55e3b247b2b6d2c73a9896be35b98f643ef562aa4702e3dc9/00_-_Plastic_Tweezers.jpeg";
+    rdfs:comment "a9006d9cfbfeafc55e3b247b2b6d2c73a9896be35b98f643ef562aa4702e3dc9", "image/jpeg".

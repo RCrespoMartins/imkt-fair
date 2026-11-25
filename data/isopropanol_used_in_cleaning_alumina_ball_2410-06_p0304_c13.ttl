@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-06_p0304_c13 a obo:IAO_0000030;
+    rdfs:label "Isopropanol used in Cleaning (Alumina Ball) 2410-06 P0304 C13";
+    obo:IAO_0000136 datin_imkt_data:cleaning_alumina_ball_2410-06_p0304_c13, datin_imkt_data:isopropanol_used_in_cleaning_alumina_ball_2410-06_p0304_c13_2;
+    dcterms:identifier "crayfish-813798";
+    pmd:PMD_0000077 datin_imkt_data:dbbka0l6jqnrxjo7olsuk68k, datin_imkt_data:rqn3vym7heq71ijxar8mmspk, datin_imkt_data:rrp25kw7zvxioxot0z4st7kj.

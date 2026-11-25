@@ -1,36 +1,9 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-
-datin_imkt_data:disk_2410-06_p0304_7 a prov:Usage;
+datin_imkt_data:disk_2410-06_p0304_7 a obo:IAO_0000030;
     rdfs:label "Disk 2410-06 P0304";
-    dcterms:created "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
-    dcterms:identifier "marlin-129997";
-    dcterms:modified "2026-07-16T14:41:36.862+02:00"^^xsd:dateTime;
-    dcterms:title "Disk 2410-06 P0304";
-    dcterms:type kitmtxx41732562vp:dis_xxx_xxx-2675fa83fe374158a07f4608d31ac5c3-vp;
-    prov:entity datin_imkt_data:disk_2410-06_p0304_6;
-    pmd:characteristic datin_imkt_data:bf3utf71k6d0de501fwlxdxw, datin_imkt_data:gfwb2j3mf7nl2dragxbgdpok, datin_imkt_data:mubh79wnrpv6alftxy72dejv, datin_imkt_data:tuvd4fh93wlqpszx6899hsqr.
+    obo:IAO_0000136 datin_imkt_data:disk_2410-06_p0304_115, datin_imkt_data:tribological_experiment_2410-06_p0304_r1;
+    dcterms:identifier "koala-442562".

@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:zqge6rl1qbl2sp91re24jrev a obo:IAO_0000027;
+    rdfs:label "8B-3-mess.jpg";
+    dcterms:identifier "zqge6rl1qbl2sp91re24jrev/d85820c9b1d8fbf74cff02c5562dc085a55e8bacf7362a3f155e7d151d12b763/8B-3-mess.jpg";
+    rdfs:comment "d85820c9b1d8fbf74cff02c5562dc085a55e8bacf7362a3f155e7d151d12b763", "image/jpeg".

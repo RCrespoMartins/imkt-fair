@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:wear-track-2410-018-l2 a obo:BFO_0000040;
+    rdfs:label "Wear Track L2";
+    obo:RO_0001000 datin_imkt_data:yak-639860;
+    dcterms:identifier "wear-track-2410-018-l2".

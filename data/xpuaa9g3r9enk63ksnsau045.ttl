@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix qudt: <http://qudt.org/schema/qudt/>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:xpuaa9g3r9enk63ksnsau045 a obo:IAO_0000109, obo:OBI_0001933, pmd:PMD_0080205;
+    rdfs:label "Friction Coefficient (last 60 cycles)";
+    obo:OBI_0001937 "0.6467"^^xsd:double;
+    obo:OBI_0002135 "0.6467"^^xsd:double;
+    dcterms:type datin_imkt_vocab:friction_coefficient_last_60_cycles;
+    qudt:hasUnit preloaded:unitless_unit;
+    skos:scopeNote "MeasuredOutputOccurrence";
+    pmd:PMD_0000006 "6.467E-1".

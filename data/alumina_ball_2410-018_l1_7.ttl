@@ -1,37 +1,11 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
 
-
-datin_imkt_data:alumina_ball_2410-018_l1_7 a prov:Usage;
+datin_imkt_data:alumina_ball_2410-018_l1_7 a obo:IAO_0000030;
     rdfs:label "Alumina Ball 2410-018 L1";
-    dcterms:created "2026-07-16T16:17:50.07+02:00"^^xsd:dateTime;
-    dcterms:description "<p>99.8 % Al2O3</p>";
-    dcterms:identifier "marmot-224195";
-    dcterms:modified "2026-07-16T18:34:13.425+02:00"^^xsd:dateTime;
-    dcterms:title "Alumina Ball 2410-018 L1";
-    dcterms:type obo:NCIT_C64353;
-    prov:entity datin_imkt_data:alumina_ball_2410-018_l1_6;
-    pmd:characteristic datin_imkt_data:d1l3nsv4ob346k8fl006qfn0, datin_imkt_data:qlexsgir7t3hnhfhj6i3t0pr, datin_imkt_data:khgbxyavkp9bgtgoe3fl9s2q, datin_imkt_data:l98wcw12nlgb04rncswld299, datin_imkt_data:me2j7drlikq0lqcmmcere2xy, datin_imkt_data:m1zyelg9lujagjkaw932vycx.
+    obo:IAO_0000136 datin_imkt_data:alumina_ball_2410-018_l1_4, datin_imkt_data:cleaning_alumina_ball_2410-018_l1;
+    dcterms:identifier "alumina-ball-2410-018-l1";
+    pmd:PMD_0000077 datin_imkt_data:d7rr1r5hovvi3vvgj5516w5g, datin_imkt_data:du6z2lxx9ubhxj0ix3lzirw6, datin_imkt_data:f59l4yhg7qwyoimwhdkc8mme, datin_imkt_data:fpmfs7mm6m6dfmx3wf1o1ky0, datin_imkt_data:frz6z4aklsr8qt539fhpzhc5, datin_imkt_data:n4jc1kfk4hlwev7jqh4ofjfv.

@@ -1,0 +1,19 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:tribological_experiment_2410-019_l12_2 a obo:COB_0000035;
+    rdfs:label "Tribological Experiment 2410-019 L12";
+    obo:BFO_0000062 datin_imkt_data:cleaning_alumina_ball_2410-019_l12_2, datin_imkt_data:topography_measurement_2410-019_l11_2;
+    obo:BFO_0000063 datin_imkt_data:topography_measurement_2410-019_l12;
+    obo:BFO_0000066 datin_imkt_data:8143001136;
+    obo:OBI_0000293 datin_imkt_data:alumina_ball_2410-019_l12_4, datin_imkt_data:disk_2410-019_33, datin_imkt_data:wear_track_l10_40, datin_imkt_data:wear_track_l11_8, datin_imkt_data:wear_track_l1_79, datin_imkt_data:wear_track_l2_141, datin_imkt_data:wear_track_l3_89, datin_imkt_data:wear_track_l4_68, datin_imkt_data:wear_track_l5_24, datin_imkt_data:wear_track_l6_67, datin_imkt_data:wear_track_l7_47, datin_imkt_data:wear_track_l8_88, datin_imkt_data:wear_track_l9_11;
+    obo:OBI_0000299 datin_imkt_data:alumina_ball_2410-019_l12_6, datin_imkt_data:disk_2410-019_104, datin_imkt_data:wear_track_l10_63, datin_imkt_data:wear_track_l11_40, datin_imkt_data:wear_track_l12_16, datin_imkt_data:wear_track_l1_12, datin_imkt_data:wear_track_l2_68, datin_imkt_data:wear_track_l3_140, datin_imkt_data:wear_track_l4_3, datin_imkt_data:wear_track_l5_45, datin_imkt_data:wear_track_l6_27, datin_imkt_data:wear_track_l7_65, datin_imkt_data:wear_track_l8_8, datin_imkt_data:wear_track_l9_75;
+    obo:RO_0000057 datin_imkt_data:1_n_dead_weight_35, datin_imkt_data:6_mm_ball_holder_32, datin_imkt_data:milli_tribotester_premium_30, datin_imkt_data:rubber_anti-slip_sheet_35, datin_imkt_data:weight_holder_32;
+    obo:RO_0002234 datin_imkt_data:alumina_ball_2410-019_l12_6, datin_imkt_data:disk_2410-019_104, datin_imkt_data:wear_track_l10_63, datin_imkt_data:wear_track_l11_40, datin_imkt_data:wear_track_l12_16, datin_imkt_data:wear_track_l1_12, datin_imkt_data:wear_track_l2_68, datin_imkt_data:wear_track_l3_140, datin_imkt_data:wear_track_l4_3, datin_imkt_data:wear_track_l5_45, datin_imkt_data:wear_track_l6_27, datin_imkt_data:wear_track_l7_65, datin_imkt_data:wear_track_l8_8, datin_imkt_data:wear_track_l9_75;
+    dcterms:type datin_imkt_vocab:micro-tribology_experiment;
+    pmd:PMD_0000004 datin_imkt_data:ref_wear_al2o3_100m_8mms_2000mn_002csv, datin_imkt_data:ref_wear_al2o3_100m_8mms_2000mn_002mtt;
+    pmd:PMD_0000077 datin_imkt_data:c2xfsn4rgj3kfgtjfehyug4j, datin_imkt_data:cytq04msa69w9j80cavbw8m6, datin_imkt_data:h8ytisjslprnao8pawpc516h, datin_imkt_data:lr8grcwhhkngxa9c2a84voca, datin_imkt_data:q6h12958d6a71l5sjqkfvgj4.

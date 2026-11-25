@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:hkatr3kzhjtk0b5sm60zlitd a obo:IAO_0000027;
+    rdfs:label "Leifheit_-_Vacu_power_300.png";
+    dcterms:identifier "hkatr3kzhjtk0b5sm60zlitd/dcaa7e32519e0499f154037d668dd5e1b0f569890248f13b246ef997c850a2b6/Leifheit_-_Vacu_power_300.png";
+    rdfs:comment "dcaa7e32519e0499f154037d668dd5e1b0f569890248f13b246ef997c850a2b6", "image/png".

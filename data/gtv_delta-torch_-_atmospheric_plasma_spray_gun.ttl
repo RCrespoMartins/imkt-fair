@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:gtv_delta-torch_-_atmospheric_plasma_spray_gun a obo:IAO_0000030;
+    rdfs:label "GTV Delta-torch - Atmospheric Plasma Spray Gun";
+    obo:IAO_0000136 datin_imkt_data:aps_coating_2410-06_p0304, datin_imkt_data:gtv_delta-torch_-_atmospheric_plasma_spray_gun_2.

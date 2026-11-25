@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:acetone_consumable a pmd:PMD_0000068;
+    rdfs:label "Acetone (Consumable)";
+    dcterms:identifier "narwhal-211025";
+    pmd:PMD_0000070 datin_imkt_data:narwhal-211025;
+    pmd:PMD_0000077 datin_imkt_data:gcl4ja3j26z127enlmlozaua, datin_imkt_data:jj4jdx9xntzrydpev4ncl3f5, datin_imkt_data:ml2jwgdmpyqkdg3bupkptgec;
+    pmd:PMD_0020322 datin_imkt_data:acetone_consumable_2.

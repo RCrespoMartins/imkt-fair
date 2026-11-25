@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:wbyj8mz2c7iiy5wdmnmr9d7v a obo:IAO_0000027;
+    rdfs:label "APS0304_Wear_Al2O3_100m_8mms_2000mN_001.MTT";
+    dcterms:identifier "wbyj8mz2c7iiy5wdmnmr9d7v/24983023114f73b918711f73b91aaa5f367532b5e471b61bab00843cb2a814b1/APS0304_Wear_Al2O3_100m_8mms_2000mN_001.MTT";
+    rdfs:comment "24983023114f73b918711f73b91aaa5f367532b5e471b61bab00843cb2a814b1", "application/octet-stream".

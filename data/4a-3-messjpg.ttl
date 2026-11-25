@@ -1,0 +1,7 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:4a-3-messjpg a obo:IAO_0000027;
+    rdfs:label "4A-3-mess.jpg";
+    obo:BFO_0000051 datin_imkt_data:pcd2zyap56jy0dem1ffls0au.

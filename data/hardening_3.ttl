@@ -1,0 +1,18 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
+
+datin_imkt_data:hardening_3 a obo:COB_0000035, kitmtxx41732562vp:har_xxx_xxx-0d731be688c94776970d61aaf72b5c93-vp;
+    rdfs:label "Hardening";
+    obo:BFO_0000062 datin_imkt_data:sample_cutting;
+    obo:BFO_0000063 datin_imkt_data:finishing_2410-018_2, datin_imkt_data:finishing_2410-019, datin_imkt_data:finishing_2410-06_p0304_2;
+    obo:BFO_0000066 datin_imkt_data:8143001131;
+    obo:OBI_0000293 datin_imkt_data:disk_2410-018_14, datin_imkt_data:disk_2410-019_69, datin_imkt_data:disk_2410-06_p0304_104;
+    obo:OBI_0000299 datin_imkt_data:disk_2410-018_30, datin_imkt_data:disk_2410-019_29, datin_imkt_data:disk_2410-06_p0304_159;
+    obo:RO_0000057 datin_imkt_data:furnace_3;
+    obo:RO_0002234 datin_imkt_data:disk_2410-018_30, datin_imkt_data:disk_2410-019_29, datin_imkt_data:disk_2410-06_p0304_159;
+    dcterms:type kitmtxx41732562vp:har_xxx_xxx-0d731be688c94776970d61aaf72b5c93-vp;
+    pmd:PMD_0000077 datin_imkt_data:lx7xfghfsmakmmtcb51umjdk, datin_imkt_data:t501aglmfref24twiebjhw1r.

@@ -1,36 +1,13 @@
-@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix schema: <https://schema.org/> .
-@prefix dcat: <http://www.w3.org/ns/dcat#> .
-@prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix datacite: <http://datacite.org/schema/kernel-4/> .
-@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
-@prefix pmd: <https://w3id.org/pmd/co/> .
-@prefix preloaded: <https://w3id.org/datin/preloaded/> .
-@prefix compound: <http://rdf.ncbi.nlm.nih.gov/pubchem/compound/> .
-@prefix entity: <http://www.wikidata.org/entity/> .
-@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/> .
-@prefix tribodatafairontologyowl: <https://raw.githubusercontent.com/nick-garabedian/TriboDataFAIR-Ontology/v0.1.1/TriboDataFAIR_Ontology.owl#> .
-@prefix wiki: <https://www.wikidata.org/wiki/> .
-@prefix qudt: <http://qudt.org/schema/qudt/> .
-@prefix substance: <http://rdf.ncbi.nlm.nih.gov/pubchem/substance/> .
-@prefix nfdi4cat: <https://w3id.org/nfdi4cat/> .
-@prefix core: <https://w3id.org/datin/core/> .
-@prefix emmo: <https://w3id.org/emmo#> .
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+@prefix kitmtxx41732562vp: <https://purls.helmholtz-metadaten.de/vp/kitmtxx-41732562-vp/>.
 
-
-datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3 a prov:Usage;
+datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_3 a kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp, pmd:PMD_0000602;
     rdfs:label "Bandelin TT6 - Ultrasonic Cleaner";
-    dcterms:created "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
+    obo:RO_0001025 datin_imkt_data:8143001132;
     dcterms:identifier "perch-760375";
-    dcterms:modified "2026-07-16T15:54:31.861+02:00"^^xsd:dateTime;
-    dcterms:title "Bandelin TT6 - Ultrasonic Cleaner";
-    dcterms:type kitmtxx41732562vp:ult_cle_xxx-192eb37ff24644798963cd87107e9a5f-vp;
-    prov:entity datin_imkt_data:bandelin_tt6_-_ultrasonic_cleaner_2;
-    pmd:characteristic datin_imkt_data:ptav9xs7rgvpwz3cir8z2qtl, datin_imkt_data:xompa1jmamhzjlnwbw0gaavy, datin_imkt_data:hsybg7rwzxv29w6e7ivvfdv8.
+    pmd:PMD_0000004 datin_imkt_data:bandelin_-_tt6jpeg;
+    pmd:PMD_0000077 datin_imkt_data:ae8plu8iq2zyj9xbq7q4g98z, datin_imkt_data:we4h77wp1sxw1pzd9883np74, datin_imkt_data:z9pnuyl2m1i6q2vnymluv0m1.

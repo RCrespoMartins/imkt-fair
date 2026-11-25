@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:kks3hoskhloz9bcc900wkmfe a obo:IAO_0000027;
+    rdfs:label "IMG_2162.jpeg";
+    dcterms:identifier "kks3hoskhloz9bcc900wkmfe/bb42384198f5ccdbe4ac72a53896ebd8aca7a0167344571c308520aa294dcaf1/IMG_2162.jpeg";
+    rdfs:comment "bb42384198f5ccdbe4ac72a53896ebd8aca7a0167344571c308520aa294dcaf1", "image/jpeg".

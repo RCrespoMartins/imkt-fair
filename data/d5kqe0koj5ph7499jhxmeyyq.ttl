@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:d5kqe0koj5ph7499jhxmeyyq a obo:IAO_0000027;
+    rdfs:label "Martins_Konopka_Dukat_Pape_Nicolaus_Möhwald_Poll_Maria.pdf";
+    dcterms:identifier "d5kqe0koj5ph7499jhxmeyyq/dd6b12f8bca179a77d40d3289493d2c84e464172c4d9e5a9fdd48e14ddfc8658/Martins_Konopka_Dukat_Pape_Nicolaus_M_hwald_Poll_Marian.pdf";
+    rdfs:comment "application/pdf", "dd6b12f8bca179a77d40d3289493d2c84e464172c4d9e5a9fdd48e14ddfc8658".

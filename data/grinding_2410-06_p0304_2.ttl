@@ -1,0 +1,18 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix datin_imkt_vocab: <https://w3id.org/datin/imkt/vocab/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:grinding_2410-06_p0304_2 a obo:COB_0000035;
+    rdfs:label "Grinding 2410-06 P0304";
+    obo:BFO_0000062 datin_imkt_data:aps_coating_2410-06_p0304;
+    obo:BFO_0000063 datin_imkt_data:ultrasonic_cleaning_acetone_2410-06_p0304;
+    obo:BFO_0000066 datin_imkt_data:8143001131;
+    obo:OBI_0000293 datin_imkt_data:coated_disk_2410-06_p0304_152, datin_imkt_data:disk_2410-06_p0304_18, datin_imkt_data:mo_coating_141;
+    obo:OBI_0000299 datin_imkt_data:coated_disk_2410-06_p0304_125, datin_imkt_data:disk_2410-06_p0304_137, datin_imkt_data:mo_coating_10;
+    obo:RO_0000057 datin_imkt_data:surface_grinding_machine_5;
+    obo:RO_0002234 datin_imkt_data:coated_disk_2410-06_p0304_125, datin_imkt_data:disk_2410-06_p0304_137, datin_imkt_data:mo_coating_10;
+    dcterms:type datin_imkt_vocab:grinding;
+    pmd:PMD_0000077 datin_imkt_data:ggibddfg4kzpsxu4792ktoiy, datin_imkt_data:ntxrlbgw1b1fvcavt0ybtt1z.

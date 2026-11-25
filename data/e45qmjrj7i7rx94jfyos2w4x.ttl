@@ -1,0 +1,12 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix preloaded: <https://w3id.org/datin/preloaded/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+datin_imkt_data:e45qmjrj7i7rx94jfyos2w4x a obo:IAO_0000030, obo:OBI_0001930, obo:OBI_0001933;
+    rdfs:label "Phase of Material";
+    obo:OBI_0002135 "Solid";
+    dcterms:type preloaded:phase_of_material;
+    skos:scopeNote "Description".

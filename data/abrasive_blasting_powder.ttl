@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:abrasive_blasting_powder a obo:IAO_0000030;
+    rdfs:label "Abrasive Blasting Powder";
+    obo:IAO_0000136 datin_imkt_data:abrasive_blasting_powder_2, datin_imkt_data:abrasive_machining_3;
+    dcterms:identifier "raven-886903";
+    pmd:PMD_0000077 datin_imkt_data:d6bhzpzzx5t5pmuk35uuiouu, datin_imkt_data:e7clomhrcufk6fhamvjhlzor, datin_imkt_data:wu0m7671f68e2u5bajhrbbfw.

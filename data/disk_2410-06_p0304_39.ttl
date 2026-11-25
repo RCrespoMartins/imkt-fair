@@ -1,0 +1,10 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:disk_2410-06_p0304_39 a pmd:PMD_0000068;
+    rdfs:label "Disk 2410-06 P0304";
+    dcterms:identifier "ant-144212";
+    pmd:PMD_0000070 datin_imkt_data:ant-144212;
+    pmd:PMD_0000077 datin_imkt_data:chnoaesq3mlomxta13c48w8v, datin_imkt_data:gixrzaklolvvee3ldnaal4aw, datin_imkt_data:mews2g06xu54fsv0ivmaynew, datin_imkt_data:vpszp8olacnd0jjg9kmj31s1.

@@ -1,0 +1,12 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:1_n_dead_weight_35 a pmd:PMD_0000602;
+    rdfs:label "1 N Dead Weight";
+    obo:RO_0001025 datin_imkt_data:8143001136;
+    dcterms:identifier "vicuna-157344-quokka-809800";
+    pmd:PMD_0000004 datin_imkt_data:tribotechnic_-_1_n_weightjpeg_2;
+    pmd:PMD_0000077 datin_imkt_data:lp0174zcs4griqd9r96qh2am, datin_imkt_data:zd3p0wgsztj6kg2u3t7sciid.

@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:coated_disk_2410-06_p0304_51 a pmd:PMD_0000068;
+    rdfs:label "Coated Disk 2410-06 P0304";
+    dcterms:identifier "ant-144212-coated";
+    pmd:PMD_0000070 datin_imkt_data:ant-144212-coated;
+    pmd:PMD_0000077 datin_imkt_data:grdd5ndx1jdj20n6mw1tcvd6, datin_imkt_data:l9mz37cqdpff08txwwzdh3j0;
+    pmd:PMD_0020322 datin_imkt_data:coated_disk_2410-06_p0304_57.

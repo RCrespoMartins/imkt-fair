@@ -1,0 +1,11 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:isopropanol_on_demand_2 a obo:IAO_0000030;
+    rdfs:label "Isopropanol (On Demand)";
+    obo:IAO_0000136 datin_imkt_data:isopropanol_on_demand_3, datin_imkt_data:original_bearing_manual_cleaning_2;
+    dcterms:identifier "hyena-854362";
+    pmd:PMD_0000077 datin_imkt_data:kexw86t7titqedxqt4ibuo0a, datin_imkt_data:qp722yp66a6j3zdkdbkslj0x, datin_imkt_data:wckezz1u6dhwai33ktlqdnhx.

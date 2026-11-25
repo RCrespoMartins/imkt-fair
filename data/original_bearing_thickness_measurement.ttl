@@ -1,0 +1,9 @@
+@prefix datin_imkt_data: <https://w3id.org/datin/imkt/data/>.
+@prefix obo: <http://purl.obolibrary.org/obo/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix pmd: <https://w3id.org/pmd/co/>.
+
+datin_imkt_data:original_bearing_thickness_measurement a obo:COB_0000035, obo:OBI_0000070, pmd:PMD_0020143;
+    rdfs:label "Original Bearing Thickness Measurement";
+    obo:BFO_0000050 datin_imkt_data:dfg_mo_spraying;
+    obo:BFO_0000117 datin_imkt_data:original_bearing_thickness_measurement_2.
